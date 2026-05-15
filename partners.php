@@ -1458,7 +1458,7 @@
           <span class="partner-tag">Inaugural Academic Partner · 2025</span>
           <h3>Bond University</h3>
           <p>The first academic partner under our "one institutional partner per country" model. Bond leads research collaboration on aquaculture sustainability and delivers the certification programme to the Australian academic and industry community.</p>
-          <a href="#" style="color: var(--brand); font-weight: 600;">Visit Bond's I-CADMUS programme →</a>
+          <a href="https://www.bond.edu.au" target="_blank" rel="noopener" style="color: var(--brand); font-weight: 600;">Visit Bond's I-CADMUS programme →</a>
         </div>
       </div>
 
@@ -1468,7 +1468,7 @@
           <span class="partner-tag">Standards Alignment · Australia</span>
           <h3>FRDC & AS 5300</h3>
           <p>The Fisheries Research and Development Corporation and the AS 5300 Australian Standard for fish names provide the regulatory and naming foundation that I-CADMUS aligns with in the Australian market.</p>
-          <a href="#" style="color: var(--brand); font-weight: 600;">Read alignment notes →</a>
+          <a href="resources.php" style="color: var(--brand); font-weight: 600;">Read alignment notes →</a>
         </div>
       </div>
 
@@ -1478,7 +1478,7 @@
           <span class="partner-tag">International Alignment</span>
           <h3>Codex Alimentarius</h3>
           <p>The international food code maintained jointly by the FAO and WHO. I-CADMUS is designed to align with Codex traceability and labelling standards, providing a cross-jurisdictional bridge between national regulations.</p>
-          <a href="#" style="color: var(--brand); font-weight: 600;">View Codex alignment →</a>
+          <a href="https://www.fao.org/fao-who-codexalimentarius" target="_blank" rel="noopener" style="color: var(--brand); font-weight: 600;">View Codex alignment →</a>
         </div>
       </div>
     </div>

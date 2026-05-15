@@ -1921,8 +1921,8 @@
           <strong>$59 AUD</strong>
           <small>Preorder price · ships 2026</small>
         </div>
-        <a href="#" class="btn btn-primary btn-lg">Preorder now <span class="arrow">→</span></a>
-        <a href="#" class="btn btn-outline">Bulk orders (10+ copies)</a>
+        <a href="contact.php" class="btn btn-primary btn-lg">Preorder now <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline">Bulk orders (10+ copies)</a>
       </div>
     </div>
   </div>

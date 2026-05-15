@@ -1786,7 +1786,7 @@
           <li class="dim">No audit tooling</li>
           <li class="dim">No partner listing</li>
         </ul>
-        <a href="#" class="btn btn-outline">Enrol free <span class="arrow">→</span></a>
+        <a href="get-certified.php#enrol" class="btn btn-outline">Enrol free <span class="arrow">→</span></a>
       </div>
       <div class="tier featured">
         <div class="tier-tag">Business</div>
@@ -1802,7 +1802,7 @@
           <li>Quarterly briefings</li>
           <li>Email support</li>
         </ul>
-        <a href="#" class="btn btn-primary">Enrol business <span class="arrow">→</span></a>
+        <a href="get-certified.php#enrol" class="btn btn-primary">Enrol business <span class="arrow">→</span></a>
       </div>
       <div class="tier">
         <div class="tier-tag">Industry</div>

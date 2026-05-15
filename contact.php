@@ -1508,7 +1508,7 @@
 
           <label class="form-checkbox">
             <input type="checkbox" name="privacy" required />
-            <span>I agree to the I-CADMUS <a href="#">privacy policy</a> and consent to my information being used to respond to this enquiry. <span class="required">*</span></span>
+            <span>I agree to the I-CADMUS <a href="privacy.php">privacy policy</a> and consent to my information being used to respond to this enquiry. <span class="required">*</span></span>
           </label>
 
           <div class="form-row">
@@ -1548,7 +1548,7 @@
           <span class="contact-method-tag" style="color: var(--brand);">Confidential</span>
           <h3>Report fraud (anonymous)</h3>
           <p>Spotted something that fits the I-CADMUS taxonomy? Submit anonymously — we forward to relevant regulators where appropriate.</p>
-          <a href="#" class="contact-link">Confidential report form <span style="font-size: 14px;">→</span></a>
+          <a href="contact.php#contact-form" class="contact-link">Confidential report form <span style="font-size: 14px;">→</span></a>
         </div>
       </div>
 
@@ -1557,11 +1557,11 @@
     <div class="social-row">
       <strong>Follow the framework as it grows:</strong>
       <div class="social-row-links">
-        <a href="#" aria-label="LinkedIn">in</a>
-        <a href="#" aria-label="X / Twitter">𝕏</a>
-        <a href="#" aria-label="YouTube">▶</a>
-        <a href="#" aria-label="Instagram">◎</a>
-        <a href="#" aria-label="RSS">RSS</a>
+        <a href="https://www.linkedin.com/company/seafood-consumer-association" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+        <a href="https://twitter.com/i_cadmus" aria-label="X / Twitter" target="_blank" rel="noopener">𝕏</a>
+        <a href="https://www.youtube.com/@icadmus" aria-label="YouTube" target="_blank" rel="noopener">▶</a>
+        <a href="https://www.instagram.com/icadmus" aria-label="Instagram" target="_blank" rel="noopener">◎</a>
+        <a href="news.php" aria-label="RSS">RSS</a>
       </div>
     </div>
 

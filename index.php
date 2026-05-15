@@ -1374,7 +1374,7 @@
         <h1>Restoring trust from <strong>ocean to plate</strong>, one classified fraud at a time.</h1>
         <p class="lede">I-CADMUS is the practical framework that exposes seafood fraud's seven core types — built on five decades of supply-chain experience. We help consumers, industry, and regulators spot risks, classify fraud, and act before HACCP ever begins.</p>
         <div class="hero-actions">
-          <a href="#cta" class="btn btn-primary">Earn certification <span class="arrow">→</span></a>
+          <a href="get-certified.php" class="btn btn-primary">Earn certification <span class="arrow">→</span></a>
           <a href="#framework" class="btn btn-outline">Explore the framework</a>
         </div>
         <div class="hero-trustbar">
@@ -1401,7 +1401,7 @@
             <div class="label">Fraud types</div>
           </div>
         </div>
-        <a href="#" class="btn-link">Read the report <span class="arrow">→</span></a>
+        <a href="news.php" class="btn-link">Read the report <span class="arrow">→</span></a>
       </div>
     </div>
   </div>
@@ -1494,7 +1494,7 @@
         <div class="section-eyebrow">The Framework</div>
         <h2 class="section-h">Seven categories. <strong>One shared language</strong> for seafood fraud.</h2>
       </div>
-      <a href="#" class="btn btn-outline">View full framework <span class="arrow">→</span></a>
+      <a href="framework.php" class="btn btn-outline">View full framework <span class="arrow">→</span></a>
     </div>
 
     <div class="services-grid">
@@ -1503,42 +1503,42 @@
         <span class="code">Category 01 · Illegal</span>
         <h3>IUU Laundering</h3>
         <p>Catch from illegal, unreported, and unregulated fishing washed into legitimate supply chains through paperwork laundering and port-hopping.</p>
-        <a href="#" class="btn-link">Learn more <span class="arrow">→</span></a>
+        <a href="illegal.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card">
         <div class="service-icon">C</div>
         <span class="code">Category 02 · Counterfeit</span>
         <h3>Fake Labels</h3>
         <p>Forged certifications, fabricated origin claims, and entirely manufactured brand identities printed onto otherwise unknown product.</p>
-        <a href="#" class="btn-link">Learn more <span class="arrow">→</span></a>
+        <a href="counterfeit.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card">
         <div class="service-icon">A</div>
         <span class="code">Category 03 · Adulteration</span>
         <h3>Chemicals & Water</h3>
         <p>Phosphates, sulphites, brines, and undisclosed additives bulking weight and masking age — with real consequences for vulnerable consumers.</p>
-        <a href="#" class="btn-link">Learn more <span class="arrow">→</span></a>
+        <a href="adulteration.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card">
         <div class="service-icon">D</div>
         <span class="code">Category 04 · Dilution</span>
         <h3>Glazing & Mixing</h3>
         <p>Ice glaze padding the scale. Cheaper species blended into a premium pack. You pay for fish; you receive water and filler.</p>
-        <a href="#" class="btn-link">Learn more <span class="arrow">→</span></a>
+        <a href="dilution.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card">
         <div class="service-icon">M</div>
         <span class="code">Category 05 · Misrepresentation</span>
         <h3>False Origin & Labelling</h3>
         <p>"Wild-caught" that wasn't. "Local" that flew across an ocean. Country-of-origin and method claims that simply don't match reality.</p>
-        <a href="#" class="btn-link">Learn more <span class="arrow">→</span></a>
+        <a href="misrepresentation.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card">
         <div class="service-icon">U</div>
         <span class="code">Category 06 · Unreported</span>
         <h3>Grey Channels</h3>
         <p>Product that bypasses traceability — moved through unregulated routes, off the books, and into the menu without a trail.</p>
-        <a href="#" class="btn-link">Learn more <span class="arrow">→</span></a>
+        <a href="unreported.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card service-card-featured">
         <div class="service-card-featured-inner">
@@ -1548,7 +1548,7 @@
             <h3 style="color: #fff;">Cheap fish at a premium price.</h3>
             <p style="color: rgba(255,255,255,0.85); min-height: auto; margin-bottom: 0;">The most familiar fraud and the costliest to consumer trust. Premium snapper replaced by inferior tropical imports. "Fish of the day" hides whatever's cheapest. I-CADMUS gives you the language to call it out.</p>
           </div>
-          <a href="#" class="btn btn-primary" style="white-space: nowrap;">Read the chapter <span class="arrow">→</span></a>
+          <a href="substitution.php" class="btn btn-primary" style="white-space: nowrap;">Read the chapter <span class="arrow">→</span></a>
         </div>
       </div>
     </div>
@@ -1634,11 +1634,11 @@
         <h3>Sea of Deception: Exposing seafood fraud and restoring trust from ocean to plate.</h3>
         <p>The book that started the framework. Five decades of industry experience distilled into a seven-category taxonomy, a five-pillar policy playbook, and eight live case studies — all paired with online certification.</p>
         <div class="author">By Hon Prof Roy D. Palmer, MBA · CEO, Seafood Consumer Association</div>
-        <a href="#" class="btn btn-primary">Preorder the book <span class="arrow">→</span></a>
+        <a href="book.php" class="btn btn-primary">Preorder the book <span class="arrow">→</span></a>
       </div>
 
       <div class="insight-list">
-        <a href="#" class="insight-item">
+        <a href="news.php" class="insight-item">
           <div>
             <span class="tag">Whitepaper</span>
             <h4>The five-pillar policy playbook for seafood integrity</h4>
@@ -1646,7 +1646,7 @@
           </div>
           <div class="insight-item-arrow">→</div>
         </a>
-        <a href="#" class="insight-item">
+        <a href="news.php" class="insight-item">
           <div>
             <span class="tag">Case Study</span>
             <h4>How DNA verification exposed retail-scale species substitution</h4>
@@ -1654,7 +1654,7 @@
           </div>
           <div class="insight-item-arrow">→</div>
         </a>
-        <a href="#" class="insight-item">
+        <a href="news.php" class="insight-item">
           <div>
             <span class="tag">Briefing</span>
             <h4>Why food safety has to start with truth in labelling</h4>
@@ -1662,7 +1662,7 @@
           </div>
           <div class="insight-item-arrow">→</div>
         </a>
-        <a href="#" class="insight-item">
+        <a href="news.php" class="insight-item">
           <div>
             <span class="tag">Research</span>
             <h4>The economic cost of seafood fraud in OECD markets</h4>
@@ -1704,8 +1704,8 @@
         <p>Free classifier, full case-study answers, and the complete certification course. Turn awareness into capability — and join a global network rebuilding trust in the seafood industry.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="#" class="btn btn-primary">Enrol now <span class="arrow">→</span></a>
-        <a href="#" class="btn btn-outline">Book a briefing</a>
+        <a href="get-certified.php" class="btn btn-primary">Enrol now <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline">Book a briefing</a>
       </div>
     </div>
   </div>
