@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>For Regulators | I-CADMUS — Seafood Fraud Taxonomy for Policy & Enforcement</title>
 <meta name="description" content="I-CADMUS for regulators — a workable seven-category taxonomy aligned with AS 5300 and Codex standards for policy, enforcement, and interagency coordination." />

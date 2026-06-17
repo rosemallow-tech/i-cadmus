@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Investors | I-CADMUS — Seafood Consumer Association</title>
 <meta name="description" content="Investor relations and partnership information for the Seafood Consumer Association — the organisation behind the I-CADMUS seafood integrity framework." />

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>For Consumers | I-CADMUS — Spot Seafood Fraud at the Counter</title>
 <meta name="description" content="The I-CADMUS consumer hub — tools, scorecards, and the language to spot and refuse seafood fraud at the supermarket and restaurant. Free to start." />

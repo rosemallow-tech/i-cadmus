@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Contact | I-CADMUS — Talk to the team</title>
 <meta name="description" content="Get in touch with the I-CADMUS team. General enquiries, press and media, partnership applications, industry support, and regulator briefings." />

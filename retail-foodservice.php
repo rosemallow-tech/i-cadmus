@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>For Retail & Foodservice | I-CADMUS — Compliance, Audits & Supplier Verification</title>
 <meta name="description" content="I-CADMUS for retail and foodservice — audit checklists, supplier verification protocols, staff training modules, and the Business certification tier." />

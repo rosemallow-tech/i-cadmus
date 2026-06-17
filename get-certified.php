@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Get Certified | I-CADMUS — Seafood Integrity Certification Programme</title>
 <meta name="description" content="Earn the I-CADMUS certification. A global credential for seafood integrity professionals. Self-paced, case-driven, and free to start at the Consumer tier." />

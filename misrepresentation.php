@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Misrepresentation — False Origin & Method | I-CADMUS Framework</title>
 <meta name="description" content="Category M of the I-CADMUS framework: Misrepresentation — false country of origin, harvest method, and sustainability claims." />

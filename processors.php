@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>For Processors & Distributors | I-CADMUS — Supply-Chain Integrity</title>
 <meta name="description" content="I-CADMUS for processors and distributors — supply-chain mapping, DNA verification workflows, risk classification, and the Industry certification tier." />

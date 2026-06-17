@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Sea of Deception | I-CADMUS — The book by Roy D. Palmer</title>
 <meta name="description" content="Sea of Deception: Exposing seafood fraud and restoring trust from ocean to plate. The 2026 book by Hon Prof Roy D. Palmer that founded the I-CADMUS framework." />

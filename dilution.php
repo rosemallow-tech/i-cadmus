@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Dilution — Glazing & Mixing | I-CADMUS Framework</title>
 <meta name="description" content="Category D of the I-CADMUS framework: Dilution — ice glaze padding the scale and cheaper species blended into a premium pack." />

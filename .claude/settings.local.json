@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -l \"favicon\\\\|icon\\\\|apple-touch\" F:xampphtdocsi-cadmus/*.php)",
+      "Bash(ls -1 \"F:\\\\xampp\\\\htdocs\\\\i-cadmus\"/*.php)",
+      "Bash(ls *.php)",
+      "Bash(file assets/img/*.png)",
+      "Bash(php:*)",
+      "Bash(/f/xampp/php/php -r \"\n\\\\$files = glob\\('*.php'\\);\n\\\\$search = '<meta charset=\\\\\"UTF-8\\\\\" />';\n\\\\$replace = '<meta charset=\\\\\"UTF-8\\\\\" />\n<link rel=\\\\\"icon\\\\\" type=\\\\\"image/svg+xml\\\\\" href=\\\\\"favicon.svg\\\\\">\n<meta name=\\\\\"theme-color\\\\\" content=\\\\\"#003a5d\\\\\">';\n\\\\$count = 0;\nforeach \\(\\\\$files as \\\\$file\\) {\n    \\\\$content = file_get_contents\\(\\\\$file\\);\n    if \\(strpos\\(\\\\$content, 'rel=\\\\\"icon\\\\\"'\\) === false && strpos\\(\\\\$content, \\\\$search\\) !== false\\) {\n        \\\\$new = str_replace\\(\\\\$search, \\\\$replace, \\\\$content\\);\n        file_put_contents\\(\\\\$file, \\\\$new\\);\n        \\\\$count++;\n        echo \\\\\"Updated: \\\\$file\\\\n\\\\\";\n    }\n}\necho \\\\\"Done. \\\\$count files updated.\\\\n\\\\\";\n\")",
+      "Bash(cmd.exe /c \"where python & where python3 & where py\")",
+      "Read(//c/Windows/System32/WindowsPowerShell/v1.0/**)",
+      "Read(//mnt/c/Windows/System32/WindowsPowerShell/v1.0/**)",
+      "Bash(grep -E \"\\\\.\\(jpg|jpeg|png|webp|svg\\)$\")",
+      "Bash(grep:*)",
+      "Bash(/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command \"\nAdd-Type -AssemblyName System.IO.Compression.FileSystem\n\\\\$zip = [System.IO.Compression.ZipFile]::OpenRead\\('e:/Downloads/Bio_Hon Prof Roy Palmer.docx'\\)\n\\\\$entry = \\\\$zip.Entries | Where-Object { \\\\$_.FullName -eq 'word/document.xml' }\n\\\\$reader = New-Object System.IO.StreamReader\\(\\\\$entry.Open\\(\\)\\)\n\\\\$xml = \\\\$reader.ReadToEnd\\(\\)\n\\\\$reader.Close\\(\\)\n\\\\$zip.Dispose\\(\\)\n\\\\$text = [System.Text.RegularExpressions.Regex]::Replace\\(\\\\$xml, '<[^>]+>', ' '\\)\n\\\\$text = [System.Text.RegularExpressions.Regex]::Replace\\(\\\\$text, '\\\\s+', ' '\\).Trim\\(\\)\nWrite-Output \\\\$text\n\" 2>&1)",
+      "Bash(sort -t. -k2)"
+    ]
+  }
+}

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Adulteration — Chemicals & Water | I-CADMUS Framework</title>
 <meta name="description" content="Category A of the I-CADMUS framework: Adulteration — phosphates, sulphites, brines, and undisclosed additives bulking weight and masking age." />

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>News & Insights | I-CADMUS — Latest from the seafood integrity team</title>
 <meta name="description" content="Latest news, case studies, briefings, and press releases from the I-CADMUS framework and the Seafood Consumer Association." />
@@ -1359,21 +1361,13 @@
   .chip:hover { border-color: var(--brand); color: var(--brand); }
   .chip.active { background: var(--brand); color: #fff; border-color: var(--brand); }
 
-  .featured-article { display: grid; grid-template-columns: 1.4fr 1fr; gap: 0; align-items: stretch; background: #fff; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-bottom: 64px; transition: box-shadow 0.2s; text-decoration: none; color: inherit; }
-  .featured-article:hover { box-shadow: var(--shadow-lg); }
-  .featured-article-img { background: linear-gradient(135deg, var(--brand-dark), var(--brand) 50%, var(--teal)); min-height: 360px; position: relative; overflow: hidden; }
-  .featured-article-img::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.15), transparent 50%); }
-  .featured-article-img-tag { position: absolute; top: 24px; left: 24px; background: var(--accent); color: #fff; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; padding: 6px 12px; border-radius: 2px; z-index: 1; }
-  .featured-article-body { padding: 48px; display: flex; flex-direction: column; justify-content: center; }
   .article-tag { font-size: 11px; color: var(--accent); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; display: block; }
-  .featured-article-body h2 { font-family: var(--serif); font-size: clamp(28px, 3vw, 36px); font-weight: 600; color: var(--brand); line-height: 1.15; letter-spacing: -0.01em; margin-bottom: 16px; }
-  .featured-article-body p { font-size: 16px; color: var(--ink-2); line-height: 1.6; margin-bottom: 24px; }
-  .article-meta { display: flex; gap: 16px; font-size: 13px; color: var(--ink-3); margin-bottom: 24px; flex-wrap: wrap; }
 
   .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
   .news-card { background: #fff; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; text-decoration: none; color: inherit; }
   .news-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
-  .news-card-img { aspect-ratio: 16/10; background: linear-gradient(135deg, var(--brand-dark), var(--brand)); position: relative; }
+  .news-card-img { aspect-ratio: 16/10; background: linear-gradient(135deg, var(--brand-dark), var(--brand)); position: relative; overflow: hidden; }
+  .news-card-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
   .news-card-img.var-1 { background: linear-gradient(135deg, var(--brand-dark), var(--teal)); }
   .news-card-img.var-2 { background: linear-gradient(135deg, var(--brand), var(--brand-light)); }
   .news-card-img.var-3 { background: linear-gradient(135deg, #5c1a2a, var(--accent)); }
@@ -1404,9 +1398,6 @@
 
   @media (max-width: 1100px) {
     .page-hero { padding: 56px 0 72px; }
-    .featured-article { grid-template-columns: 1fr; }
-    .featured-article-img { min-height: 240px; }
-    .featured-article-body { padding: 32px; }
     .news-grid { grid-template-columns: 1fr 1fr; }
     .newsletter-callout { grid-template-columns: 1fr; padding: 32px; }
     .newsletter-callout-form input { min-width: 0; flex: 1; }
@@ -1425,7 +1416,7 @@
   <div class="container">
     <div class="page-hero-inner">
       <div class="breadcrumb">
-        <a href="i-cadmus-v3-corporate.html">Home</a>
+        <a href="index.php">Home</a>
         <span class="sep">/</span>
         <span class="current">News</span>
       </div>
@@ -1441,137 +1432,61 @@
 
     <div class="filters" role="tablist">
       <div class="chip active" data-filter="all">All updates</div>
-      <div class="chip" data-filter="whitepaper">Whitepapers</div>
-      <div class="chip" data-filter="case-study">Case Studies</div>
-      <div class="chip" data-filter="briefing">Briefings</div>
+      <div class="chip" data-filter="analysis">Analysis</div>
       <div class="chip" data-filter="research">Research</div>
-      <div class="chip" data-filter="press">Press Releases</div>
-      <div class="chip" data-filter="notice">Public Notices</div>
     </div>
-
-    <a href="#" class="featured-article">
-      <div class="featured-article-img">
-        <span class="featured-article-img-tag">Featured</span>
-      </div>
-      <div class="featured-article-body">
-        <span class="article-tag">Whitepaper · Policy</span>
-        <h2>The five-pillar policy playbook: how regulators close the seafood-fraud gap.</h2>
-        <p>A 42-page playbook of legislative and regulatory recommendations: mandatory naming, DNA verification, real penalties, supply-chain transparency, and consumer rights — with draft legislative language and implementation case studies.</p>
-        <div class="article-meta">
-          <span>By the SCA Policy Team</span>
-          <span>14 min read</span>
-          <span>06 May 2026</span>
-        </div>
-        <div><span class="btn-link">Read the playbook <span class="arrow">→</span></span></div>
-      </div>
-    </a>
 
     <div class="news-grid">
-      <a href="#" class="news-card" data-cat="case-study">
-        <div class="news-card-img var-1"><span class="news-card-img-tag">Case Study</span></div>
+      <a href="news-science-in-a-silo.php" class="news-card" data-cat="analysis">
+        <div class="news-card-img">
+          <img src="assets/img/newscard -01.webp" alt="Science in a Silo" />
+          <span class="news-card-img-tag">Analysis</span>
+        </div>
         <div class="news-card-body">
-          <span class="article-tag">Industry</span>
-          <h3>How DNA verification exposed retail-scale species substitution in a national chain.</h3>
-          <div class="meta">8 min · 02 May 2026</div>
+          <span class="article-tag">Policy · Traceability</span>
+          <h3>Science in a Silo: The Shiny Tech and Fractured Strategy of Australia's Seafood Traceability.</h3>
+          <div class="meta">17 Jun 2026</div>
+          <div style="margin-top:12px;"><span class="btn-link">Read more <span class="arrow">→</span></span></div>
         </div>
       </a>
-      <a href="#" class="news-card" data-cat="briefing">
-        <div class="news-card-img var-2"><span class="news-card-img-tag">Briefing</span></div>
+      <a href="news-scite-2025-6.php" class="news-card" data-cat="research">
+        <div class="news-card-img">
+          <img src="assets/img/newscard- 02.webp" alt="SCITe Research Synthesis 2025/6" />
+          <span class="news-card-img-tag">Research</span>
+        </div>
         <div class="news-card-body">
-          <span class="article-tag">Consumer</span>
-          <h3>Why food safety has to start with truth in labelling — a short briefing.</h3>
-          <div class="meta">6 min · 28 Apr 2026</div>
+          <span class="article-tag">Research Synthesis</span>
+          <h3>Seafood Fraud: News &amp; Information from SCITe for 2025/6 — a synthesis of credible sources.</h3>
+          <div class="meta">17 Jun 2026</div>
+          <div style="margin-top:12px;"><span class="btn-link">Read more <span class="arrow">→</span></span></div>
         </div>
       </a>
-      <a href="#" class="news-card" data-cat="research">
-        <div class="news-card-img var-3"><span class="news-card-img-tag">Research</span></div>
-        <div class="news-card-body">
-          <span class="article-tag">Working Paper</span>
-          <h3>The economic cost of seafood fraud across OECD markets — a quantitative estimate.</h3>
-          <div class="meta">22 min · 21 Apr 2026</div>
-        </div>
-      </a>
-      <a href="#" class="news-card" data-cat="press">
-        <div class="news-card-img var-4"><span class="news-card-img-tag">Press Release</span></div>
-        <div class="news-card-body">
-          <span class="article-tag">Announcement</span>
-          <h3>Bond University becomes inaugural academic partner for the I-CADMUS framework.</h3>
-          <div class="meta">3 min · 15 Apr 2026</div>
-        </div>
-      </a>
-      <a href="#" class="news-card" data-cat="case-study">
-        <div class="news-card-img var-5"><span class="news-card-img-tag">Case Study</span></div>
-        <div class="news-card-body">
-          <span class="article-tag">Adulteration</span>
-          <h3>Phosphate-treated scallops cooking out 35% — what a year of testing revealed.</h3>
-          <div class="meta">11 min · 10 Apr 2026</div>
-        </div>
-      </a>
-      <a href="#" class="news-card" data-cat="briefing">
-        <div class="news-card-img var-6"><span class="news-card-img-tag">Briefing</span></div>
-        <div class="news-card-body">
-          <span class="article-tag">Regulator</span>
-          <h3>The "processed in" loophole: why country-of-origin labelling needs a rewrite.</h3>
-          <div class="meta">9 min · 04 Apr 2026</div>
-        </div>
-      </a>
-      <a href="#" class="news-card" data-cat="notice">
-        <div class="news-card-img var-7"><span class="news-card-img-tag">Public Notice</span></div>
-        <div class="news-card-body">
-          <span class="article-tag">Industry Alert</span>
-          <h3>Counterfeit certification marks identified on imported tuna — guidance for importers.</h3>
-          <div class="meta">4 min · 28 Mar 2026</div>
-        </div>
-      </a>
-      <a href="#" class="news-card" data-cat="research">
-        <div class="news-card-img var-8"><span class="news-card-img-tag">Research</span></div>
-        <div class="news-card-body">
-          <span class="article-tag">Method</span>
-          <h3>Field-deployable DNA testing: where the science is, and what the industry can deploy now.</h3>
-          <div class="meta">14 min · 22 Mar 2026</div>
-        </div>
-      </a>
-      <a href="#" class="news-card" data-cat="press">
-        <div class="news-card-img var-1"><span class="news-card-img-tag">Press Release</span></div>
-        <div class="news-card-body">
-          <span class="article-tag">Announcement</span>
-          <h3>I-CADMUS framework, certification, and Sea of Deception book launch dates confirmed.</h3>
-          <div class="meta">3 min · 18 Mar 2026</div>
-        </div>
-      </a>
-      <a href="#" class="news-card" data-cat="case-study">
-        <div class="news-card-img var-3"><span class="news-card-img-tag">Case Study</span></div>
-        <div class="news-card-body">
-          <span class="article-tag">Substitution</span>
-          <h3>"Fish of the day" across 30 restaurants — DNA-verified results.</h3>
-          <div class="meta">7 min · 12 Mar 2026</div>
-        </div>
-      </a>
-      <a href="#" class="news-card" data-cat="briefing">
-        <div class="news-card-img var-2"><span class="news-card-img-tag">Briefing</span></div>
-        <div class="news-card-body">
-          <span class="article-tag">Foodservice</span>
-          <h3>Restaurant procurement: a five-question checklist for any seafood supplier.</h3>
-          <div class="meta">5 min · 05 Mar 2026</div>
-        </div>
-      </a>
-      <a href="#" class="news-card" data-cat="whitepaper">
-        <div class="news-card-img var-5"><span class="news-card-img-tag">Whitepaper</span></div>
-        <div class="news-card-body">
-          <span class="article-tag">Standards</span>
-          <h3>AS 5300 and the global naming-standard landscape — a comparative review.</h3>
-          <div class="meta">18 min · 28 Feb 2026</div>
-        </div>
-      </a>
-    </div>
 
-    <div class="pagination">
-      <a href="#" class="next-prev">← Prev</a>
-      <a href="#" class="active">1</a>
-      <a href="#">2</a>
-      <a href="#">3</a>
-      <a href="#">4</a>
-      <a href="#" class="next-prev">Next →</a>
+      <a href="news-ten-papers.php" class="news-card" data-cat="research">
+        <div class="news-card-img var-3">
+          <img src="assets/img/newscard- 03.webp" alt="Ten Papers on Seafood Fraud Methods" />
+          <span class="news-card-img-tag">Research</span>
+        </div>
+        <div class="news-card-body">
+          <span class="article-tag">Research Review</span>
+          <h3>Ten Papers/Reviews Central to Seafood Fraud — A SCITe Research Review.</h3>
+          <div class="meta">17 Jun 2026</div>
+          <div style="margin-top:12px;"><span class="btn-link">Read more <span class="arrow">→</span></span></div>
+        </div>
+      </a>
+
+      <a href="news-consumer-trust.php" class="news-card" data-cat="research">
+        <div class="news-card-img var-4">
+          <img src="assets/img/newscard-04.webp" alt="Consumer Trust in Seafood" />
+          <span class="news-card-img-tag">Research</span>
+        </div>
+        <div class="news-card-body">
+          <span class="article-tag">Research Synthesis</span>
+          <h3>Consumer Trust in the Context of Seafood &amp; Related Products.</h3>
+          <div class="meta">17 Jun 2026</div>
+          <div style="margin-top:12px;"><span class="btn-link">Read more <span class="arrow">→</span></span></div>
+        </div>
+      </a>
     </div>
 
     <div class="newsletter-callout">
@@ -1609,7 +1524,7 @@ document.querySelectorAll('.chip').forEach(chip => {
     document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
     chip.classList.add('active');
     const filter = chip.dataset.filter;
-    document.querySelectorAll('.news-card').forEach(card => {
+    document.querySelectorAll('.news-card, .featured-article').forEach(card => {
       card.style.display = (filter === 'all' || card.dataset.cat === filter) ? '' : 'none';
     });
   });

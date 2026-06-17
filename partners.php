@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Partners | I-CADMUS — Academic, industry, and regulatory partnerships</title>
 <meta name="description" content="The partner network behind I-CADMUS: Bond University, AS 5300 / FRDC, Codex Alimentarius, and a growing global network of academic and industry partners." />

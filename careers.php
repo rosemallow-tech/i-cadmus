@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Careers | I-CADMUS — Join the team</title>
 <meta name="description" content="Join the I-CADMUS team and help build the global standard for seafood integrity. View current openings at the Seafood Consumer Association." />

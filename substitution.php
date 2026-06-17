@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Substitution — Species Swap | I-CADMUS Framework</title>
 <meta name="description" content="Category S of the I-CADMUS framework: Substitution — cheap fish sold at a premium price. The most familiar seafood fraud and the costliest to consumer trust." />

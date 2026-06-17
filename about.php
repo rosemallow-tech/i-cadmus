@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>About | I-CADMUS — Seafood Integrity Framework</title>
 <meta name="description" content="The story behind I-CADMUS, the Seafood Consumer Association, and Hon Prof Roy D. Palmer." />
@@ -723,6 +725,10 @@
     transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
   }
   .service-card::before {
     content: '';
@@ -1503,15 +1509,7 @@
     overflow: hidden;
   }
   .founder-portrait::before {
-    content: 'RP';
-    position: absolute;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    font-family: var(--serif);
-    font-size: 120px;
-    font-weight: 600;
-    color: rgba(255,255,255,0.9);
+    content: '';
   }
   .founder-portrait::after {
     content: '';
@@ -1560,7 +1558,7 @@
     font-family: var(--serif);
     font-size: 36px;
     font-weight: 600;
-    color: var(--brand-light);
+    color: #ffffff;
     line-height: 1;
   }
   .timeline-content h3 {
@@ -1636,215 +1634,213 @@
   <div class="container">
     <div class="page-hero-inner">
       <div class="breadcrumb">
-        <a href="i-cadmus-v3-corporate.html">Home</a>
+        <a href="index.php">Home</a>
         <span class="sep">/</span>
-        <span class="current">About</span>
+        <span class="current">About SCA</span>
       </div>
-      <div class="page-hero-eyebrow">About I-CADMUS</div>
-      <h1>Built on five decades on the water — for everyone <strong>downstream of it.</strong></h1>
-      <p class="lede">I-CADMUS is the practical seafood-integrity framework published by the Seafood Consumer Association. It exists to make the truth in your seafood supply chain visible, classifiable, and actionable.</p>
+      <div class="page-hero-eyebrow">About the SCA</div>
+      <h1>We exist to make seafood honesty a <strong>verifiable standard.</strong></h1>
+      <p class="lede">The Seafood Consumer Association (SCA) is an independent, consumer-first organisation built on one belief: that every person who buys seafood deserves to know exactly what they are buying — where it came from, what species it is, and how it was caught or farmed.</p>
     </div>
   </div>
 </section>
 
-<!-- ============== MISSION / PROSE ============== -->
+<!-- ============== MISSION SECTION ============== -->
 <section>
   <div class="container">
+    <div class="section-eyebrow">Who We Are</div>
+    <h2 class="section-h">An independent voice for the world's seafood consumers.</h2>
     <div class="prose">
-      <div class="section-eyebrow">Our Mission</div>
-      <h2 class="section-h" style="max-width: none;">Make seafood honesty a verifiable, shared standard.</h2>
+      <p>Seafood is the most fraud-prone food category on earth. One in five products globally doesn't match its label. Frozen prawns can be 40% water by weight. "Fish of the day" hides whatever is cheapest at the back of the freezer. And the food-safety systems the industry leans on — HACCP, audit checklists, country-of-origin declarations — answer the wrong question first. I-CADMUS asks it first: is this product even what it claims to be?</p>
 
-      <p>Seafood is the most fraud-prone food category in the world. One in five products globally doesn't match its label. Frozen prawns can be 40% water by weight. "Fish of the day" hides whatever is cheapest in the back of the freezer. And HACCP — the food safety standard the industry leans on — answers a question I-CADMUS asks first: <em>is the product even what it claims to be?</em></p>
+      <p>The SCA was established to give consumers, industry operators, and regulators a single shared language for seafood fraud. Seven categories. One taxonomy. Built from decades of real supply-chain experience, not theoretical risk modelling.</p>
 
-      <p>The Seafood Consumer Association created I-CADMUS to give the industry, regulators, and the consumer a single shared language for seafood fraud. Seven categories. One taxonomy. Built from real supply-chain experience, not theoretical risk modelling.</p>
+      <blockquote>Food safety has to start with truth in labelling. You cannot make safe what you cannot even identify.</blockquote>
 
-      <blockquote>
-        Food safety has to start with truth in labelling. You can't make safe what you can't even identify.
-      </blockquote>
-
-      <p>The framework is paired with the forthcoming book <em>Sea of Deception</em>, an online certification programme, an open-data publications register, and a growing network of academic and industry partners — beginning with Bond University and expanding to one institutional partner per country.</p>
+      <p>The framework is paired with the book <em>Sea of Deception</em>, an online certification programme, an open-data publications register, and a growing network of academic and industry partners — beginning with Bond University and expanding to one institutional partner per country.</p>
 
       <h3>Why now</h3>
-      <p>Three forces are converging: DNA verification has become affordable enough for routine use, traceability technology has matured, and consumer trust in food labelling has reached a generational low. The next decade will be shaped by who provides the framework — and the language — to act. I-CADMUS is that framework.</p>
+      <p>Three forces are converging: DNA verification has become affordable enough for routine use, traceability technology has matured, and consumer trust in food labelling has reached a generational low. The next decade will be shaped by whoever provides the framework — and the language — to act. I-CADMUS is that framework.</p>
     </div>
   </div>
 </section>
 
-<!-- ============== FOUNDER ============== -->
+<!-- ============== FOUNDER SECTION ============== -->
 <section style="background: var(--bg-soft);">
   <div class="container">
-    <div class="section-eyebrow">Founder & Author</div>
-    <h2 class="section-h">Hon Prof Roy D. Palmer, MBA — <strong>50+ years on the water.</strong></h2>
+    <div class="section-eyebrow">Founder &amp; CEO</div>
+    <h2 class="section-h">Hon Prof Roy Palmer, MBA — <strong>five decades across the global supply chain.</strong></h2>
 
     <div class="founder-grid">
       <div>
-        <div class="founder-portrait" aria-label="Hon Prof Roy D. Palmer"></div>
+        <div class="founder-portrait" aria-label="Hon Prof Roy Palmer">
+          <img src="assets/img/roy 02.webp" alt="Hon Prof Roy Palmer, MBA" style="width:100%;height:100%;object-fit:cover;display:block;">
+        </div>
         <div class="founder-name-card">
-          <strong>Hon Prof Roy D. Palmer, MBA</strong>
-          <span>CEO, Seafood Consumer Association</span>
-          <span>Author, <em>Sea of Deception</em> (2026)</span>
+          <strong>Hon Prof Roy Palmer, MBA (2026)</strong>
+          <span>Founder &amp; CEO, Seafood Consumer Association Ltd</span>
+          <span>Author, <em>Sea of Deception</em> (July 2026)</span>
+          <a href="https://au.linkedin.com/in/roypalmer" target="_blank" rel="noopener" style="font-size:13px;color:var(--brand);display:block;margin-top:4px;">LinkedIn Profile →</a>
         </div>
       </div>
       <div class="prose" style="max-width: none;">
-        <p>Roy Palmer's career spans more than five decades across the global seafood supply chain — from working boats and processing floors to international standards bodies and academic appointments. He has served as Chief Executive of multiple industry-peak organisations, advised national regulators across three continents, and held honorary professorships at universities working on aquaculture sustainability.</p>
+        <p>Hon Prof Roy Palmer is Founder and CEO of the Seafood Consumers Association (SCA) and a former senior consumer behaviour expert for the UN FAO, specialising in seafood fraud prevention and consumption strategies. His career spans more than five decades across the global seafood supply chain — specifically in post-harvest seafood — including work as an Accredited Trainer and Diploma holder in Seafood Processing, and as the inaugural winner of the Australian Seafood Training Award.</p>
 
-        <p>I-CADMUS is the distillation of that work. After watching the same seven categories of fraud appear repeatedly across markets, supply chains, and decades — under different names, with different cover stories — Palmer set out to give the industry a single classifier. The framework you see published here is the result.</p>
+        <p>Palmer has worked for the Mexican Government on successfully boosting national seafood consumption and developed FAO strategies for the Kingdom of Saudi Arabia. He has engaged with numerous industry and government boards and committees across three continents, bringing a uniquely operational perspective to food-integrity policy.</p>
 
-        <h3>Selected appointments</h3>
+        <p>I-CADMUS is the distillation of that experience. After analysing the same seven categories of fraud appearing repeatedly across markets, supply chains, and decades — under different names, with different cover stories — Palmer set out to help educate consumers, provide industry with a single classifier, and offer a soft-governance alternative for regulators. The I-CADMUS framework is the result.</p>
+
+        <p>His book, <em>Sea of Deception</em> (Seafood Consumer Association, July 2026), documents those patterns in detail — with case studies, investigative findings, and a policy playbook for legislators who want to close the gap.</p>
+
+        <h3>Selected appointments &amp; honours</h3>
         <ul>
-          <li>Chief Executive Officer, Seafood Consumer Association</li>
-          <li>Honorary Professor, Bond University (aquaculture & food integrity)</li>
-          <li>Former CEO, Seafood Services Australia</li>
-          <li>Industry advisor, Australian Fisheries Research and Development Corporation</li>
-          <li>Author, <em>Sea of Deception</em> (Seafood Consumer Association Press, 2026)</li>
+          <li>Founder &amp; Chief Executive Officer, Seafood Consumer Association Ltd, Australia</li>
+          <li>Profesor Honorario — Universidad Tecnológica del Mar de Tamaulipas Bicentenario, Mexico</li>
+          <li>Honorary Life Award — World Aquaculture Society (WAS)</li>
+          <li>Medal of Honor — World Gastronomy Institute (WGI)</li>
+          <li>Founder — Association of International Seafood Professionals</li>
+          <li>Former Senior Consumer Behaviour Expert, UN FAO (seafood fraud prevention &amp; consumption strategies)</li>
+          <li>Author, <em>Sea of Deception</em> (Seafood Consumer Association, July 2026)</li>
         </ul>
 
-        <p><a href="contact.html">Request a briefing or media interview →</a></p>
+        <p><a href="contact.php">Request a briefing or media interview →</a></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============== 5 PILLARS ============== -->
+<!-- ============== 5 PILLARS SECTION ============== -->
 <section class="pillars">
   <div class="container">
-    <div class="section-eyebrow">The Five Pillars</div>
-    <h2 class="section-h">The policy playbook <strong>I-CADMUS recommends to jurisdictions.</strong></h2>
-    <p class="section-sub">Each fraud category in the I-CADMUS taxonomy is countered by a corresponding policy lever. The five pillars below form the playbook every regulator working on seafood integrity should consider.</p>
+    <div class="section-eyebrow">The Policy Playbook</div>
+    <h2 class="section-h">Five pillars every seafood jurisdiction <strong>should adopt.</strong></h2>
+    <p class="section-sub">Each fraud type in the I-CADMUS taxonomy has a corresponding policy lever. These five pillars form the minimum viable playbook for any regulator or legislator working on seafood integrity.</p>
 
     <div class="pillars-grid">
       <div class="pillar">
         <div class="pillar-num">Pillar 01</div>
-        <h3>Mandatory naming</h3>
-        <p>End "fish of the day," generic species names, and ambiguous trade names. Adopt AS 5300 or equivalent at every point of sale, from menu to label.</p>
+        <h3>Mandatory Naming</h3>
+        <p>End 'fish of the day,' ambiguous trade names, and generic species descriptors. Adopt AS 5300 or an equivalent naming standard at every point of sale — from restaurant menus to retail labels.</p>
       </div>
       <div class="pillar">
         <div class="pillar-num">Pillar 02</div>
-        <h3>DNA verification</h3>
-        <p>Routine, affordable species verification at customs, processing, and retail. The technology exists. The political will is the gap.</p>
+        <h3>DNA Verification</h3>
+        <p>Routine, affordable species verification at customs, processing, and retail. Field-deployable DNA testing and handheld XRF scanning are no longer experimental — the technology is ready. The political will is the gap.</p>
       </div>
       <div class="pillar">
         <div class="pillar-num">Pillar 03</div>
-        <h3>Real penalties</h3>
-        <p>Fines that exceed the margin gained by fraud. Repeat offences trigger trading suspensions. Without consequence, classification is theatre.</p>
+        <h3>Real Penalties</h3>
+        <p>Fines that exceed the margin gained by fraud. Repeat offences trigger trading suspensions and licence revocations. Without meaningful consequence, classification is theatre.</p>
       </div>
       <div class="pillar">
         <div class="pillar-num">Pillar 04</div>
-        <h3>Supply-chain transparency</h3>
-        <p>End-to-end traceability from vessel to plate. QR-linked records that cannot be retroactively edited. Open auditability.</p>
+        <h3>Supply-Chain Transparency</h3>
+        <p>End-to-end traceability from vessel to plate. QR-linked catch records that cannot be retroactively edited. Open auditability at every node of the supply chain.</p>
       </div>
       <div class="pillar">
         <div class="pillar-num">Pillar 05</div>
-        <h3>Consumer rights</h3>
-        <p>The right to know what species you're buying, where it came from, and how it was harvested — protected in law, not by aspiration.</p>
+        <h3>Consumer Rights</h3>
+        <p>The legal right to know what species you are buying, where it came from, and how it was harvested — protected in law and enforceable in court, not aspirational.</p>
       </div>
       <div class="pillar" style="background: var(--brand); color: #fff; border-top-color: var(--gold);">
-        <div class="pillar-num" style="color: #ffd25e;">Read more</div>
+        <div class="pillar-num" style="color: var(--gold);">Read more</div>
         <h3 style="color: #fff;">The full playbook</h3>
-        <p style="color: rgba(255,255,255,0.85);">All five pillars are detailed in <em>Sea of Deception</em>, with implementation case studies and recommended legislative language.</p>
-        <p style="margin-top: 12px;"><a href="book.html" style="color: #ffd25e; font-weight: 600; text-decoration: none;">Get the book →</a></p>
+        <p style="color: rgba(255,255,255,0.85);">All five pillars are detailed in <em>Sea of Deception</em>, with implementation case studies, draft legislative language, and country-by-country gap analysis.</p>
+        <p style="margin-top: 12px;"><a href="book.php" style="color: var(--gold); font-weight: 600; text-decoration: none;">Get the book →</a></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============== TIMELINE ============== -->
+<!-- ============== TIMELINE SECTION ============== -->
 <section class="timeline">
   <div class="container">
-    <div class="section-eyebrow">How we got here</div>
-    <h2 class="section-h">A timeline of the framework's <strong>development</strong>.</h2>
+    <div class="section-eyebrow">How We Got Here</div>
+    <h2 class="section-h">A timeline of the SCA and the <strong>I-CADMUS framework.</strong></h2>
 
     <div class="timeline-list">
       <div class="timeline-row">
-        <div class="timeline-year">1976</div>
+        <div class="timeline-year">1970s</div>
         <div class="timeline-content">
           <h3>Roy Palmer enters the seafood industry</h3>
-          <p>Beginning a career across boats, processing, retail, peak industry bodies, and international standards work — building the lived experience the framework would later be drawn from.</p>
+          <p>Beginning a career spanning working boats, processing floors, retail operations, and peak industry bodies — accumulating the lived experience the I-CADMUS framework would later be drawn from.</p>
         </div>
       </div>
       <div class="timeline-row">
         <div class="timeline-year">2001</div>
         <div class="timeline-content">
-          <h3>Australian Standard AS 5300 adoption work begins</h3>
-          <p>A multi-year campaign to introduce mandatory species naming standards across Australian seafood retail. The work surfaces the gaps that I-CADMUS would later fill.</p>
+          <h3>AS 5300 Australian Fish Names Standard</h3>
+          <p>A landmark multi-year campaign to introduce mandatory species-naming standards across Australian seafood retail. The work surfaces systemic gaps that I-CADMUS would later formalise.</p>
         </div>
       </div>
       <div class="timeline-row">
         <div class="timeline-year">2018</div>
         <div class="timeline-content">
-          <h3>Seafood Consumer Association founded</h3>
-          <p>An independent body to advocate for transparency, accuracy, and integrity in seafood labelling — answerable to consumers, not to industry incumbents.</p>
+          <h3>Seafood Consumer Association Founded</h3>
+          <p>An independent body established to advocate for transparency, accuracy, and integrity in seafood labelling — answerable to consumers, not to industry incumbents.</p>
         </div>
       </div>
       <div class="timeline-row">
         <div class="timeline-year">2023</div>
         <div class="timeline-content">
-          <h3>I-CADMUS framework drafted</h3>
-          <p>The seven-category taxonomy is formalised after years of pattern-matching across investigations, supply-chain audits, and case-study work.</p>
+          <h3>I-CADMUS Framework Drafted</h3>
+          <p>The seven-category taxonomy is formalised after years of pattern-matching across investigations, supply-chain audits, regulatory submissions, and case-study work across multiple jurisdictions.</p>
         </div>
       </div>
       <div class="timeline-row">
         <div class="timeline-year">2025</div>
         <div class="timeline-content">
-          <h3>Bond University academic partnership</h3>
-          <p>Bond becomes the first academic partner, leading research and certification delivery. The "one institutional partner per country" expansion model is set.</p>
+          <h3>Bond University Academic Partnership</h3>
+          <p>Bond University becomes the inaugural academic partner, leading research and certification delivery. The 'one institutional partner per country' expansion model is established.</p>
         </div>
       </div>
       <div class="timeline-row">
         <div class="timeline-year">2026</div>
         <div class="timeline-content">
-          <h3>Sea of Deception published · Framework launches publicly</h3>
-          <p>The framework, the book, the certification, and the open-data publications register all go live together — the public release of a decade of work.</p>
+          <h3>Sea of Deception Published · Framework Launches Publicly</h3>
+          <p>The framework, the book, the certification programme, and the open-data publications register go live together — the public culmination of more than a decade of preparation.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============== LEADERSHIP ============== -->
-<section id="leadership">
+<!-- ============== WHAT WE DO SECTION ============== -->
+<section style="background: var(--bg-soft);" id="what-we-do">
   <div class="container">
-    <div class="section-eyebrow">Leadership</div>
-    <h2 class="section-h">The people behind the framework.</h2>
-    <p class="section-sub">A team drawn from industry, academia, regulation, and consumer advocacy.</p>
+    <div class="section-eyebrow">What We Do</div>
+    <h2 class="section-h">From taxonomy to <strong>action.</strong></h2>
+    <p class="section-sub">The SCA operates across four interconnected workstreams, each designed to make the I-CADMUS framework useful at a different point in the supply chain.</p>
 
-    <div class="leadership-grid">
-      <div class="leader">
-        <div class="leader-avatar">RP</div>
-        <h4>Hon Prof Roy D. Palmer, MBA</h4>
-        <div class="leader-role">CEO & Founder</div>
-        <p>Author of <em>Sea of Deception</em>. Five decades in the global seafood industry.</p>
-      </div>
-      <div class="leader">
-        <div class="leader-avatar">DK</div>
-        <h4>Daryl K.</h4>
-        <div class="leader-role">Director, Training & Programs</div>
-        <p>Leads the I-CADMUS certification programme and university partnership delivery.</p>
-      </div>
-      <div class="leader">
-        <div class="leader-avatar">SM</div>
-        <h4>Sarah M.</h4>
-        <div class="leader-role">Head of Standards</div>
-        <p>Coordinates AS 5300, FRDC, and Codex alignment across the framework.</p>
-      </div>
-      <div class="leader">
-        <div class="leader-avatar">JT</div>
-        <h4>James T.</h4>
-        <div class="leader-role">Industry Liaison</div>
-        <p>Works with retail, foodservice, and processor partners on audit deployment.</p>
-      </div>
-      <div class="leader">
-        <div class="leader-avatar">AL</div>
-        <h4>Anna L.</h4>
-        <div class="leader-role">Research Lead</div>
-        <p>Leads case-study verification and DNA-testing research with academic partners.</p>
-      </div>
-      <div class="leader">
-        <div class="leader-avatar">MC</div>
-        <h4>Michael C.</h4>
-        <div class="leader-role">Consumer Advocacy</div>
-        <p>Heads the consumer-facing tools: scorecard, quiz, and the public reporting channel.</p>
-      </div>
+    <div class="services-grid">
+      <a href="framework.php" class="service-card">
+        <div class="service-icon">F</div>
+        <span class="code">Framework</span>
+        <h3>The I-CADMUS Taxonomy</h3>
+        <p>A seven-category classification system covering every known form of seafood fraud — from IUU laundering and species substitution to adulteration, dilution, and origin misrepresentation. The lingua franca of seafood integrity.</p>
+        <span class="btn-link">Explore the framework →</span>
+      </a>
+      <a href="certification.php" class="service-card">
+        <div class="service-icon">C</div>
+        <span class="code">Certification</span>
+        <h3>I-CADMUS Certification</h3>
+        <p>An online certification programme for operators, auditors, and foodservice professionals who need a verifiable credential in seafood integrity. Delivered in partnership with Bond University.</p>
+        <span class="btn-link">Get certified →</span>
+      </a>
+      <a href="resources.php" class="service-card">
+        <div class="service-icon">R</div>
+        <span class="code">Research</span>
+        <h3>Publications &amp; Evidence</h3>
+        <p>An open-data register of case studies, whitepapers, and investigation findings — cross-referenced to the I-CADMUS taxonomy and freely accessible to regulators, journalists, and researchers.</p>
+        <span class="btn-link">Browse resources →</span>
+      </a>
+      <a href="news.php" class="service-card">
+        <div class="service-icon">A</div>
+        <span class="code">Advocacy</span>
+        <h3>Policy &amp; Consumer Voice</h3>
+        <p>Regulatory submissions, media briefings, and consumer-facing tools that translate the I-CADMUS taxonomy into policy language and purchasing decisions. 26 million voices. One seafood future.</p>
+        <span class="btn-link">Read our news →</span>
+      </a>
     </div>
   </div>
 </section>
@@ -1854,12 +1850,12 @@
   <div class="container">
     <div class="cta-band-grid">
       <div>
-        <h2>Want to <strong>partner with us</strong> or learn more?</h2>
-        <p>If you're a university, retailer, regulator, or processor interested in adopting I-CADMUS or joining the partner network — we'd like to hear from you.</p>
+        <h2>Want to partner with us or <strong>learn more?</strong></h2>
+        <p>If you are a university, retailer, regulator, or processor interested in adopting I-CADMUS or joining the partner network, we'd like to hear from you.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="contact.html" class="btn btn-primary btn-lg">Get in touch <span class="arrow">→</span></a>
-        <a href="partners.html" class="btn btn-outline btn-lg">View partners</a>
+        <a href="contact.php" class="btn btn-primary">Get in touch →</a>
+        <a href="partners.php" class="btn btn-outline">View partners</a>
       </div>
     </div>
   </div>

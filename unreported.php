@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Unreported — Grey Channels | I-CADMUS Framework</title>
 <meta name="description" content="Category U of the I-CADMUS framework: Unreported Grey Channels — product that bypasses traceability, moved off the books and into the menu without a trail." />

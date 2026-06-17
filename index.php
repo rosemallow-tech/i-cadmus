@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>I-CADMUS | Seafood Integrity Framework — Trust from Ocean to Plate</title>
 <meta name="description" content="I-CADMUS classifies seafood fraud into seven actionable categories. A practical framework for consumers, industry, and regulators to ensure integrity from ocean to plate." />
@@ -1083,16 +1085,7 @@
     max-width: 320px;
   }
   .quote-headshot::before {
-    content: 'RP';
-    position: absolute;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    font-family: var(--serif);
-    font-size: 96px;
-    font-weight: 600;
-    color: rgba(255,255,255,0.9);
-    letter-spacing: -0.02em;
+    content: '';
   }
   .quote-headshot::after {
     content: '';
@@ -1486,6 +1479,41 @@
   </div>
 </section>
 
+<!-- ============== INFOGRAPHIC ============== -->
+<section style="background: var(--brand-dark); padding: 80px 0; position: relative; overflow: hidden;">
+  <div style="position: absolute; inset: 0; background-image: radial-gradient(circle at 70% 50%, rgba(0,131,143,0.15), transparent 60%), radial-gradient(circle at 20% 50%, rgba(200,16,46,0.08), transparent 50%); pointer-events: none;"></div>
+  <div class="container" style="position: relative; z-index: 1;">
+    <div style="display: grid; grid-template-columns: 1fr 300px; gap: 64px; align-items: center; max-width: 960px; margin: 0 auto;">
+
+      <div>
+        <div class="section-eyebrow" style="color: #ff6b81;">The Global Picture</div>
+        <h2 class="section-h" style="color: #fff;">Seafood fraud is a <strong>$50 billion global threat.</strong></h2>
+        <p style="font-size: 17px; color: rgba(255,255,255,0.75); line-height: 1.65; margin-bottom: 36px; max-width: 52ch;">Up to 47% of seafood worldwide is mislabelled. Over 3 billion people are affected. Our infographic maps the full scale of the problem — and the solution.</p>
+        <button onclick="document.getElementById('ig-modal').style.display='flex'" class="btn btn-primary">View the Infographic <span class="arrow">→</span></button>
+      </div>
+
+      <div style="cursor: pointer;" onclick="document.getElementById('ig-modal').style.display='flex'">
+        <div style="border-radius: 6px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.5); position: relative;">
+          <img src="assets/img/Seafood Fraud Infographic.webp" alt="Seafood Fraud Infographic" style="width: 100%; display: block; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+          <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,41,64,0.6) 0%, transparent 50%);"></div>
+          <div style="position: absolute; bottom: 16px; left: 0; right: 0; text-align: center;">
+            <span style="background: var(--accent); color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 6px 14px; border-radius: 2px;">Click to expand</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="ig-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.9); z-index:999; align-items:center; justify-content:center; padding:24px;" onclick="this.style.display='none'">
+  <div style="max-width:680px; width:100%; max-height:90vh; overflow-y:auto; border-radius:8px; position:relative;" onclick="event.stopPropagation()">
+    <button onclick="document.getElementById('ig-modal').style.display='none'" style="position:sticky; top:8px; float:right; background:var(--accent); color:#fff; border:none; width:32px; height:32px; border-radius:50%; font-size:16px; cursor:pointer; margin-bottom:8px; display:block;">✕</button>
+    <img src="assets/img/Seafood Fraud Infographic.webp" alt="Seafood Fraud Infographic" style="width:100%; display:block; border-radius:8px;">
+  </div>
+</div>
+
 <!-- ============== SERVICES / FRAMEWORK ============== -->
 <section class="services" id="framework">
   <div class="container">
@@ -1679,7 +1707,9 @@
 <section class="quote-block">
   <div class="container">
     <div class="quote-grid">
-      <div class="quote-headshot"></div>
+      <div class="quote-headshot">
+        <img src="assets/img/roy 01.webp" alt="Hon Prof Roy Palmer" style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
       <div class="quote-content">
         <div class="section-eyebrow">From the Founder</div>
         <blockquote>
