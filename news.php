@@ -1437,6 +1437,18 @@
     </div>
 
     <div class="news-grid">
+      <a href="news-deception-dinner-plate.php" class="news-card" data-cat="analysis">
+        <div class="news-card-img">
+          <img src="assets/img/newscard-05.webp" alt="The Deception on the Dinner Plate" />
+          <span class="news-card-img-tag">Analysis</span>
+        </div>
+        <div class="news-card-body">
+          <span class="article-tag">Policy · Consumer Protection</span>
+          <h3>The Deception on the Dinner Plate — Key Takeaways from the 2026 FAO GLOBEFISH Global Seafood Fraud Webinar.</h3>
+          <div class="meta">18 Jun 2026</div>
+          <div style="margin-top:12px;"><span class="btn-link">Read more <span class="arrow">→</span></span></div>
+        </div>
+      </a>
       <a href="news-science-in-a-silo.php" class="news-card" data-cat="analysis">
         <div class="news-card-img">
           <img src="assets/img/newscard -01.webp" alt="Science in a Silo" />
