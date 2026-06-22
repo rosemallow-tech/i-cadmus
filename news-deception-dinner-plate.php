@@ -215,7 +215,7 @@
         <span class="sep">/</span>
         <span class="current">The Deception on the Dinner Plate</span>
       </div>
-      <div class="article-tag-pill">Analysis</div>
+      <div class="article-tag-pill">Blog</div>
       <h1>The Deception on the <strong>Dinner Plate</strong></h1>
       <p class="lede">Key Takeaways from the 2026 FAO GLOBEFISH Global Seafood Fraud Webinar — how market demand, steep price incentives, and fragmented supply chains actively create conditions for widespread consumer deception.</p>
       <div class="article-byline">
