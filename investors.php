@@ -5,8 +5,8 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Investors | I-CADMUS — Seafood Consumer Association</title>
-<meta name="description" content="Investor relations and partnership information for the Seafood Consumer Association — the organisation behind the I-CADMUS seafood integrity framework." />
+<title>Supporters | I-CADMUS — Seafood Consumer Association</title>
+<meta name="description" content="Supporter and partnership information for the Seafood Consumer Association — the organisation behind the I-CADMUS seafood integrity framework." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -491,6 +491,80 @@
     margin-top: 48px;
   }
 
+  /* Board Composition + ACNC full-width card */
+  .governance-card-wide {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--brand);
+    border-radius: 4px;
+    margin-top: 48px;
+    overflow: hidden;
+  }
+  .governance-card-wide-top {
+    padding: 32px 36px;
+  }
+  .governance-card-wide-top h3 {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--brand);
+    margin-bottom: 12px;
+  }
+  .governance-card-wide-top p { font-size: 15px; color: var(--ink-2); line-height: 1.65; margin-bottom: 0; }
+  .acnc-sub {
+    border-top: 1px solid var(--line);
+    background: var(--bg-soft);
+    padding: 28px 36px;
+  }
+  .acnc-sub-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 14px;
+  }
+  .acnc-sub-label::before { content: ''; width: 20px; height: 2px; background: var(--teal); }
+  .acnc-sub p { font-size: 14px; color: var(--ink-2); line-height: 1.65; margin-bottom: 12px; }
+  .acnc-sub p:last-child { margin-bottom: 0; }
+  .acnc-pillars {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .acnc-pillar {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 16px 18px;
+  }
+  .acnc-pillar strong {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--brand);
+    margin-bottom: 6px;
+  }
+  .acnc-pillar span { font-size: 13px; color: var(--ink-2); line-height: 1.55; }
+  .governance-sub-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 24px;
+  }
+  @media (max-width: 1100px) {
+    .acnc-pillars { grid-template-columns: 1fr 1fr; }
+    .governance-sub-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 640px) {
+    .acnc-pillars { grid-template-columns: 1fr; }
+    .governance-card-wide-top, .acnc-sub { padding: 24px 20px; }
+  }
+
   .contact-panel {
     background: linear-gradient(135deg, var(--brand-dark), var(--brand));
     color: #fff;
@@ -619,11 +693,11 @@
       <div class="breadcrumb">
         <a href="index.php">Home</a>
         <span class="sep">/</span>
-        <span class="current">Investors</span>
+        <span class="current">Supporters</span>
       </div>
-      <div class="page-hero-eyebrow">Investor Relations</div>
-      <h1>Investor <strong>Relations</strong></h1>
-      <p class="lede">The Seafood Consumer Association is a mission-driven organisation building the global standard for seafood integrity. We welcome partners who share our commitment to transparency in the food supply chain.</p>
+      <div class="page-hero-eyebrow">Supporters</div>
+      <h1><strong>Supporters</strong></h1>
+      <p class="lede">The Seafood Consumer Association is a mission-driven organisation building the global standard for seafood integrity. We welcome supporters and partners who share our commitment to transparency in the seafood supply chain from harvest to belly.</p>
     </div>
   </div>
 </section>
@@ -665,7 +739,8 @@
         <h2 class="section-h">A not-for-profit built for <strong>long-term impact.</strong></h2>
         <div class="prose" style="max-width: none;">
           <p>The Seafood Consumer Association operates as a not-for-profit organisation. Our mandate is the public interest: ensuring that consumers, regulators, and industry have access to a reliable, independent standard for seafood integrity.</p>
-          <p>We are governed by an independent board drawn from academia, industry, consumer advocacy, and regulatory affairs. Board members are subject to a formal conflict-of-interest policy and serve fixed, renewable terms. No single commercial interest holds a controlling position.</p>
+          <p>We are governed by an independent board. Board members are subject to a formal conflict-of-interest policy and serve fixed, renewable terms. No single commercial interest holds a controlling position.</p>
+          <p>The Advisory Council of the Seafood Consumers Association plays a critical role in steering the strategic vision and public advocacy of the organization on a voluntary basis. Composed of dedicated, forward-thinking industry strategists and professionals, the Council provides sharp, actionable insights to address systemic market challenges. Its members lend their time and expertise to elevate consumer-first strategies, helping to dismantle regulatory gaps, champion supply chain integrity, and build a clearer, more transparent path forward for everyday seafood consumers.</p>
           <p>This structure is deliberate. The credibility of the I-CADMUS framework — and the value of our certification — depends entirely on independence. Organisations and governments rely on us precisely because we are not funded by the industry sectors we assess.</p>
         </div>
       </div>
@@ -678,14 +753,14 @@
             <div class="revenue-icon">C</div>
             <div>
               <h4>Certification Fees</h4>
-              <p>Individual and organisational enrolments in the three-tier I-CADMUS certification programme, delivered through partner universities.</p>
+              <p>Individual and organisational enrolments in the I-CADMUS certification programme, delivered through partner organisations.</p>
             </div>
           </li>
           <li class="revenue-item">
             <div class="revenue-icon">B</div>
             <div>
               <h4>Book &amp; Publications</h4>
-              <p>Sales of <em>Sea of Deception</em> and associated educational materials, distributed through trade and academic channels globally.</p>
+              <p>Sales of <em>Sea of Deception</em> and associated educational/informative materials, distributed through www.seafoodconsumers e-shop, trade and academic channels globally.</p>
             </div>
           </li>
           <li class="revenue-item">
@@ -702,6 +777,13 @@
               <p>Structured partnerships with academic institutions, government agencies, and industry bodies — providing co-branding, research access, and programme delivery rights.</p>
             </div>
           </li>
+          <li class="revenue-item">
+            <div class="revenue-icon">D</div>
+            <div>
+              <h4>Donations, Grants, etc</h4>
+              <p>Supporter donations, volunteer activity, grants, etc. with academic institutions, government agencies, etc. delivering projects and programs aligned with our policies and procedures.</p>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
@@ -715,20 +797,47 @@
     <h2 class="section-h">Independent oversight, <strong>always.</strong></h2>
     <p class="section-sub">Our governance model is designed to protect the integrity of the framework itself. Transparency and accountability are not aspirational — they are structural.</p>
 
-    <div class="governance-grid">
-      <div class="governance-card reveal">
+    <!-- Board Composition + ACNC full-width -->
+    <div class="governance-card-wide reveal">
+      <div class="governance-card-wide-top">
         <h3>Board Composition</h3>
-        <p>The board is drawn from academic research, consumer law, food science, and international trade regulation. No more than two seats may be held by individuals with current commercial seafood industry affiliations.</p>
-        <p>Board meeting minutes are published annually in summary form. Full declarations of interest are held on file and available to audit partners on request.</p>
+        <p>The board is independent. People with current commercial seafood industry affiliations are not invited to apply.</p>
       </div>
+      <div class="acnc-sub">
+        <div class="acnc-sub-label">ACNC Charitable Status</div>
+        <p>As a registered charity with the Australian Charities and Not-for-profits Commission (ACNC), the Seafood Consumers Association (ABN 84 686 250 859) is fully committed to upholding the highest standards of transparency, governance, and public accountability. Meeting our ACNC obligations is not merely a legal requirement; it is a core promise to the millions of everyday seafood consumers we represent across Australia.</p>
+        <p>To fulfill our regulatory duties and maintain our charity status, SCA strictly adheres to the following frameworks:</p>
+        <div class="acnc-pillars">
+          <div class="acnc-pillar">
+            <strong>Upholding Governance Standards</strong>
+            <span>We ensure our processes, internal controls, and strategic operations actively safeguard our charitable purpose while protecting our community assets and resources.</span>
+          </div>
+          <div class="acnc-pillar">
+            <strong>Financial Accountability</strong>
+            <span>We manage our resources with absolute integrity, maintaining transparent records and fulfilling annual reporting requirements through the Annual Information Statement (AIS) to ensure clear public visibility.</span>
+          </div>
+          <div class="acnc-pillar">
+            <strong>Responsible Person Duties</strong>
+            <span>Our leadership team operates with the utmost transparency and diligence, ensuring all conflicts of interest are robustly managed and that our voluntary Advisory Council operates in full alignment with ACNC regulations.</span>
+          </div>
+          <div class="acnc-pillar">
+            <strong>Advancing the Public Interest</strong>
+            <span>Every strategic initiative we pursue—from supply chain anti-fraud toolkits to culinary training partnerships—is driven entirely by our charitable mission to improve trust, safety, and nutritional knowledge for the public benefit.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Conflict-of-Interest + Financial Accountability -->
+    <div class="governance-sub-grid">
       <div class="governance-card reveal">
         <h3>Conflict-of-Interest Policy</h3>
-        <p>All board members, staff, and certification assessors are required to declare interests at appointment and annually thereafter. Declared conflicts are managed through recusal, and conflicts that cannot be managed lead to disqualification.</p>
-        <p>The policy is reviewed every two years by external legal counsel and published on request to any partner or regulator.</p>
+        <p>All board members, staff, and certification assessors are required to declare interests. Declared conflicts are managed through recusal, and conflicts that cannot be managed lead to disqualification.</p>
+        <p>The policy is reviewed every two years and published on request to any partner or regulator.</p>
       </div>
       <div class="governance-card reveal">
         <h3>Financial Accountability</h3>
-        <p>The Seafood Consumer Association is subject to standard not-for-profit financial reporting obligations in its country of registration. Annual accounts are prepared by an independent auditor and are available to institutional partners.</p>
+        <p>The Seafood Consumer Association is subject to standard not-for-profit financial reporting obligations as regulated by the ACNC. We manage our resources with absolute integrity, maintaining transparent records and fulfilling annual reporting requirements through the Annual Information Statement (AIS) to ensure clear public visibility.</p>
         <p>No surpluses are distributed to members or directors. All surpluses are retained for programme development and framework expansion.</p>
       </div>
     </div>
@@ -741,9 +850,9 @@
     <div class="contact-panel reveal">
       <div class="contact-panel-inner">
         <span class="contact-panel-tag">Get in Touch</span>
-        <h2>Investor and partnership <strong>enquiries.</strong></h2>
+        <h2>Supporter and partnership <strong>enquiries.</strong></h2>
         <p>If you represent a foundation, government body, academic institution, or industry association interested in a strategic partnership with the Seafood Consumer Association, we welcome a conversation.</p>
-        <p>All enquiries are treated in strict confidence. We will respond within five business days.</p>
+        <p>All enquiries are treated in strict confidence.</p>
         <a href="mailto:invest@icadmus.org" class="email-link">invest@icadmus.org</a>
         <div>
           <a href="contact.php" class="btn btn-primary">Contact the team <span class="arrow">→</span></a>
