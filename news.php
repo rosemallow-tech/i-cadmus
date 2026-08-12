@@ -1438,6 +1438,18 @@
     </div>
 
     <div class="news-grid">
+      <a href="news-roundup-aug-2026.php" class="news-card" data-cat="analysis">
+        <div class="news-card-img">
+          <img src="assets/img/newscard-06.webp" alt="Global Roundup: Illegal Fishing, Food Fraud & Regulatory Failures" />
+          <span class="news-card-img-tag">Roundup</span>
+        </div>
+        <div class="news-card-body">
+          <span class="article-tag">Roundup · Global Intelligence</span>
+          <h3>Global Roundup: Illegal Fishing, Food Fraud &amp; Regulatory Failures — August 2026.</h3>
+          <div class="meta">6 Aug 2026</div>
+          <div style="margin-top:12px;"><span class="btn-link">Read more <span class="arrow">→</span></span></div>
+        </div>
+      </a>
       <a href="news-deception-dinner-plate.php" class="news-card" data-cat="blog">
         <div class="news-card-img">
           <img src="assets/img/newscard-05.webp" alt="The Deception on the Dinner Plate" />
