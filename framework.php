@@ -1660,7 +1660,7 @@
   <div class="container">
     <div class="page-hero-inner">
       <div class="breadcrumb">
-        <a href="i-cadmus-v3-corporate.html">Home</a>
+        <a href="index.php">Home</a>
         <span class="sep">/</span>
         <span class="current">The Framework</span>
       </div>
@@ -1962,7 +1962,7 @@
                 <li>Real penalties — fines exceeding fraud margin</li>
               </ul>
             </div>
-            <a href="book.html" class="btn btn-primary" style="margin-top: 20px;">Read the full chapter <span class="arrow">→</span></a>
+            <a href="book.php" class="btn btn-primary" style="margin-top: 20px;">Read the full chapter <span class="arrow">→</span></a>
           </div>
         </div>
       </div>
@@ -2017,8 +2017,8 @@
         <p>Earn the I-CADMUS certification, download the audit checklists, or book a briefing for your team or department.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="certification.html" class="btn btn-primary btn-lg">Get certified <span class="arrow">→</span></a>
-        <a href="resources.html" class="btn btn-outline btn-lg">Browse resources</a>
+        <a href="certification.php" class="btn btn-primary btn-lg">Get certified <span class="arrow">→</span></a>
+        <a href="resources.php" class="btn btn-outline btn-lg">Browse resources</a>
       </div>
     </div>
   </div>

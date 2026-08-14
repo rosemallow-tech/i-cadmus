@@ -1426,7 +1426,7 @@
   <div class="container">
     <div class="page-hero-inner">
       <div class="breadcrumb">
-        <a href="i-cadmus-v3-corporate.html">Home</a>
+        <a href="index.php">Home</a>
         <span class="sep">/</span>
         <span class="current">Partners</span>
       </div>
@@ -1450,7 +1450,7 @@
           <span class="partner-tag">Founding Body</span>
           <h3>Seafood Consumer Association</h3>
           <p>The independent advocacy body that publishes I-CADMUS, operates the certification network, and runs the open-data publications register. Founded in 2018 to advocate for consumer transparency in seafood.</p>
-          <a href="about.html" style="color: var(--brand); font-weight: 600;">About the SCA →</a>
+          <a href="about.php" style="color: var(--brand); font-weight: 600;">About the SCA →</a>
         </div>
       </div>
 
@@ -1499,7 +1499,7 @@
         <p>A single partner per market avoids the dilution that comes with sprawling international academic networks. The institutional anchor commits to local certification delivery, regional case-study research, and direct engagement with the country's regulator and industry bodies.</p>
         <p>In return, the partner receives co-branded certification authority, direct access to the framework's primary author team, and joint publication rights on regional research.</p>
         <p>Bond University is the inaugural partner. We are actively in conversation with universities in five further markets across Asia-Pacific, Europe, and North America — with a target of seven anchored partners by end of 2027.</p>
-        <a href="contact.html" class="btn btn-primary" style="background: #ffd25e; color: var(--brand-dark); border-color: #ffd25e;">Express interest from your institution <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-primary" style="background: #ffd25e; color: var(--brand-dark); border-color: #ffd25e;">Express interest from your institution <span class="arrow">→</span></a>
       </div>
 
       <div class="expansion-stats">
@@ -1553,7 +1553,7 @@
           <li>Joint publication rights</li>
           <li>Open-data programme access</li>
         </ul>
-        <a href="contact.html" class="btn btn-outline">Express interest <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline">Express interest <span class="arrow">→</span></a>
       </div>
 
       <div class="track">
@@ -1574,7 +1574,7 @@
           <li>Quarterly briefings</li>
           <li>Co-marketing opportunities</li>
         </ul>
-        <a href="contact.html" class="btn btn-outline">Talk to industry team <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline">Talk to industry team <span class="arrow">→</span></a>
       </div>
 
       <div class="track">
@@ -1595,7 +1595,7 @@
           <li>Codex alignment support</li>
           <li>Direct author-team access</li>
         </ul>
-        <a href="contact.html" class="btn btn-outline">Request a briefing <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline">Request a briefing <span class="arrow">→</span></a>
       </div>
     </div>
   </div>
@@ -1640,8 +1640,8 @@
         <p>Whether you're a university looking to anchor the framework in your country, an industry leader committing to integrity, or a regulator drafting next year's policy — we'd like to hear from you.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="contact.html" class="btn btn-primary btn-lg">Apply to partner <span class="arrow">→</span></a>
-        <a href="about.html" class="btn btn-outline btn-lg">About the SCA</a>
+        <a href="contact.php" class="btn btn-primary btn-lg">Apply to partner <span class="arrow">→</span></a>
+        <a href="about.php" class="btn btn-outline btn-lg">About the SCA</a>
       </div>
     </div>
   </div>

@@ -403,6 +403,16 @@
   </div>
 </section>
 
+<!-- CONSUMER ACTION -->
+<section style="background:#fff;">
+  <div class="container" style="text-align:center; max-width:760px;">
+    <div class="section-eyebrow" style="justify-content:center;">When something's not right</div>
+    <h2 class="section-h" style="max-width:none; text-align:center; margin:0 auto 20px;">Something doesn't seem right? <strong>Take action.</strong></h2>
+    <p class="section-sub" style="max-width:none; text-align:center; margin:0 auto 36px;">When a seafood product, label, or menu claim raises a concern, the Consumer Action Kit gives you a step-by-step process to preserve evidence, report accurately, and direct your concern to the right authority.</p>
+    <a href="consumer-action.php" class="btn btn-primary">Consumer Action Kit <span class="arrow">→</span></a>
+  </div>
+</section>
+
 <!-- CTA -->
 <section class="cta-band">
   <div class="container">

@@ -1599,7 +1599,7 @@
   <div class="container">
     <div class="page-hero-inner">
       <div class="breadcrumb">
-        <a href="i-cadmus-v3-corporate.html">Home</a>
+        <a href="index.php">Home</a>
         <span class="sep">/</span>
         <span class="current">Certification</span>
       </div>
@@ -1760,7 +1760,7 @@
           <li>Regulator-specific briefings</li>
           <li>Direct access to author team</li>
         </ul>
-        <a href="contact.html" class="btn btn-outline">Request a briefing <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline">Request a briefing <span class="arrow">→</span></a>
       </div>
     </div>
   </div>
@@ -1820,7 +1820,7 @@
           <li>Direct technical support</li>
           <li>API access (where available)</li>
         </ul>
-        <a href="contact.html" class="btn btn-outline">Talk to us <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline">Talk to us <span class="arrow">→</span></a>
       </div>
       <div class="tier">
         <div class="tier-tag">Regulator</div>
@@ -1836,7 +1836,7 @@
           <li>Inter-jurisdictional coordination</li>
           <li>Open-data access</li>
         </ul>
-        <a href="contact.html" class="btn btn-outline">Request briefing <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline">Request briefing <span class="arrow">→</span></a>
       </div>
     </div>
   </div>
@@ -1871,7 +1871,7 @@
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>Can my whole team enrol together?</span><span>+</span></div>
-        <div class="faq-a">Yes. The Business tier includes 5 seats; the Industry tier is org-wide. Bulk discounts are available — <a href="contact.html" style="color: var(--brand); text-decoration: underline;">get in touch</a> for a custom quote.</div>
+        <div class="faq-a">Yes. The Business tier includes 5 seats; the Industry tier is org-wide. Bulk discounts are available — <a href="contact.php" style="color: var(--brand); text-decoration: underline;">get in touch</a> for a custom quote.</div>
       </div>
     </div>
   </div>
@@ -1887,7 +1887,7 @@
       </div>
       <div class="cta-band-actions">
         <a href="#tiers" class="btn btn-primary btn-lg">Choose your tier <span class="arrow">→</span></a>
-        <a href="contact.html" class="btn btn-outline btn-lg">Talk to our team</a>
+        <a href="contact.php" class="btn btn-outline btn-lg">Talk to our team</a>
       </div>
     </div>
   </div>

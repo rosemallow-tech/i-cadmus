@@ -1717,7 +1717,7 @@
       </div>
       <div class="book-hero-info">
         <div class="breadcrumb">
-          <a href="i-cadmus-v3-corporate.html">Home</a>
+          <a href="index.php">Home</a>
           <span class="sep">/</span>
           <span class="current">The Book</span>
         </div>
@@ -1862,7 +1862,7 @@
     </div>
 
     <div style="text-align: center; margin-top: 48px;">
-      <a href="certification.html" class="btn btn-primary btn-lg" style="background: var(--gold); border-color: var(--gold); color: var(--brand-dark);">Submit your answers & get certified <span class="arrow">→</span></a>
+      <a href="certification.php" class="btn btn-primary btn-lg" style="background: var(--gold); border-color: var(--gold); color: var(--brand-dark);">Submit your answers & get certified <span class="arrow">→</span></a>
     </div>
   </div>
 </section>
@@ -1930,6 +1930,39 @@
   </div>
 </section>
 
+<!-- ============== FURTHER READING & RESEARCH ============== -->
+<section style="background: #fff;">
+  <div class="container" style="text-align: center; max-width: 720px;">
+    <div class="section-eyebrow" style="justify-content: center;">Further Reading &amp; Research</div>
+    <h2 class="section-h" style="max-width: none; text-align: center; margin-left: auto; margin-right: auto;">Go beyond the book.</h2>
+    <p class="section-sub" style="max-width: none; text-align: center; margin-left: auto; margin-right: auto;">Explore a curated collection of research related to seafood fraud, authentication, illegal fishing, traceability, sustainability, labelling and food integrity. These resources were identified during the development of <em>Sea of Deception</em> and provide additional reading for researchers, educators, industry professionals and I-CADMUS participants.</p>
+    <a href="research.php" class="btn btn-secondary btn-lg">Explore the Research <span class="arrow">→</span></a>
+  </div>
+</section>
+
+<!-- ============== ONLINE TOOLKITS ============== -->
+<section style="background: var(--bg-soft);">
+  <div class="container">
+    <div class="section-eyebrow" style="justify-content: center; display: flex;">From the Book to the Website</div>
+    <h2 class="section-h" style="max-width: none; text-align: center; margin-left: auto; margin-right: auto;">The book provides the principles. <strong>The website provides the tools.</strong></h2>
+    <p class="section-sub" style="max-width: none; text-align: center; margin-left: auto; margin-right: auto;">These online toolkits extend the book with detailed, updateable resources that can evolve alongside regulations, risks and professional practices.</p>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 900px; margin: 0 auto;">
+      <div style="background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--brand); border-radius: 6px; padding: 32px;">
+        <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px;">For Professionals</div>
+        <h3 style="font-family: var(--serif); font-size: 22px; font-weight: 600; color: var(--brand); margin-bottom: 10px; line-height: 1.25;">Professional Practice Toolkit</h3>
+        <p style="font-size: 14px; color: var(--ink-2); line-height: 1.55; margin-bottom: 20px;">The complete 14-point integrity checklist, supplier assessment, receiving checks, staff training and management review for seafood businesses.</p>
+        <a href="professional-practice.php" class="btn btn-secondary">Explore the toolkit <span class="arrow">→</span></a>
+      </div>
+      <div style="background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--teal); border-radius: 6px; padding: 32px;">
+        <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal); margin-bottom: 10px;">For Consumers</div>
+        <h3 style="font-family: var(--serif); font-size: 22px; font-weight: 600; color: var(--brand); margin-bottom: 10px; line-height: 1.25;">Consumer Action Kit</h3>
+        <p style="font-size: 14px; color: var(--ink-2); line-height: 1.55; margin-bottom: 20px;">What to do when seafood does not seem right. Concern form, evidence checklist, sample complaint letter and Australian referral directory.</p>
+        <a href="consumer-action.php" class="btn btn-outline" style="border-color: var(--teal); color: var(--teal);">Take action <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ============== CTA BAND ============== -->
 <section class="cta-band">
   <div class="container">
@@ -1939,8 +1972,8 @@
         <p>The book pairs with the certification course — read the framework, then test yourself on the case studies and join the certified network.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="certification.html" class="btn btn-primary btn-lg">Get certified <span class="arrow">→</span></a>
-        <a href="contact.html" class="btn btn-outline btn-lg">Contact the author</a>
+        <a href="certification.php" class="btn btn-primary btn-lg">Get certified <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline btn-lg">Contact the author</a>
       </div>
     </div>
   </div>

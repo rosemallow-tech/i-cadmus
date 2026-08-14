@@ -1429,7 +1429,7 @@
   <div class="container">
     <div class="page-hero-inner">
       <div class="breadcrumb">
-        <a href="i-cadmus-v3-corporate.html">Home</a>
+        <a href="index.php">Home</a>
         <span class="sep">/</span>
         <span class="current">Contact</span>
       </div>
@@ -1631,7 +1631,7 @@
         <div class="office-meta">
           <strong>If your university:</strong><br>
           partnerships@i-cadmus.org<br>
-          <a href="partners.html" style="color: var(--brand);">View partnership tracks →</a>
+          <a href="partners.php" style="color: var(--brand);">View partnership tracks →</a>
         </div>
       </div>
     </div>
@@ -1647,8 +1647,8 @@
         <p>If you'd rather read the framework first and reach out later, the resource library has whitepapers, the glossary, and the free certification course.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="resources.html" class="btn btn-primary btn-lg">Browse resources <span class="arrow">→</span></a>
-        <a href="certification.html" class="btn btn-outline btn-lg">View certification</a>
+        <a href="resources.php" class="btn btn-primary btn-lg">Browse resources <span class="arrow">→</span></a>
+        <a href="certification.php" class="btn btn-outline btn-lg">View certification</a>
       </div>
     </div>
   </div>

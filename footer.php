@@ -35,10 +35,10 @@
         <h5>Resources</h5>
         <ul>
           <li><a href="book.php">Sea of Deception (book)</a></li>
+          <li><a href="professional-practice.php">Professional Practice Toolkit</a></li>
+          <li><a href="consumer-action.php">Consumer Action Kit</a></li>
           <li><a href="resources.php#whitepapers">Whitepapers</a></li>
-          <li><a href="news.php">Case studies</a></li>
           <li><a href="resources.php#tools">Audit checklists</a></li>
-          <li><a href="resources.php#glossary">Glossary</a></li>
         </ul>
       </div>
       <div class="footer-col">

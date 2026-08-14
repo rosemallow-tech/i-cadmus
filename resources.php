@@ -1435,7 +1435,7 @@
   <div class="container">
     <div class="page-hero-inner">
       <div class="breadcrumb">
-        <a href="i-cadmus-v3-corporate.html">Home</a>
+        <a href="index.php">Home</a>
         <span class="sep">/</span>
         <span class="current">Resources</span>
       </div>
@@ -1505,7 +1505,7 @@
         <span class="tool-tag" style="color: #ffd25e;">Featured · Course</span>
         <h3 style="color: #fff;">Certification Course</h3>
         <p style="color: rgba(255,255,255,0.85);">The full eight-module course leading to the I-CADMUS Certified credential. Free to start. Self-paced.</p>
-        <div class="tool-meta" style="border-color: rgba(255,255,255,0.18);"><small style="color: rgba(255,255,255,0.6);">12–15 hours</small><a href="certification.html" style="color: #ffd25e;">Enrol now <span>→</span></a></div>
+        <div class="tool-meta" style="border-color: rgba(255,255,255,0.18);"><small style="color: rgba(255,255,255,0.6);">12–15 hours</small><a href="certification.php" style="color: #ffd25e;">Enrol now <span>→</span></a></div>
       </div>
     </div>
   </div>
@@ -1716,8 +1716,8 @@
         <p>Industry and regulator partners can request bespoke audit templates, training materials, or research extracts. Most are delivered within four weeks.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="contact.html" class="btn btn-primary btn-lg">Request a tool <span class="arrow">→</span></a>
-        <a href="certification.html" class="btn btn-outline btn-lg">View certification</a>
+        <a href="contact.php" class="btn btn-primary btn-lg">Request a tool <span class="arrow">→</span></a>
+        <a href="certification.php" class="btn btn-outline btn-lg">View certification</a>
       </div>
     </div>
   </div>

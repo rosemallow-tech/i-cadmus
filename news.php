@@ -1536,8 +1536,8 @@
         <p>If you've encountered something that fits the I-CADMUS taxonomy — or that the framework hasn't covered — we want to hear from you. Confidential and anonymous routes available.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="contact.html" class="btn btn-primary btn-lg">Submit a tip <span class="arrow">→</span></a>
-        <a href="resources.html" class="btn btn-outline btn-lg">Browse resources</a>
+        <a href="contact.php" class="btn btn-primary btn-lg">Submit a tip <span class="arrow">→</span></a>
+        <a href="resources.php" class="btn btn-outline btn-lg">Browse resources</a>
       </div>
     </div>
   </div>
