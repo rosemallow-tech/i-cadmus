@@ -39,6 +39,7 @@
           <li><a href="consumer-action.php">Consumer Action Kit</a></li>
           <li><a href="resources.php#whitepapers">Whitepapers</a></li>
           <li><a href="resources.php#tools">Audit checklists</a></li>
+          <li><a href="hs-code-register.php">HS Code Register</a></li>
         </ul>
       </div>
       <div class="footer-col">

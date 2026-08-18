@@ -338,6 +338,20 @@
         </div>
       </div>
 
+      <div class="related-section reveal">
+        <h3>Related resources</h3>
+        <div class="related-grid" style="grid-template-columns:1fr;">
+          <a href="hs-code-register.php" class="related-card" style="display:flex;align-items:center;gap:24px;">
+            <div class="r-letter" style="background:var(--teal);flex-shrink:0;">HS</div>
+            <div>
+              <div class="r-num">Resource</div>
+              <h5>Seafood HS Code Modernisation Register</h5>
+              <p>See how broad HS classifications allow substituted species to become statistically invisible in trade data.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
       <div class="cat-nav reveal">
         <a href="unreported.php" class="cat-nav-card">
           <div class="cat-nav-label">← Previous</div>

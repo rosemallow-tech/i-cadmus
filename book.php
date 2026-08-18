@@ -1366,64 +1366,19 @@
     z-index: 1;
   }
   .book-cover {
-    aspect-ratio: 2/3;
-    background: linear-gradient(155deg, #0d2419 0%, #1d3d2f 40%, #2d4a3e 70%, #486b58 100%);
-    border-radius: 6px;
-    box-shadow: 0 40px 80px -20px rgba(0,0,0,0.6), 0 18px 36px -12px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.1);
-    padding: 48px 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: #f3efe9;
-    transform: rotate(-3deg);
-    transition: transform 0.6s;
     max-width: 420px;
     margin: 0 auto;
-    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 40px 80px -20px rgba(0,0,0,0.6), 0 18px 36px -12px rgba(0,0,0,0.4);
+    transform: rotate(-3deg);
+    transition: transform 0.6s;
     overflow: hidden;
   }
   .book-cover:hover { transform: rotate(0deg) scale(1.02); }
-  .book-cover::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(circle at 30% 80%, rgba(255,255,255,0.08), transparent 50%);
-    pointer-events: none;
-  }
-  .book-cover-top {
-    font-size: 11px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    opacity: 0.7;
-    position: relative;
-    z-index: 1;
-  }
-  .book-cover-title {
-    font-family: var(--serif);
-    font-size: 56px;
-    line-height: 0.92;
-    letter-spacing: -0.02em;
-    position: relative;
-    z-index: 1;
-    font-weight: 600;
-  }
-  .book-cover-title small {
+  .book-cover img {
+    width: 100%;
+    height: auto;
     display: block;
-    font-family: var(--sans);
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin-top: 24px;
-    opacity: 0.8;
-  }
-  .book-cover-author {
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    opacity: 0.85;
-    position: relative;
-    z-index: 1;
   }
 
   .book-hero-info .breadcrumb {
@@ -1708,12 +1663,7 @@
   <div class="container">
     <div class="book-hero-grid">
       <div class="book-cover">
-        <div class="book-cover-top">Seafood Consumer Association · 2026</div>
-        <div class="book-cover-title">
-          Sea of <br>Deception
-          <small>Exposing seafood fraud — and restoring trust from ocean to plate</small>
-        </div>
-        <div class="book-cover-author">Hon Prof Roy D. Palmer, MBA</div>
+        <img src="assets/img/book-cover.webp" alt="Sea of Deception book cover by Hon Prof Roy D. Palmer" width="420" height="630">
       </div>
       <div class="book-hero-info">
         <div class="breadcrumb">

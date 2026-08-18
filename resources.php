@@ -1507,6 +1507,13 @@
         <p style="color: rgba(255,255,255,0.85);">The full eight-module course leading to the I-CADMUS Certified credential. Free to start. Self-paced.</p>
         <div class="tool-meta" style="border-color: rgba(255,255,255,0.18);"><small style="color: rgba(255,255,255,0.6);">12–15 hours</small><a href="certification.php" style="color: #ffd25e;">Enrol now <span>→</span></a></div>
       </div>
+      <div class="tool-card">
+        <div class="tool-icon">⌗</div>
+        <span class="tool-tag">Reference · Register</span>
+        <h3>HS Code Modernisation Register</h3>
+        <p>A searchable register examining how seafood is classified in international and Australian trade, where classifications create integrity blind spots, and how they could be strengthened.</p>
+        <div class="tool-meta"><small>Searchable · Web</small><a href="hs-code-register.php">View register <span>→</span></a></div>
+      </div>
     </div>
   </div>
 </section>

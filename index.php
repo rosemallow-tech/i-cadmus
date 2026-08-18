@@ -1698,6 +1698,14 @@
           </div>
           <div class="insight-item-arrow">→</div>
         </a>
+        <a href="hs-code-register.php" class="insight-item">
+          <div>
+            <span class="tag">Resource</span>
+            <h4>Seafood HS Code Modernisation Register</h4>
+            <span class="meta">Searchable register · Trade classification</span>
+          </div>
+          <div class="insight-item-arrow">→</div>
+        </a>
       </div>
     </div>
   </div>
