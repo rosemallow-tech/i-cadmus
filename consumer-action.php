@@ -42,6 +42,7 @@
   .header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:100;box-shadow:var(--shadow-sm);}
   .header .container{display:flex;align-items:center;height:76px;gap:20px;}
   .brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:22px;color:var(--brand);letter-spacing:-.01em;flex-shrink:0;}
+  .logo{height:44px;width:auto;}
   .nav-primary{display:flex;gap:4px;flex:1;}
   .nav-primary>li{list-style:none;position:relative;}
   .nav-primary>li>a{display:flex;align-items:center;gap:6px;height:76px;padding:0 10px;font-size:15px;font-weight:500;color:var(--ink-2);border-bottom:3px solid transparent;transition:color .15s,border-color .15s;white-space:nowrap;}
@@ -94,9 +95,11 @@
   /* =========================================================
      QUICK PATHWAY
      ========================================================= */
-  .pathway-strip{background:var(--bg-soft);border-bottom:1px solid var(--line);padding:32px 0;}
+  .pathway-strip{background:var(--bg-soft);border-bottom:1px solid var(--line);padding:32px 0;position:sticky;top:76px;z-index:90;}
   .pathway-flow{display:flex;align-items:center;flex-wrap:wrap;gap:8px;justify-content:center;}
-  .pathway-flow .step{background:var(--brand);color:#fff;padding:8px 16px;border-radius:100px;font-size:13px;font-weight:600;white-space:nowrap;}
+  .pathway-flow a.step{background:var(--brand);color:#fff;padding:8px 16px;border-radius:100px;font-size:13px;font-weight:600;white-space:nowrap;text-decoration:none;transition:background .15s,transform .15s;}
+  .pathway-flow a.step:hover,.pathway-flow a.step:focus{background:var(--accent);transform:scale(1.05);outline:none;}
+  .pathway-flow a.step.active{background:var(--accent);}
   .pathway-flow .arr{color:var(--accent);font-weight:400;font-size:16px;}
 
   /* =========================================================
@@ -120,6 +123,12 @@
   .step-callout strong{color:#fff;font-style:normal;}
 
   /* =========================================================
+     SAFETY ALERT
+     ========================================================= */
+  .safety-alert{background:var(--accent);color:#fff;padding:24px 28px;border-radius:6px;margin:24px 0;font-size:15px;line-height:1.6;}
+  .safety-alert strong{color:#fff;}
+
+  /* =========================================================
      REFERRAL DIRECTORY
      ========================================================= */
   .referral-section{background:var(--brand-dark);color:#fff;}
@@ -127,11 +136,17 @@
   .referral-section .section-eyebrow::before{background:#ff6b81;}
   .referral-section .section-h{color:#fff;}
   .referral-section .section-sub{color:rgba(255,255,255,.75);}
+  .referral-group-title{font-family:var(--serif);font-size:20px;font-weight:600;color:#ffd25e;margin:40px 0 16px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,.12);}
+  .referral-group-title:first-of-type{margin-top:0;}
   .referral-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
-  .referral-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:6px;padding:24px;transition:background .2s;}
+  .referral-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:6px;padding:24px;transition:background .2s;display:block;}
   .referral-card:hover{background:rgba(255,255,255,.08);}
   .referral-card h4{font-family:var(--serif);font-size:17px;font-weight:600;color:#fff;margin-bottom:8px;line-height:1.3;}
   .referral-card p{font-size:14px;color:rgba(255,255,255,.75);line-height:1.5;margin-bottom:0;}
+  .referral-card .ref-link{color:#7dd3fc;font-size:13px;font-weight:600;margin-top:8px;display:inline-block;text-decoration:underline;text-underline-offset:3px;}
+  .referral-card .ref-link:hover{color:#fff;}
+  .referral-card .ref-contact{font-size:13px;color:rgba(255,255,255,.6);margin-top:6px;}
+  .referral-reviewed{font-size:13px;color:rgba(255,255,255,.5);margin-top:32px;padding-top:16px;border-top:1px solid rgba(255,255,255,.1);}
 
   /* =========================================================
      CONSUMER ACTION KIT
@@ -141,8 +156,10 @@
   .kit-card:hover{border-color:var(--teal);box-shadow:var(--shadow-md);}
   .kit-icon{width:52px;height:52px;background:var(--bg-soft);border-radius:6px;display:grid;place-items:center;font-size:24px;margin-bottom:18px;}
   .kit-tag{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teal);margin-bottom:8px;display:block;}
+  .kit-tag.forthcoming{color:var(--gold);}
   .kit-card h4{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--brand);margin-bottom:8px;line-height:1.25;}
   .kit-card p{font-size:14px;color:var(--ink-2);line-height:1.55;margin-bottom:16px;}
+  .kit-status{font-size:12px;font-weight:600;color:var(--gold);display:inline-flex;align-items:center;gap:6px;}
 
   /* =========================================================
      CONCERN FORM
@@ -153,6 +170,7 @@
   .concern-form > p{font-size:15px;color:var(--ink-2);margin-bottom:28px;}
   .form-group{margin-bottom:20px;}
   .form-group label{display:block;font-size:13px;font-weight:600;color:var(--ink-2);margin-bottom:6px;}
+  .form-group label .label-hint{font-weight:400;color:var(--ink-3);font-size:12px;display:block;margin-top:2px;}
   .form-group input,.form-group textarea,.form-group select{width:100%;padding:12px 14px;border:1px solid var(--line-2);border-radius:4px;font-size:14px;font-family:inherit;color:var(--ink);background:#fff;}
   .form-group input:focus,.form-group textarea:focus,.form-group select:focus{outline:2px solid var(--teal);border-color:var(--teal);}
   .form-group textarea{min-height:100px;resize:vertical;}
@@ -162,6 +180,7 @@
   .form-checkboxes input[type="checkbox"]{width:18px;height:18px;margin-top:2px;accent-color:var(--teal);flex-shrink:0;}
   .form-submit{background:var(--teal);color:#fff;border:none;padding:14px 28px;font-weight:600;font-size:15px;border-radius:4px;cursor:pointer;transition:background .2s;font-family:inherit;margin-top:8px;}
   .form-submit:hover{background:#006d75;}
+  .form-privacy{font-size:13px;color:var(--ink-3);margin-top:16px;padding:14px 18px;background:var(--bg-soft);border:1px solid var(--line);border-radius:4px;line-height:1.55;}
 
   /* =========================================================
      SAFEGUARDS
@@ -172,21 +191,6 @@
   .safeguards-box li{font-size:15px;color:var(--ink-2);padding:8px 0 8px 24px;position:relative;line-height:1.55;border-bottom:1px solid var(--line);}
   .safeguards-box li:last-child{border-bottom:none;}
   .safeguards-box li::before{content:'—';position:absolute;left:0;color:var(--accent);font-weight:700;}
-
-  /* =========================================================
-     NEWSLETTER
-     ========================================================= */
-  .newsletter-section{background:var(--bg-soft);}
-  .newsletter-card{max-width:620px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:8px;padding:44px;text-align:center;box-shadow:var(--shadow-md);}
-  .newsletter-card h3{font-family:var(--serif);font-size:26px;font-weight:600;color:var(--brand);margin-bottom:12px;}
-  .newsletter-card > p{font-size:15px;color:var(--ink-2);margin-bottom:24px;max-width:44ch;margin-left:auto;margin-right:auto;line-height:1.55;}
-  .newsletter-form{display:flex;flex-direction:column;gap:12px;max-width:380px;margin:0 auto;text-align:left;}
-  .newsletter-form label{font-size:13px;font-weight:600;color:var(--ink-2);}
-  .newsletter-form input{width:100%;padding:12px 14px;border:1px solid var(--line-2);border-radius:4px;font-size:14px;font-family:inherit;color:var(--ink);background:#fff;}
-  .newsletter-form input:focus{outline:2px solid var(--teal);border-color:var(--teal);}
-  .newsletter-form button{background:var(--accent);color:#fff;border:none;padding:14px 18px;font-weight:600;font-size:15px;border-radius:4px;cursor:pointer;transition:background .2s;font-family:inherit;margin-top:4px;}
-  .newsletter-form button:hover{background:var(--accent-dark);}
-  .newsletter-note{font-size:12px;color:var(--ink-3);margin-top:12px;text-align:center;}
 
   /* =========================================================
      CTA BAND
@@ -224,6 +228,28 @@
   .footer-social a:hover{background:var(--accent);color:#fff;border-color:var(--accent);}
 
   /* =========================================================
+     BACK TO TOP
+     ========================================================= */
+  .back-to-top{position:fixed;bottom:32px;right:32px;width:44px;height:44px;background:var(--brand);color:#fff;border:none;border-radius:50%;display:grid;place-items:center;font-size:20px;cursor:pointer;box-shadow:var(--shadow-md);opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s,background .2s;z-index:90;}
+  .back-to-top.visible{opacity:1;visibility:visible;}
+  .back-to-top:hover,.back-to-top:focus{background:var(--accent);outline:none;}
+
+  /* =========================================================
+     PRINT STYLES
+     ========================================================= */
+  @media print {
+    .utility-bar,.header,.ca-hero,.pathway-strip,.kit-grid,.newsletter-section,.cta-band,footer,.back-to-top,.form-submit,.ca-hero-actions,.safeguards-box{display:none!important;}
+    .form-section{background:#fff!important;padding:20px 0!important;}
+    .concern-form{border:2px solid #000!important;box-shadow:none!important;padding:24px!important;max-width:100%!important;}
+    .concern-form h3{font-size:20px!important;}
+    .form-group input,.form-group textarea{border:1px solid #999!important;min-height:auto!important;}
+    .form-privacy{border:1px solid #999!important;background:#f5f5f5!important;}
+    body{font-size:12px!important;}
+    section{padding:24px 0!important;}
+    .container{padding:0 16px!important;}
+  }
+
+  /* =========================================================
      RESPONSIVE
      ========================================================= */
   @media(max-width:1100px){
@@ -232,6 +258,7 @@
     .form-row{grid-template-columns:1fr;}
     .cta-band-grid{grid-template-columns:1fr;}
     .footer-top{grid-template-columns:1fr 1fr;}
+    .pathway-strip{position:static;}
   }
   @media(max-width:640px){
     section{padding:56px 0;}
@@ -240,6 +267,9 @@
     .safeguards-box{padding:28px 24px;}
     .footer-top{grid-template-columns:1fr;}
     .footer-bottom{grid-template-columns:1fr;text-align:center;justify-items:center;}
+    .pathway-flow{gap:6px;}
+    .pathway-flow a.step{padding:6px 12px;font-size:12px;}
+    .back-to-top{bottom:20px;right:20px;width:40px;height:40px;font-size:18px;}
   }
 </style>
 </head>
@@ -261,24 +291,27 @@
     <h1>When Seafood Does Not Seem Right</h1>
     <p class="lede">Consumers are often the first to notice when something about a seafood product does not make sense. This guide helps you preserve evidence, raise the concern fairly and direct serious matters to the right authority.</p>
     <div class="ca-hero-actions">
-      <a href="#steps" class="btn btn-primary">Follow the steps <span class="arrow">→</span></a>
+      <a href="#step-01" class="btn btn-primary">Follow the steps <span class="arrow">→</span></a>
       <a href="#form" class="btn btn-outline">Fill in the concern form</a>
       <a href="#referral" class="btn btn-outline">Australian referral directory</a>
     </div>
   </div>
 </section>
 
-<!-- ============== QUICK PATHWAY ============== -->
-<div class="pathway-strip">
+<!-- ============== QUICK PATHWAY (clickable steps) ============== -->
+<div class="pathway-strip" id="pathway">
   <div class="container">
     <div class="pathway-flow">
-      <span class="step">Notice a concern</span><span class="arr">→</span>
-      <span class="step">Health risk?</span><span class="arr">→</span>
-      <span class="step">Preserve evidence</span><span class="arr">→</span>
-      <span class="step">Record the claim</span><span class="arr">→</span>
-      <span class="step">Contact the business</span><span class="arr">→</span>
-      <span class="step">Report if unresolved</span><span class="arr">→</span>
-      <span class="step">Record the outcome</span>
+      <a href="#step-01" class="step" data-step="step-01">1. Notice</a><span class="arr">→</span>
+      <a href="#step-02" class="step" data-step="step-02">2. Health risk?</a><span class="arr">→</span>
+      <a href="#step-03" class="step" data-step="step-03">3. Evidence</a><span class="arr">→</span>
+      <a href="#step-04" class="step" data-step="step-04">4. Describe</a><span class="arr">→</span>
+      <a href="#step-05" class="step" data-step="step-05">5. Test</a><span class="arr">→</span>
+      <a href="#step-06" class="step" data-step="step-06">6. Contact</a><span class="arr">→</span>
+      <a href="#step-07" class="step" data-step="step-07">7. Write</a><span class="arr">→</span>
+      <a href="#step-08" class="step" data-step="step-08">8. Report</a><span class="arr">→</span>
+      <a href="#step-09" class="step" data-step="step-09">9. Escalate</a><span class="arr">→</span>
+      <a href="#step-10" class="step" data-step="step-10">10. Outcome</a>
     </div>
   </div>
 </div>
@@ -292,33 +325,38 @@
     <div class="kit-grid">
       <div class="kit-card">
         <div class="kit-icon">📝</div>
-        <span class="kit-tag">Form · PDF</span>
+        <span class="kit-tag forthcoming">Form · PDF · Forthcoming</span>
         <h4>Seafood Consumer Concern Form</h4>
         <p>Structured form to record the product, claim, discrepancy and evidence. Use it when contacting the business or reporting to an authority.</p>
+        <span class="kit-status">PDF coming soon</span>
       </div>
       <div class="kit-card">
         <div class="kit-icon">📋</div>
-        <span class="kit-tag">Checklist · PDF</span>
+        <span class="kit-tag forthcoming">Checklist · PDF · Forthcoming</span>
         <h4>Evidence Checklist</h4>
         <p>What to keep, photograph and document before evidence disappears. Covers packaging, receipts, labels, menus, batch codes and photographs.</p>
+        <span class="kit-status">PDF coming soon</span>
       </div>
       <div class="kit-card">
         <div class="kit-icon">✉️</div>
-        <span class="kit-tag">Template · PDF</span>
+        <span class="kit-tag forthcoming">Template · PDF · Forthcoming</span>
         <h4>Sample Complaint Letter</h4>
         <p>A concise, factual template for writing to a business or regulator. Adaptable to any seafood concern.</p>
+        <span class="kit-status">PDF coming soon</span>
       </div>
       <div class="kit-card">
         <div class="kit-icon">🗂️</div>
-        <span class="kit-tag">Directory · PDF</span>
+        <span class="kit-tag forthcoming">Directory · PDF · Forthcoming</span>
         <h4>Australian Referral Directory</h4>
         <p>Who to contact for what: food authorities, ACCC, fisheries, biosecurity, certification bodies and urgent health contacts.</p>
+        <span class="kit-status">PDF coming soon</span>
       </div>
       <div class="kit-card">
         <div class="kit-icon">📊</div>
-        <span class="kit-tag">Tracker · PDF</span>
+        <span class="kit-tag forthcoming">Tracker · PDF · Forthcoming</span>
         <h4>Follow-up &amp; Outcome Record</h4>
         <p>Track what happened after you reported. Record responses, reference numbers, follow-up dates and final outcomes.</p>
+        <span class="kit-status">PDF coming soon</span>
       </div>
     </div>
   </div>
@@ -327,7 +365,7 @@
 <!-- ============================================================
      STEP 1 — Begin with the claim
      ============================================================ -->
-<section class="step-section" id="steps">
+<section class="step-section" id="step-01">
   <div class="container">
     <div class="step-header">
       <div class="step-num">01</div>
@@ -338,7 +376,7 @@
       <div class="step-checklist">
         <h4>Record</h4>
         <ul>
-          <li>What species or product name was used?</li>
+          <li>What species or product name was used? Where possible, record the Australian Standard Fish Name and, if available, the scientific name.</li>
           <li>Was it described as Australian, imported or mixed?</li>
           <li>Was a particular country, region, fishery or producer named?</li>
           <li>Was it described as wild-caught or farmed?</li>
@@ -355,13 +393,16 @@
 <!-- ============================================================
      STEP 2 — Immediate health risk
      ============================================================ -->
-<section class="step-section alt">
+<section class="step-section alt" id="step-02">
   <div class="container">
     <div class="step-header">
       <div class="step-num">02</div>
       <h2>Decide whether there is an immediate health risk</h2>
     </div>
     <div class="step-body">
+      <div class="safety-alert">
+        <strong>If someone is having difficulty breathing, has collapsed or may be experiencing anaphylaxis, use their adrenaline device if available and call Triple Zero (000) immediately. For suspected poisoning, call the Poisons Information Centre on 13 11 26.</strong>
+      </div>
       <p>Treat the matter as urgent if the seafood may have caused or could cause serious illness, allergic reaction, breathing difficulty, loss of consciousness, severe vomiting or diarrhoea, neurological symptoms, suspected chemical poisoning, injury from a foreign object, or illness affecting several people.</p>
       <p><strong style="color:var(--accent);">Seek medical assistance first. In an emergency, contact emergency services.</strong></p>
       <div class="step-checklist">
@@ -383,7 +424,7 @@
 <!-- ============================================================
      STEP 3 — Preserve the evidence
      ============================================================ -->
-<section class="step-section">
+<section class="step-section" id="step-03">
   <div class="container">
     <div class="step-header">
       <div class="step-num">03</div>
@@ -417,7 +458,7 @@
 <!-- ============================================================
      STEP 4 — Describe the concern precisely
      ============================================================ -->
-<section class="step-section alt">
+<section class="step-section alt" id="step-04">
   <div class="container">
     <div class="step-header">
       <div class="step-num">04</div>
@@ -449,7 +490,7 @@
 <!-- ============================================================
      STEP 5 — Consumer First Decision Test
      ============================================================ -->
-<section class="step-section">
+<section class="step-section" id="step-05">
   <div class="container">
     <div class="step-header">
       <div class="step-num">05</div>
@@ -475,7 +516,7 @@
 <!-- ============================================================
      STEP 6 — Contact the business
      ============================================================ -->
-<section class="step-section alt">
+<section class="step-section alt" id="step-06">
   <div class="container">
     <div class="step-header">
       <div class="step-num">06</div>
@@ -486,7 +527,7 @@
       <div class="step-checklist">
         <h4>Ask calmly and specifically</h4>
         <ul>
-          <li>What is the accepted or scientific name of the seafood?</li>
+          <li>What is the Australian Standard Fish Name or scientific name of the seafood?</li>
           <li>Where was it harvested or farmed?</li>
           <li>Was it fresh, frozen or previously frozen?</li>
           <li>What evidence supports the description?</li>
@@ -515,7 +556,7 @@
 <!-- ============================================================
      STEP 7 — Put the complaint in writing
      ============================================================ -->
-<section class="step-section">
+<section class="step-section" id="step-07">
   <div class="container">
     <div class="step-header">
       <div class="step-num">07</div>
@@ -548,7 +589,7 @@
 <!-- ============================================================
      STEP 8 — Send it to the right place
      ============================================================ -->
-<section class="step-section alt">
+<section class="step-section alt" id="step-08">
   <div class="container">
     <div class="step-header">
       <div class="step-num">08</div>
@@ -566,6 +607,90 @@
     <div class="section-eyebrow">Australian Referral Directory</div>
     <h2 class="section-h" style="max-width:none;">Send the concern to <strong>the right place.</strong></h2>
     <p class="section-sub">Different organisations perform different functions. Match your concern to the appropriate pathway.</p>
+
+    <!-- URGENT -->
+    <h3 class="referral-group-title">Urgent health and safety</h3>
+    <div class="referral-grid">
+      <a href="https://www.triplezero.gov.au/" target="_blank" rel="noopener" class="referral-card">
+        <h4>Emergency services — Triple Zero (000)</h4>
+        <p>For life-threatening or time-critical emergencies, call <strong>000</strong>.</p>
+        <span class="ref-link">triplezero.gov.au</span>
+      </a>
+      <a href="https://www.poisonsinfo.nsw.gov.au/" target="_blank" rel="noopener" class="referral-card">
+        <h4>Poisons Information Centre — 13 11 26</h4>
+        <p>Available 24 hours a day throughout Australia. Do not wait for symptoms before calling.</p>
+        <span class="ref-link">poisonsinfo.nsw.gov.au</span>
+      </a>
+      <a href="https://allergyfacts.org.au/" target="_blank" rel="noopener" class="referral-card">
+        <h4>Allergy &amp; Anaphylaxis Australia</h4>
+        <p>Information and support for people living with allergies and those at risk of anaphylaxis.</p>
+        <span class="ref-link">allergyfacts.org.au</span>
+      </a>
+      <a href="https://www.allergy.org.au/patients/about-allergy/anaphylaxis" target="_blank" rel="noopener" class="referral-card">
+        <h4>ASCIA — Anaphylaxis information</h4>
+        <p>Australasian Society of Clinical Immunology and Allergy clinical guidance on anaphylaxis.</p>
+        <span class="ref-link">allergy.org.au</span>
+      </a>
+      <a href="https://www.healthdirect.gov.au/anaphylaxis" target="_blank" rel="noopener" class="referral-card">
+        <h4>Healthdirect — Anaphylaxis</h4>
+        <p>Australian Government health information on recognising and responding to anaphylaxis.</p>
+        <span class="ref-link">healthdirect.gov.au</span>
+      </a>
+    </div>
+
+    <!-- REPORTING -->
+    <h3 class="referral-group-title">Reporting and referral pathways</h3>
+    <div class="referral-grid">
+      <a href="https://www.foodstandards.gov.au/contact/food-regulatory-agencies" target="_blank" rel="noopener" class="referral-card">
+        <h4>FSANZ — State and territory food regulatory agencies</h4>
+        <p>National starting point for food safety, allergen, labelling and Food Standards Code concerns.</p>
+        <span class="ref-link">foodstandards.gov.au</span>
+      </a>
+      <a href="https://www.accc.gov.au/about-us/contact-us-or-report-an-issue" target="_blank" rel="noopener" class="referral-card">
+        <h4>ACCC — Report a consumer issue</h4>
+        <p>Report false or misleading advertising, product claims, and country-of-origin concerns.</p>
+        <span class="ref-link">accc.gov.au</span>
+      </a>
+      <a href="https://www.accc.gov.au/consumers/problem-with-a-product-or-service-you-bought/where-to-go-for-consumer-help" target="_blank" rel="noopener" class="referral-card">
+        <h4>State and territory consumer-protection agencies</h4>
+        <p>Centrally maintained ACCC page linking to relevant state and territory consumer-affairs and fair-trading agencies.</p>
+        <span class="ref-link">accc.gov.au — consumer help</span>
+      </a>
+      <a href="https://www.industry.gov.au/national-measurement-institute/about-us/make-measurement-law-complaint" target="_blank" rel="noopener" class="referral-card">
+        <h4>National Measurement Institute — measurement complaints</h4>
+        <p>Short weight, inaccurate scales or packaged quantity concerns.</p>
+        <span class="ref-link">industry.gov.au — NMI</span>
+        <div class="ref-contact">1300 686 664 · <a href="mailto:infotm@measurement.gov.au" style="color:#7dd3fc;">infotm@measurement.gov.au</a></div>
+      </a>
+      <a href="https://www.agriculture.gov.au/" target="_blank" rel="noopener" class="referral-card">
+        <h4>Department of Agriculture, Fisheries and Forestry</h4>
+        <p>Suspicious imported seafood, biosecurity matters, and agriculture policy enquiries.</p>
+        <span class="ref-link">agriculture.gov.au</span>
+      </a>
+      <a href="https://www.agriculture.gov.au/agriculture-land/fisheries" target="_blank" rel="noopener" class="referral-card">
+        <h4>Fisheries information and enquiries</h4>
+        <p>Australian Government fisheries information, policy and enquiry pathways.</p>
+        <span class="ref-link">agriculture.gov.au — fisheries</span>
+      </a>
+      <a href="https://www.fish.gov.au/jurisdiction" target="_blank" rel="noopener" class="referral-card">
+        <h4>Australian fisheries jurisdiction directory</h4>
+        <p>Find the relevant state, territory or Commonwealth fisheries authority for your concern.</p>
+        <span class="ref-link">fish.gov.au</span>
+      </a>
+      <a href="https://www.afma.gov.au/" target="_blank" rel="noopener" class="referral-card">
+        <h4>Australian Fisheries Management Authority</h4>
+        <p>Commonwealth fisheries management, compliance and enforcement.</p>
+        <span class="ref-link">afma.gov.au</span>
+      </a>
+      <a href="https://alga.com.au/about/local-government/council-maps-and-boundaries/" target="_blank" rel="noopener" class="referral-card">
+        <h4>Local council — find your council</h4>
+        <p>For restaurant hygiene or local food-business concerns, contact the council where the business operates.</p>
+        <span class="ref-link">alga.com.au — council maps</span>
+      </a>
+    </div>
+
+    <!-- CONCERN-TYPE GUIDE (original cards retained) -->
+    <h3 class="referral-group-title">Match your concern to the right pathway</h3>
     <div class="referral-grid">
       <div class="referral-card">
         <h4>Illness, contamination, allergens or food-safety concerns</h4>
@@ -609,20 +734,18 @@
       </div>
       <div class="referral-card">
         <h4>Wider or recurring seafood-integrity pattern</h4>
-        <p>Relevant regulator and, where appropriate, Seafood Consumers Association or I-CADMUS for de-identified intelligence</p>
-      </div>
-      <div class="referral-card">
-        <h4>Urgent health advice</h4>
-        <p>Emergency services (000) or Poisons Information Centre (13 11 26)</p>
+        <p>Relevant regulator and, where appropriate, Seafood Consumers Association Ltd or I-CADMUS for de-identified intelligence</p>
       </div>
     </div>
+
+    <p class="referral-reviewed">Last reviewed: <time datetime="2026-08">August 2026</time>. Referral links should be checked regularly as government websites may change.</p>
   </div>
 </section>
 
 <!-- ============================================================
      STEP 9 — Escalate proportionately
      ============================================================ -->
-<section class="step-section">
+<section class="step-section" id="step-09">
   <div class="container">
     <div class="step-header">
       <div class="step-num">09</div>
@@ -650,7 +773,7 @@
 <!-- ============================================================
      STEP 10 — Follow up and record the outcome
      ============================================================ -->
-<section class="step-section alt">
+<section class="step-section alt" id="step-10">
   <div class="container">
     <div class="step-header">
       <div class="step-num">10</div>
@@ -670,11 +793,11 @@
     <h2 class="section-h" style="max-width:none;">Record your concern.</h2>
     <p class="section-sub">Complete this form to create a structured record of your concern. You can use it when contacting the business or reporting to an authority.</p>
 
-    <div class="concern-form">
+    <div class="concern-form" id="concern-form-printable">
       <h3>Seafood Consumer Concern Record</h3>
       <p>Complete as much as you can. You do not need to fill in every field.</p>
 
-      <form onsubmit="event.preventDefault(); document.getElementById('form-success').style.display='block'; this.querySelector('.form-submit').textContent='Saved — thank you.';">
+      <form id="concern-form" onsubmit="event.preventDefault();">
 
         <div class="form-row">
           <div class="form-group">
@@ -693,8 +816,19 @@
         </div>
 
         <div class="form-group">
-          <label for="cf-product">Product or meal</label>
-          <input type="text" id="cf-product" placeholder="e.g. &quot;Australian Snapper fillet&quot; or &quot;Fish of the Day&quot;" />
+          <label for="cf-product">
+            Australian Standard Fish Name
+            <span class="label-hint">Use the recognised Australian Standard Fish Name where known (e.g. Barramundi, Pink Snapper). If you are unsure, record the name used on the label or menu.</span>
+          </label>
+          <input type="text" id="cf-product" placeholder="e.g. Barramundi, Pink Snapper, King Prawn" />
+        </div>
+
+        <div class="form-group">
+          <label for="cf-scientific">
+            Scientific name (if available)
+            <span class="label-hint">Optional. The Latin species name, if known or shown on the product (e.g. Lates calcarifer).</span>
+          </label>
+          <input type="text" id="cf-scientific" placeholder="e.g. Lates calcarifer" />
         </div>
 
         <div class="form-group">
@@ -764,11 +898,11 @@
           </div>
         </div>
 
-        <button type="submit" class="form-submit">Save this record</button>
+        <button type="button" class="form-submit" onclick="window.print();">Print or save as PDF</button>
       </form>
 
-      <div id="form-success" style="display:none; margin-top:20px; padding:16px; background:rgba(0,131,143,.08); border:1px solid rgba(0,131,143,.25); border-radius:4px; color:var(--teal); font-size:14px; font-weight:600;">
-        Your concern record has been saved. You can print this page or use the information to write to the business or the relevant authority.
+      <div class="form-privacy">
+        Your information is not transmitted to Seafood Consumers Association Ltd. The completed form remains on your device. You can print it or save it as a PDF for your own records or for submission to the appropriate authority.
       </div>
     </div>
 
@@ -776,12 +910,10 @@
     <div class="safeguards-box">
       <h3>Important safeguards</h3>
       <ul>
-        <li>The Seafood Consumer Association (SCA) is not a regulator, laboratory, emergency service or legal adviser.</li>
-        <li>Submitting a report does not automatically commence an official investigation.</li>
+        <li>Seafood Consumers Association Ltd (SCA) is not a regulator, laboratory, emergency service or legal adviser.</li>
+        <li>Completing this form does not submit your information to SCA or commence an official investigation.</li>
         <li>Urgent health matters should be directed to the appropriate health or emergency authorities immediately.</li>
         <li>Consumers should avoid unsupported public allegations, which can be unfair, legally risky and damaging to investigations.</li>
-        <li>Personal information will be managed according to the SCA privacy policy.</li>
-        <li>De-identified information may be aggregated to identify recurring issues, improve education and direct attention towards areas requiring further investigation.</li>
         <li>Contact and referral information should be reviewed regularly. Check this page for the most current version.</li>
       </ul>
     </div>
@@ -791,7 +923,7 @@
 <!-- ============== FINAL CHECKLIST ============== -->
 <section>
   <div class="container" style="max-width:860px;">
-    <div class="section-eyebrow">Before you submit</div>
+    <div class="section-eyebrow">Before you report</div>
     <h2 class="section-h" style="max-width:none;">Final consumer checklist.</h2>
     <div class="step-checklist" style="border-left-color:var(--accent);">
       <h4 style="color:var(--accent);">Ask yourself</h4>
@@ -814,34 +946,16 @@
   </div>
 </section>
 
-<!-- ============== NEWSLETTER ============== -->
-<section class="newsletter-section" id="newsletter">
-  <div class="container">
-    <div class="newsletter-card">
-      <h3>Stay informed. Join the SCA network.</h3>
-      <p>Receive consumer alerts, seafood fraud updates and integrity guidance from the Seafood Consumer Association.</p>
-      <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thank you — you\'re signed up.'; this.querySelector('button').disabled=true;">
-        <label for="ca-name">Full name</label>
-        <input type="text" id="ca-name" placeholder="Your full name" required />
-        <label for="ca-email">Email</label>
-        <input type="email" id="ca-email" placeholder="you@email.com" required />
-        <button type="submit">Join the SCA consumer network <span class="arrow">→</span></button>
-      </form>
-      <p class="newsletter-note">Your information is held by the Seafood Consumer Association and will not be shared with third parties. You can unsubscribe at any time.</p>
-    </div>
-  </div>
-</section>
-
 <!-- ============== CTA BAND ============== -->
 <section class="cta-band">
   <div class="container">
     <div class="cta-band-grid">
       <div>
         <h2>Learn to <strong>spot fraud before it reaches your plate.</strong></h2>
-        <p>The I-CADMUS Consumer Certification is free, self-paced and gives you the language and tools to name, classify and report seafood fraud.</p>
+        <p>I-CADMUS consumer learning is being developed to help everyone recognise, classify and report seafood-integrity concerns.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="certification.php" class="btn btn-primary">Get certified free <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-primary">Register your interest <span class="arrow">→</span></a>
         <a href="consumers.php" class="btn btn-outline">Consumer hub</a>
       </div>
     </div>
@@ -850,14 +964,52 @@
 
 <?php include 'footer.php'; ?>
 
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
+
 <script>
-  // Smooth scroll for hero links
-  document.querySelectorAll('.ca-hero-actions a[href^="#"]').forEach(function(a) {
+  // ── Smooth scroll for all anchor links ──
+  document.querySelectorAll('a[href^="#"]').forEach(function(a) {
     a.addEventListener('click', function(e) {
       var target = document.querySelector(this.getAttribute('href'));
-      if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Update active step
+        var stepId = this.getAttribute('data-step');
+        if (stepId) setActiveStep(stepId);
+      }
     });
   });
+
+  // ── Active step highlighting ──
+  function setActiveStep(id) {
+    document.querySelectorAll('.pathway-flow a.step').forEach(function(s) {
+      s.classList.toggle('active', s.getAttribute('data-step') === id);
+    });
+  }
+
+  // ── IntersectionObserver for active step tracking ──
+  var stepSections = document.querySelectorAll('[id^="step-"]');
+  if (stepSections.length && 'IntersectionObserver' in window) {
+    var stepObs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) {
+        if (e.isIntersecting) setActiveStep(e.target.id);
+      });
+    }, { rootMargin: '-30% 0px -60% 0px' });
+    stepSections.forEach(function(s) { stepObs.observe(s); });
+  }
+
+  // ── Back to top ──
+  var btt = document.getElementById('backToTop');
+  if (btt) {
+    window.addEventListener('scroll', function() {
+      btt.classList.toggle('visible', window.scrollY > 600);
+    }, { passive: true });
+    btt.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 </script>
 
 </body>

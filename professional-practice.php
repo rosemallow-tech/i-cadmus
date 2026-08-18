@@ -116,6 +116,7 @@
     letter-spacing: -0.01em;
     flex-shrink: 0;
   }
+  .logo{height:44px;width:auto;}
   .nav-primary {
     display: flex;
     gap: 4px;
@@ -998,6 +999,13 @@
   .footer-social a:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 
   /* =========================================================
+     BACK TO TOP
+     ========================================================= */
+  .back-to-top{position:fixed;bottom:32px;right:32px;width:44px;height:44px;background:var(--brand);color:#fff;border:none;border-radius:50%;display:grid;place-items:center;font-size:20px;cursor:pointer;box-shadow:var(--shadow-md);opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s,background .2s;z-index:90;}
+  .back-to-top.visible{opacity:1;visibility:visible;}
+  .back-to-top:hover,.back-to-top:focus{background:var(--accent);outline:none;}
+
+  /* =========================================================
      RESPONSIVE
      ========================================================= */
   @media (max-width: 1100px) {
@@ -1019,6 +1027,29 @@
     .cf-card { padding: 36px 24px; }
     .footer-top { grid-template-columns: 1fr; }
     .footer-bottom { grid-template-columns: 1fr; text-align: center; justify-items: center; }
+    .back-to-top{bottom:20px;right:20px;width:40px;height:40px;font-size:18px;}
+  }
+
+  /* =========================================================
+     PRINT
+     ========================================================= */
+  @media print {
+    .utility-bar,.header,.pp-hero,.version-bar,.toolkit-nav,.principle-banner,.newsletter-section,.cta-band,footer,.back-to-top,.btn,.pp-hero-actions,.back-to-checklist{display:none!important;}
+    section{padding:24px 0!important;break-inside:avoid;}
+    .tk-section{border-bottom:1px solid #ccc!important;}
+    .container{padding:0 16px!important;max-width:100%!important;}
+    body{font-size:11px!important;}
+    .tk-header h2{font-size:18px!important;}
+    .tk-checklist{padding:12px 16px!important;border:1px solid #ccc!important;}
+    .tk-callout{background:#f0f0f0!important;color:#000!important;padding:12px 16px!important;}
+    .mgmt-review{background:#fff!important;color:#000!important;}
+    .mgmt-review .section-eyebrow,.mgmt-review .section-h{color:#000!important;}
+    .mgmt-item{background:#f5f5f5!important;border:1px solid #ccc!important;color:#000!important;}
+    .mgmt-item p{color:#000!important;}
+    .mgmt-item-num{color:#000!important;}
+    .doc-control{break-before:page;}
+    a[href]:after{content:" (" attr(href) ")";font-size:10px;color:#666;}
+    .doc-disclaimer a[href]:after,.doc-table a[href]:after{content:none;}
   }
 </style>
 </head>
@@ -1071,7 +1102,8 @@
       <span class="version-tag">Version 1.0</span>
       <span class="version-meta"><strong>Published:</strong> August 2026</span>
       <span class="version-meta"><strong>Next review:</strong> August 2027</span>
-      <span class="version-meta"><strong>Owner:</strong> Seafood Consumer Association</span>
+      <span class="version-meta"><strong>Last reviewed:</strong> August 2026</span>
+      <span class="version-meta"><strong>Owner:</strong> Seafood Consumers Association Ltd</span>
     </div>
   </div>
 </div>
@@ -1092,7 +1124,7 @@
     <div class="toolkit-nav-grid">
       <a href="#tk-1" class="toolkit-nav-item"><span class="toolkit-nav-num">01</span><span class="toolkit-nav-label">Know your suppliers</span></a>
       <a href="#tk-2" class="toolkit-nav-item"><span class="toolkit-nav-num">02</span><span class="toolkit-nav-label">Confirm the product specification</span></a>
-      <a href="#tk-3" class="toolkit-nav-item"><span class="toolkit-nav-num">03</span><span class="toolkit-nav-label">Treat the invoice as traceability</span></a>
+      <a href="#tk-3" class="toolkit-nav-item"><span class="toolkit-nav-num">03</span><span class="toolkit-nav-label">Treat the invoice as foundational traceability</span></a>
       <a href="#tk-4" class="toolkit-nav-item"><span class="toolkit-nav-num">04</span><span class="toolkit-nav-label">Check seafood when received</span></a>
       <a href="#tk-5" class="toolkit-nav-item"><span class="toolkit-nav-num">05</span><span class="toolkit-nav-label">Verify before you describe</span></a>
       <a href="#tk-6" class="toolkit-nav-item"><span class="toolkit-nav-num">06</span><span class="toolkit-nav-label">Use accurate fish names</span></a>
@@ -1135,6 +1167,7 @@
         </ul>
       </div>
       <div class="tk-callout">A long commercial relationship can support confidence, but familiarity is not a substitute for verification. Good suppliers welcome informed questions because transparency protects their reputation as well as yours.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1151,9 +1184,9 @@
     <div class="tk-body">
       <p>A product specification should state what the business intends to purchase and what the supplier has agreed to provide.</p>
       <div class="tk-checklist">
-        <h4>Product specification template</h4>
+        <h4>Recommended product specification information</h4>
         <ul>
-          <li>Approved Standard Fish Name</li>
+          <li>Standard Fish Name specified in AS 5300</li>
           <li>Scientific name where necessary</li>
           <li>Country or region of origin</li>
           <li>Wild-caught or farmed status</li>
@@ -1165,6 +1198,7 @@
           <li>Glaze or water specification</li>
           <li>Ingredients, additives and treatments</li>
           <li>Allergen information</li>
+          <li>Allergen declarations distinguishing fish, crustacea and molluscs (these are not interchangeable)</li>
           <li>Certification claims</li>
           <li>Traceability information</li>
           <li>Packaging and labelling requirements</li>
@@ -1172,6 +1206,7 @@
         </ul>
       </div>
       <div class="tk-callout">Vague purchasing descriptions create room for misunderstanding and substitution. &ldquo;White fish,&rdquo; &ldquo;snapper,&rdquo; &ldquo;flake,&rdquo; &ldquo;local fish&rdquo; or &ldquo;premium seafood&rdquo; may not provide enough information to establish what was ordered. If the specification is ambiguous, the product received can satisfy the paperwork while still failing the consumer.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1183,7 +1218,7 @@
   <div class="container">
     <div class="tk-header">
       <div class="tk-num">03</div>
-      <h2>Treat the invoice as the first traceability record</h2>
+      <h2>Treat the invoice as a foundational traceability record</h2>
     </div>
     <div class="tk-body">
       <p>The supplier's invoice is one of the most useful integrity records available to a seafood business.</p>
@@ -1203,6 +1238,7 @@
       <p>However, an invoice records what was declared. It does not independently prove species, origin, production method, legality, freshness, sustainability, or absence of undeclared treatment.</p>
       <p>Invoices should therefore be checked against product specifications, receiving records, supplier information and proportionate verification.</p>
       <div class="tk-callout"><strong>Paperwork is evidence of a claim. It is not necessarily evidence that the claim is true.</strong></div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1232,10 +1268,12 @@
           <li>Glaze, water loss or drip does not appear inconsistent with the specification</li>
           <li>Sensory condition is acceptable</li>
           <li>Required certifications or documents accompany the product</li>
+          <li>Allergen information remains accurate and distinguishes fish, crustacea and molluscs</li>
           <li>Discrepancies are recorded before the product is used or redistributed</li>
         </ul>
       </div>
       <div class="tk-callout">A questionable consignment should be identified, isolated where necessary and referred to an authorised person. Do not remove the original identity before the product has been accepted and recorded.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1265,6 +1303,7 @@
         </ul>
       </div>
       <div class="tk-callout">Marketing should follow evidence &mdash; not create a story that the evidence must later be forced to support. If a claim cannot be explained and supported, it should not be made.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1279,15 +1318,16 @@
       <h2>Use accurate and consistent fish names</h2>
     </div>
     <div class="tk-body">
-      <p>A common language is essential for traceability, communication and consumer understanding. In Australia, businesses should use the approved Australian Fish Names Standard, AS&nbsp;5300, wherever practical and applicable.</p>
+      <p>A common language is essential for traceability, communication and consumer understanding. As professional best practice, Australian seafood businesses should use the Standard Fish Name specified in the current Australian Fish Names Standard, AS&nbsp;5300, and maintain that identity consistently through purchasing, invoicing, labelling, menus and consumer communication.</p>
       <div class="tk-checklist">
-        <h4>Supplier-question form</h4>
+        <h4>Fish name checklist</h4>
         <ul>
-          <li>Purchasing documents use the approved Standard Fish Name</li>
+          <li>Purchasing documents use the Standard Fish Name specified in AS 5300</li>
           <li>Internal records use the same name</li>
           <li>Labels and retail displays remain consistent</li>
           <li>Menus and online platforms use accurate names</li>
           <li>Scientific names are obtained where identity is uncertain</li>
+          <li>Where identity or geographic compatibility requires confirmation, the scientific name is obtained and retained</li>
           <li>Group names are not used to create a false impression of a particular species</li>
           <li>Imported seafood is not given the identity of a familiar Australian species</li>
           <li>Abbreviations do not create ambiguity</li>
@@ -1295,6 +1335,7 @@
         </ul>
       </div>
       <div class="tk-callout">A legally or technically available term can still create a misleading overall impression. Consider what the consumer is likely to understand. You cannot maintain seafood integrity if the product's identity changes as it moves through the supply chain.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1326,6 +1367,7 @@
         </ul>
       </div>
       <div class="tk-callout">The physical product and its information must travel together.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1350,6 +1392,7 @@
           <li>Fresh or previously frozen status is not misrepresented</li>
           <li>Wild-caught and farmed claims are supported</li>
           <li>Ingredients and allergens are properly communicated</li>
+          <li>Allergen information distinguishes fish, crustacea and molluscs through repacking, processing, recipe changes, menus, displays and verbal communication</li>
           <li>Sustainability and certification claims are current</li>
           <li>Photographs do not depict a different or more valuable species</li>
           <li>Menus match purchasing and receiving records</li>
@@ -1359,6 +1402,7 @@
       </div>
       <p>Assign responsibility for conducting and recording regular reviews.</p>
       <div class="tk-callout">A menu should not remain unchanged simply because it has always used the same description. At the point of sale, internal records become promises to consumers.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1387,10 +1431,13 @@
           <li>Whom to consult when uncertain</li>
           <li>How to record a discrepancy or complaint</li>
           <li>How to protect product identity during handling</li>
+          <li>The importance of accurate allergen communication — fish, crustacea and molluscs are distinct allergen categories</li>
         </ul>
       </div>
+      <p style="margin-top:18px;">For consumer-facing allergen and emergency resources, see the <a href="consumer-action.php#referral" style="color:var(--teal);text-decoration:underline;">Consumer Action Guide referral directory</a>.</p>
       <p>Training should form part of induction, product changes, menu changes, regulatory updates, supplier changes, corrective action and continuing professional development.</p>
       <div class="tk-callout"><strong>&ldquo;I will check that for you&rdquo;</strong> is more professional than a confident but inaccurate answer. Staff should feel authorised to pause a transaction or seek clarification when something does not make sense.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1421,6 +1468,7 @@
         </ul>
       </div>
       <div class="tk-callout">One unusual question may be an isolated concern. Repeated questions about the same product may indicate unclear information or a wider integrity problem.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1437,7 +1485,7 @@
     <div class="tk-body">
       <p>Even well-managed businesses make mistakes. Professionalism is demonstrated by how the business responds.</p>
       <div class="tk-checklist">
-        <h4>Corrective-action form</h4>
+        <h4>Corrective-action checklist</h4>
         <ul>
           <li>Stop making the inaccurate claim</li>
           <li>Isolate affected product where appropriate</li>
@@ -1454,6 +1502,7 @@
         </ul>
       </div>
       <div class="tk-callout">Do not silently correct the visible mistake while leaving the underlying system unchanged. Consumers may forgive an honest error. Concealment turns an error into a breach of trust.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1470,7 +1519,7 @@
     <div class="tk-body">
       <p>Some matters exceed the authority or expertise of an individual employee or business. Escalation may be necessary where there is suspected:</p>
       <div class="tk-checklist">
-        <h4>Suspected-fraud escalation pathway</h4>
+        <h4>Escalation indicators</h4>
         <ul>
           <li>Deliberate species substitution</li>
           <li>Falsified documentation</li>
@@ -1498,7 +1547,9 @@
           <li>A process for sharing relevant intelligence</li>
         </ul>
       </div>
+      <p style="margin-top:18px;">For a directory of Australian regulatory, enforcement and emergency reporting contacts, see the <a href="consumer-action.php#referral" style="color:var(--teal);text-decoration:underline;">Australian Referral Directory</a> in the Consumer Action Guide.</p>
       <div class="tk-callout">Staff should understand that reporting a reasonable concern is an act of professionalism &mdash; not disloyalty.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1515,7 +1566,7 @@
     <div class="tk-body">
       <p>Not every product requires laboratory testing. No product should be treated as beyond verification.</p>
       <div class="tk-checklist">
-        <h4>Risk-based verification guide &mdash; Methods</h4>
+        <h4>Verification methods</h4>
         <ul>
           <li>Document review</li>
           <li>Supplier audit</li>
@@ -1532,7 +1583,7 @@
         </ul>
       </div>
       <div class="tk-checklist">
-        <h4>Risk-based verification guide &mdash; Risk factors</h4>
+        <h4>Risk factors to consider</h4>
         <ul>
           <li>Product value</li>
           <li>Substitution history</li>
@@ -1546,6 +1597,7 @@
         </ul>
       </div>
       <div class="tk-callout">A risk-based system concentrates effort where error or fraud is most likely and where the consequences would be greatest.</div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1562,7 +1614,7 @@
     <div class="tk-body">
       <p>An incident is not closed merely because the product was refunded, relabelled or removed.</p>
       <div class="tk-checklist">
-        <h4>Seafood discrepancy report &amp; management-review checklist</h4>
+        <h4>Discrepancy review questions</h4>
         <ul>
           <li>How did the discrepancy enter the system?</li>
           <li>Why was it not detected earlier?</li>
@@ -1576,6 +1628,7 @@
           <li>Will the corrective action be checked for effectiveness?</li>
         </ul>
       </div>
+      <a href="#toolkit" class="back-to-checklist" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--teal)'">↑ Back to checklist</a>
     </div>
   </div>
 </section>
@@ -1654,36 +1707,25 @@
   </div>
 </section>
 
+<!-- ============== PROFESSIONAL TOOLKIT DOWNLOAD ============== -->
+<section style="background:var(--bg-soft);border-top:1px solid var(--line);">
+  <div class="container" style="max-width:720px;text-align:center;">
+    <div class="section-eyebrow">Download</div>
+    <h2 class="section-h" style="max-width:none;margin-left:auto;margin-right:auto;">Professional Seafood <strong>Integrity Toolkit</strong></h2>
+    <p class="section-sub" style="margin-left:auto;margin-right:auto;">Print or save the complete 14-point Professional Seafood Integrity Toolkit for use in your business.</p>
+    <button onclick="window.print();" class="btn btn-primary" style="margin-bottom:16px;">Print or save as PDF <span class="arrow">→</span></button>
+    <p style="font-size:13px;color:var(--ink-3);">A formatted downloadable PDF version is forthcoming. Use your browser's Print or Save as PDF function in the meantime.</p>
+  </div>
+</section>
+
 <!-- ============== NEWSLETTER SIGNUP ============== -->
 <section class="newsletter-section" id="newsletter">
   <div class="container">
     <div class="newsletter-card">
-      <h3>Stay current. Join the SCA professional network.</h3>
-      <p>Receive toolkit updates, regulatory alerts, I-CADMUS training opportunities and professional practice guidance direct from the Seafood Consumer Association.</p>
-      <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thank you — you\'re registered.'; this.querySelector('button').disabled=true;">
-        <label for="pp-name">Full name</label>
-        <input type="text" id="pp-name" placeholder="Your full name" required />
-        <label for="pp-email">Work email</label>
-        <input type="email" id="pp-email" placeholder="you@company.com" required />
-        <label for="pp-org">Organisation</label>
-        <input type="text" id="pp-org" placeholder="Company or organisation name" />
-        <label for="pp-role">Role / sector</label>
-        <select id="pp-role">
-          <option value="">Select your sector&hellip;</option>
-          <option value="harvester">Harvester / Aquaculture producer</option>
-          <option value="processor">Processor</option>
-          <option value="importer">Importer / Exporter</option>
-          <option value="wholesaler">Wholesaler / Distributor</option>
-          <option value="retailer">Fishmonger / Retailer</option>
-          <option value="restaurant">Restaurant / Caf&eacute; / Foodservice</option>
-          <option value="procurement">Procurement</option>
-          <option value="auditor">Auditor / Regulator</option>
-          <option value="trainer">Trainer / Educator</option>
-          <option value="other">Other</option>
-        </select>
-        <button type="submit">Join the SCA network <span class="arrow">→</span></button>
-      </form>
-      <p class="newsletter-note">Your information is held by the Seafood Consumer Association and will not be shared with third parties. You can unsubscribe at any time.</p>
+      <h3>Join the SCA professional network.</h3>
+      <p>Professional network registration is being prepared. Contact Seafood Consumers Association Ltd to register your interest.</p>
+      <a href="contact.php" class="btn btn-primary">Contact SCA <span class="arrow">→</span></a>
+      <p class="newsletter-note">Receive toolkit updates, regulatory alerts and professional practice guidance when the network launches.</p>
     </div>
   </div>
 </section>
@@ -1693,7 +1735,7 @@
   <div class="container">
     <div class="section-eyebrow">Document Control</div>
     <h2 class="section-h" style="max-width: none;">Toolkit governance <strong>&amp; version history.</strong></h2>
-    <p class="section-sub">This toolkit is a living resource maintained by the Seafood Consumer Association. It is reviewed and updated as requirements, risks and professional practices evolve.</p>
+    <p class="section-sub">This toolkit is a living resource maintained by the Seafood Consumers Association Ltd. It is reviewed and updated as requirements, risks and professional practices evolve.</p>
 
     <div class="doc-control-grid">
       <div>
@@ -1703,9 +1745,9 @@
           <tr><th>Version</th><td>1.0</td></tr>
           <tr><th>Publication date</th><td>August 2026</td></tr>
           <tr><th>Next scheduled review</th><td>August 2027</td></tr>
-          <tr><th>Document owner</th><td>Seafood Consumer Association (SCA)</td></tr>
+          <tr><th>Document owner</th><td>Seafood Consumers Association Ltd (SCA)</td></tr>
           <tr><th>Contact</th><td><a href="contact.php" style="color: var(--teal); border-bottom: 1px solid transparent; transition: border-color 0.15s;">contact@seafoodconsumers.global</a></td></tr>
-          <tr><th>Canonical URL</th><td>www.seafoodconsumers.global/professional-practice</td></tr>
+          <tr><th>Canonical URL</th><td style="color:var(--gold);font-style:italic;">Permanent public URL to be confirmed by SCA</td></tr>
         </table>
 
         <h3 style="margin-top: 40px;">Change history</h3>
@@ -1718,18 +1760,18 @@
       <div>
         <h3>Disclaimer</h3>
         <div class="doc-disclaimer">
-          <p>This toolkit is published by the Seafood Consumer Association as a professional practice resource. It is intended to support seafood businesses in developing and maintaining integrity controls appropriate to their operations.</p>
+          <p>This toolkit is published by the Seafood Consumers Association Ltd as a professional practice resource. It is intended to support seafood businesses in developing and maintaining integrity controls appropriate to their operations.</p>
           <p>It does not constitute legal advice. Businesses are responsible for ensuring compliance with applicable legislation, regulations and standards in their jurisdiction.</p>
-          <p>The information is provided in good faith and is believed to be accurate at the date of publication. The Seafood Consumer Association accepts no liability for actions taken or not taken on the basis of this document.</p>
-          <p>Important regulatory changes may trigger an earlier review before the next scheduled review date. Users should check <strong>www.seafoodconsumers.global/professional-practice</strong> for the most current version.</p>
+          <p>The information is provided in good faith and is believed to be accurate at the date of publication. To the maximum extent permitted by law, Seafood Consumers Association Ltd does not accept liability for loss arising from reliance on this general information. Nothing in this disclaimer excludes rights or obligations that cannot lawfully be excluded. This proposed wording is pending legal review.</p>
+          <p>Important regulatory changes may trigger an earlier review before the next scheduled review date. Users should check the I-CADMUS website for the most current version.</p>
           <p>Inclusion of any reference, standard or methodology does not constitute endorsement of any particular product, service or organisation.</p>
         </div>
 
         <h3 style="margin-top: 40px;">Links to current requirements</h3>
         <div class="doc-disclaimer">
           <p><a href="framework.php" style="color: var(--teal);">I-CADMUS Framework</a> &mdash; The seven fraud categories</p>
-          <p><a href="certification.php" style="color: var(--teal);">I-CADMUS Certification</a> &mdash; Professional training and certification</p>
-          <p><a href="book.php" style="color: var(--teal);">Sea of Deception</a> &mdash; The book that founded the framework</p>
+          <p><a href="contact.php" style="color: var(--teal);">I-CADMUS Professional Education</a> &mdash; Register your interest (being developed)</p>
+          <p><a href="book.php" style="color: var(--teal);">Sea of Deception</a> &mdash; The book explaining the evidence, principles and development of the framework</p>
           <p><a href="research.php" style="color: var(--teal);">Further Reading &amp; Research</a> &mdash; 68 curated research references</p>
           <p><a href="resources.php" style="color: var(--teal);">Resources</a> &mdash; Whitepapers, glossary and audit tools</p>
         </div>
@@ -1744,11 +1786,11 @@
     <div class="cta-band-grid">
       <div>
         <h2>Read the book. <strong>Then put it to work.</strong></h2>
-        <p>Sea of Deception provides the framework and principles. This toolkit gives you the controls. The certification course tests your understanding.</p>
+        <p>Sea of Deception provides the evidence and principles. This toolkit gives you the controls. I-CADMUS professional education and assessment are being developed.</p>
       </div>
       <div class="cta-band-actions">
         <a href="book.php" class="btn btn-primary">The book <span class="arrow">→</span></a>
-        <a href="certification.php" class="btn btn-outline">Get certified</a>
+        <a href="contact.php" class="btn btn-outline">Register your interest</a>
       </div>
     </div>
   </div>
@@ -1756,9 +1798,11 @@
 
 <?php include 'footer.php'; ?>
 
+<button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
+
 <script>
-  // Smooth scroll for toolkit nav
-  document.querySelectorAll('.toolkit-nav-item').forEach(function(a) {
+  // Smooth scroll for all anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(function(a) {
     a.addEventListener('click', function(e) {
       var target = document.querySelector(this.getAttribute('href'));
       if (target) {
@@ -1767,6 +1811,17 @@
       }
     });
   });
+
+  // Back to top
+  var btt = document.getElementById('backToTop');
+  if (btt) {
+    window.addEventListener('scroll', function() {
+      btt.classList.toggle('visible', window.scrollY > 600);
+    }, { passive: true });
+    btt.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 </script>
 
 </body>
