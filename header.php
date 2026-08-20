@@ -136,13 +136,13 @@
         <a href="framework.php">Framework <span class="chev">▼</span></a>
         <div class="nav-mega">
           <div class="nav-mega-grid">
-            <a href="illegal.php"><strong>Illegal · IUU Laundering</strong><span>Cross-border catch laundering</span></a>
-            <a href="counterfeit.php"><strong>Counterfeit · Fake Labels</strong><span>Forged certifications and origin</span></a>
-            <a href="adulteration.php"><strong>Adulteration · Additives</strong><span>Chemicals, brines, undisclosed</span></a>
-            <a href="dilution.php"><strong>Dilution · Glazing</strong><span>Ice glaze and species mixing</span></a>
-            <a href="misrepresentation.php"><strong>Misrepresentation · Origin</strong><span>False country and method claims</span></a>
-            <a href="unreported.php"><strong>Unreported · Grey Channels</strong><span>Off-the-books supply paths</span></a>
-            <a href="substitution.php"><strong>Substitution · Species Swap</strong><span>Cheap fish, premium price</span></a>
+            <a href="illegal.php"><strong>Illegal</strong><span>Cross-border catch laundering</span></a>
+            <a href="counterfeit.php"><strong>Counterfeit</strong><span>Forged certifications and origin</span></a>
+            <a href="adulteration.php"><strong>Addition/Adulteration</strong><span>Chemicals, brines, undisclosed additives</span></a>
+            <a href="dilution.php"><strong>Dilution</strong><span>Ice glaze and species mixing</span></a>
+            <a href="misrepresentation.php"><strong>Misrepresentation/Mislabelling</strong><span>False country and method claims</span></a>
+            <a href="unreported.php"><strong>Unreported/Unregulated/Undisclosed</strong><span>Off-the-books supply paths</span></a>
+            <a href="substitution.php"><strong>Substitution</strong><span>Cheap fish, premium price</span></a>
             <a href="framework.php"><strong>View all seven types →</strong><span>The complete I-CADMUS taxonomy</span></a>
           </div>
         </div>
@@ -161,12 +161,12 @@
       </li>
       <li><a href="news.php">Insights</a></li>
       <li><a href="framework.php">Methodology</a></li>
-      <li><a href="certification.php">Certification</a></li>
+      <li><a href="certification.php">Professional Education</a></li>
       <li><a href="about.php">About SCA</a></li>
     </ul>
     <div class="header-tools">
-      <a href="resources.php" class="header-search" aria-label="Search">🔍</a>
-      <a href="get-certified.php" class="btn btn-primary">Get Certified <span class="arrow">→</span></a>
+      <a href="resources.php" class="header-search" aria-label="Resources" title="Resources">🔍</a>
+      <a href="contact.php" class="btn btn-primary">Register Your Interest <span class="arrow">→</span></a>
       <!-- Hamburger — visible ≤1100px -->
       <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -183,13 +183,13 @@
       <details>
         <summary>Framework <span class="chev">▼</span></summary>
         <div class="nav-mobile-sub">
-          <a href="illegal.php"><strong>Illegal · IUU Laundering</strong><span>Cross-border catch laundering</span></a>
-          <a href="counterfeit.php"><strong>Counterfeit · Fake Labels</strong><span>Forged certifications and origin</span></a>
-          <a href="adulteration.php"><strong>Adulteration · Additives</strong><span>Chemicals, brines, undisclosed</span></a>
-          <a href="dilution.php"><strong>Dilution · Glazing</strong><span>Ice glaze and species mixing</span></a>
-          <a href="misrepresentation.php"><strong>Misrepresentation · Origin</strong><span>False country and method claims</span></a>
-          <a href="unreported.php"><strong>Unreported · Grey Channels</strong><span>Off-the-books supply paths</span></a>
-          <a href="substitution.php"><strong>Substitution · Species Swap</strong><span>Cheap fish, premium price</span></a>
+          <a href="illegal.php"><strong>Illegal</strong><span>Cross-border catch laundering</span></a>
+          <a href="counterfeit.php"><strong>Counterfeit</strong><span>Forged certifications and origin</span></a>
+          <a href="adulteration.php"><strong>Addition/Adulteration</strong><span>Chemicals, brines, undisclosed additives</span></a>
+          <a href="dilution.php"><strong>Dilution</strong><span>Ice glaze and species mixing</span></a>
+          <a href="misrepresentation.php"><strong>Misrepresentation/Mislabelling</strong><span>False country and method claims</span></a>
+          <a href="unreported.php"><strong>Unreported/Unregulated/Undisclosed</strong><span>Off-the-books supply paths</span></a>
+          <a href="substitution.php"><strong>Substitution</strong><span>Cheap fish, premium price</span></a>
           <a href="framework.php"><strong>View all seven types →</strong><span>The complete I-CADMUS taxonomy</span></a>
         </div>
       </details>
@@ -216,14 +216,14 @@
       <a href="framework.php">Methodology</a>
     </div>
     <div class="nav-mobile-section">
-      <a href="certification.php">Certification</a>
+      <a href="certification.php">Professional Education</a>
     </div>
     <div class="nav-mobile-section">
       <a href="about.php">About SCA</a>
     </div>
 
     <div class="nav-mobile-cta">
-      <a href="get-certified.php" class="btn btn-primary">Get Certified →</a>
+      <a href="contact.php" class="btn btn-primary">Register Your Interest →</a>
     </div>
 
   </div>

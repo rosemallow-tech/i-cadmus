@@ -1276,10 +1276,20 @@
   </div>
 </section>
 
+<!-- ============== EDITORIAL NOTICE ============== -->
+<section style="padding: 0;">
+  <div class="container">
+    <div style="background: #fffbeb; border: 1px solid #f0dca0; border-left: 5px solid var(--gold); border-radius: 6px; padding: 28px 32px; margin-top: -48px; margin-bottom: 48px;">
+      <h4 style="font-family: var(--serif); font-size: 18px; font-weight: 600; color: var(--brand); margin-bottom: 12px;">Important: scope and status of this resource</h4>
+      <p style="font-size: 15px; color: var(--ink-2); line-height: 1.65; margin-bottom: 0;">The classification descriptions on this page summarise current official sources. The identified gaps, connected-data model and modernisation priorities are proposals developed by SCA and I‑CADMUS. They are not current customs requirements unless expressly stated otherwise. The worked examples are illustrative scenarios and do not represent particular consignments or findings.</p>
+    </div>
+  </div>
+</section>
+
 <!-- ============== THE HARMONIZED SYSTEM ============== -->
 <section id="harmonized-system" style="background: var(--bg-soft);" class="reveal">
   <div class="container">
-    <div class="section-eyebrow">Section 1</div>
+    <div class="section-eyebrow">Section 1 · <span style="color: var(--teal);">Current system</span></div>
     <h2 class="section-h">The <strong>Harmonized System</strong></h2>
     <p class="section-sub">The international commodity classification maintained by the World Customs Organization, used by customs authorities worldwide to classify goods at the border.</p>
 
@@ -1321,182 +1331,10 @@
   </div>
 </section>
 
-<!-- ============== CURRENT PROBLEMS & CONSUMER CONSEQUENCES ============== -->
-<section id="classification-gaps" class="reveal">
-  <div class="container">
-    <div class="section-eyebrow">Section 4</div>
-    <h2 class="section-h">Priority <strong>classification gaps</strong></h2>
-    <p class="section-sub">Nine areas where current classification systems create blind spots that enable fraud, mislabelling, and integrity failures throughout the seafood supply chain.</p>
-
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-num">1</span>
-        <h4>Residual "Other" Categories</h4>
-        <span class="accordion-toggle">+</span>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-body-inner">
-          <span class="gap-label problem">Problem</span>
-          <p>Large volumes of seafood are classified under residual "other" subheadings that do not identify the species or product form. These catch-all categories absorb commercially significant species and allow high-value or protected products to move without scrutiny.</p>
-          <span class="gap-label risk">Risk</span>
-          <p>Species substitution, IUU laundering, and trade-data gaps are concealed within undifferentiated residual categories. Consumers, regulators and legitimate traders cannot distinguish compliant products from fraudulent ones.</p>
-          <span class="gap-label response">Proposed Response</span>
-          <p>Create dedicated subheadings for commercially and ecologically significant species currently absorbed in residual categories. Require supplementary species declarations for any consignment classified under a residual subheading.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-num">2</span>
-        <h4>Scientific Species Identity</h4>
-        <span class="accordion-toggle">+</span>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-body-inner">
-          <span class="gap-label problem">Problem</span>
-          <p>The HS does not require scientific (Latin) species names. Common names vary between countries, languages and markets, making it possible to declare a product under a name that is technically correct in one jurisdiction but misleading in another.</p>
-          <span class="gap-label risk">Risk</span>
-          <p>Species substitution becomes difficult to detect at the border when the customs declaration uses only a common name. High-value species may be replaced with cheaper alternatives that share a similar common name.</p>
-          <span class="gap-label response">Proposed Response</span>
-          <p>Require the scientific name of the principal species in the customs declaration for all seafood consignments. Align declaration requirements with national fish-naming standards where they exist.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-num">3</span>
-        <h4>Wild and Farmed Production</h4>
-        <span class="accordion-toggle">+</span>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-body-inner">
-          <span class="gap-label problem">Problem</span>
-          <p>The HS does not distinguish between wild-caught and farmed (aquaculture) production. These two production methods carry different risk profiles, environmental footprints, regulatory requirements, and market values.</p>
-          <span class="gap-label risk">Risk</span>
-          <p>Farmed product may be passed off as wild-caught to command a price premium, or wild product from unregulated fisheries may be declared as farmed to avoid IUU scrutiny. Trade statistics cannot differentiate production methods.</p>
-          <span class="gap-label response">Proposed Response</span>
-          <p>Introduce a production-method indicator in the customs declaration or statistical extension. At the HS level, propose that the HS 2028 review consider production-method subdivision for key species groups.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-num">4</span>
-        <h4>Geographic Origin</h4>
-        <span class="accordion-toggle">+</span>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-body-inner">
-          <span class="gap-label problem">Problem</span>
-          <p>Country of origin is declared, but the specific catch area, fishery or farming region is not routinely captured in the customs classification or declaration. Origin declarations may reflect the last country of processing rather than the country of harvest.</p>
-          <span class="gap-label risk">Risk</span>
-          <p>Product from depleted, sanctioned or IUU-affected fisheries can be routed through processing countries and declared with a misleading origin. Consumers and retailers cannot verify the true geographic source.</p>
-          <span class="gap-label response">Proposed Response</span>
-          <p>Require FAO catch-area codes or aquaculture-region identifiers in the customs declaration for seafood. Align origin declarations with the country of harvest, not the country of last processing.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-num">5</span>
-        <h4>Vessel and Farm Identity</h4>
-        <span class="accordion-toggle">+</span>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-body-inner">
-          <span class="gap-label problem">Problem</span>
-          <p>The HS and standard customs declarations do not capture the identity of the harvesting vessel or aquaculture facility. Without this link, the product cannot be traced back to the point of harvest.</p>
-          <span class="gap-label risk">Risk</span>
-          <p>Product from vessels engaged in IUU fishing, forced labour, or environmental violations can enter legitimate supply chains without a traceable connection to the source. Recalls and investigations are hampered.</p>
-          <span class="gap-label response">Proposed Response</span>
-          <p>Require vessel identification (IMO number or national registration) or farm registration in the customs declaration or linked traceability record for all seafood consignments.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-num">6</span>
-        <h4>Product Transformation</h4>
-        <span class="accordion-toggle">+</span>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-body-inner">
-          <span class="gap-label problem">Problem</span>
-          <p>Once seafood is processed — filleted, skinned, deboned, breaded, coated, or mixed — visual species identification becomes impossible. The HS classifies the finished product form but does not require that the source species be traceable through the transformation.</p>
-          <span class="gap-label risk">Risk</span>
-          <p>Processing creates an opportunity to substitute cheaper species, blend undeclared ingredients, or obscure origin. Consumers purchasing processed seafood have no reliable way to verify species identity without laboratory testing.</p>
-          <span class="gap-label response">Proposed Response</span>
-          <p>Require that customs declarations for processed seafood identify the source species and maintain a traceable link to the pre-processing identity. Strengthen product-description requirements for prepared and mixed products.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-num">7</span>
-        <h4>Net Weight, Glaze and Added Water</h4>
-        <span class="accordion-toggle">+</span>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-body-inner">
-          <span class="gap-label problem">Problem</span>
-          <p>Frozen seafood routinely carries a protective ice glaze, and some products have added water or phosphate solutions that increase pack weight. Customs declarations typically record gross weight, and the HS does not require net-weight or glaze-percentage declarations.</p>
-          <span class="gap-label risk">Risk</span>
-          <p>Consumers pay for water, not seafood. Excessive glazing — sometimes exceeding 40% of total weight — is a form of economic fraud. Without net-weight declarations at the border, quantity fraud enters the supply chain before domestic regulators can intervene.</p>
-          <span class="gap-label response">Proposed Response</span>
-          <p>Require net-weight and glaze-percentage declarations in the customs record for frozen seafood. Establish maximum permissible glaze percentages aligned with international standards.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-num">8</span>
-        <h4>Prepared and Mixed Products</h4>
-        <span class="accordion-toggle">+</span>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-body-inner">
-          <span class="gap-label problem">Problem</span>
-          <p>Prepared and mixed seafood products — such as seafood sticks, fish cakes, mixed seafood packs, and ready meals — are classified under broad HS headings that do not require disclosure of the individual species or their proportions.</p>
-          <span class="gap-label risk">Risk</span>
-          <p>Undeclared species can be blended into mixed products without detection. Low-value species may replace declared premium ingredients. Allergen risks increase when species composition is unknown.</p>
-          <span class="gap-label response">Proposed Response</span>
-          <p>Require species-composition declarations for prepared and mixed seafood products, including the proportion of each species. Align customs requirements with domestic food-labelling regulations.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <div class="accordion-header">
-        <span class="accordion-num">9</span>
-        <h4>Marine Ingredients</h4>
-        <span class="accordion-toggle">+</span>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-body-inner">
-          <span class="gap-label problem">Problem</span>
-          <p>Marine-derived ingredients — fish oils, fishmeal, marine collagen, extracts, and bioproducts — are classified across multiple HS chapters according to their finished form, not their marine origin. The biological source is often invisible in the classification.</p>
-          <span class="gap-label risk">Risk</span>
-          <p>IUU-sourced material can enter feed, pharmaceutical, and cosmetic supply chains without scrutiny. Species claims in supplements and health products may not be verifiable through customs data. Environmental and sustainability concerns are disconnected from trade records.</p>
-          <span class="gap-label response">Proposed Response</span>
-          <p>Require marine-source species identification for marine-derived ingredients at the customs declaration level. Ensure that classification across multiple chapters does not sever the traceability link to the original biological material.</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
 <!-- ============== PRINCIPAL SEAFOOD CLASSIFICATIONS REGISTER ============== -->
 <section id="register" style="background: var(--bg-soft);" class="reveal">
   <div class="container">
-    <div class="section-eyebrow">Sections 2.1 – 2.3</div>
+    <div class="section-eyebrow">Section 2 · <span style="color: var(--teal);">Current system</span></div>
     <h2 class="section-h">Principal Seafood <strong>Classifications Register</strong></h2>
     <p class="section-sub">The principal HS headings under which seafood and seafood-derived products are classified, with the integrity question each heading raises.</p>
 
@@ -1620,7 +1458,7 @@
         </tbody>
       </table>
 
-      <p class="table-source">Source: Australian Border Force — Chapter 3; Australian Border Force — Chapter 16. Other seafood-related classifications compiled from multiple sources.</p>
+      <p class="table-source">Source: Australian Border Force — <a href="https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-i/chapter-3" style="color: var(--teal);" target="_blank" rel="noopener">Chapter 3</a>; Australian Border Force — <a href="https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-iv/chapter-16" style="color: var(--teal);" target="_blank" rel="noopener">Chapter 16</a>. Other seafood-related classifications identified from HS Nomenclature and national tariff schedules. See Authoritative Sources section for full references.</p>
     </div>
 
     <!-- Mobile Cards -->
@@ -1653,136 +1491,10 @@
   </div>
 </section>
 
-<!-- ============== WORKED INTEGRITY EXAMPLES ============== -->
-<section id="examples" class="reveal">
-  <div class="container">
-    <div class="section-eyebrow">Section 7</div>
-    <h2 class="section-h">Worked <strong>integrity examples</strong></h2>
-    <p class="section-sub">Five scenarios illustrating how classification gaps create real-world integrity failures, and the I-CADMUS fraud categories each engages.</p>
-
-    <div class="examples-grid">
-      <div class="example-card">
-        <span class="example-num">Example 1</span>
-        <h4>Correct Code, Wrong Species</h4>
-        <p class="scenario">A consignment is correctly classified under the appropriate HS heading for frozen fish fillets. The customs code is valid, the tariff rate is correct, and the paperwork passes automated checks. However, the species declared on the commercial documents does not match the species in the box. A lower-value species has been substituted for the declared premium species.</p>
-        <div class="lesson"><strong>Lesson</strong>A correct HS code does not guarantee species authenticity. The classification confirms the product form, not the biological identity. Without species verification at the border or in the supply chain, substitution passes undetected.</div>
-        <div class="icadmus-tags">
-          <span class="icadmus-tag substitution">Substitution</span>
-          <span class="icadmus-tag misrepresentation">Misrepresentation / Mislabelling</span>
-        </div>
-      </div>
-
-      <div class="example-card">
-        <span class="example-num">Example 2</span>
-        <h4>Correct Species, Incomplete Origin</h4>
-        <p class="scenario">A consignment of prawns is correctly identified by species and classified under the correct HS heading. The country of origin on the customs declaration is the last country of processing. However, the raw material was harvested in a different country, from a fishery subject to IUU concerns. The true geographic origin is not visible in the customs record.</p>
-        <div class="lesson"><strong>Lesson</strong>Country-of-origin declarations that reflect processing rather than harvest obscure the true source. Traceability to the point of harvest is necessary to assess fishery-level risk.</div>
-        <div class="icadmus-tags">
-          <span class="icadmus-tag misrepresentation">Misrepresentation / Mislabelling</span>
-          <span class="icadmus-tag unreported">Unreported / Undisclosed</span>
-        </div>
-      </div>
-
-      <div class="example-card">
-        <span class="example-num">Example 3</span>
-        <h4>Correct Species, Incorrect Quantity</h4>
-        <p class="scenario">A consignment of frozen prawns is correctly identified by species and origin. The gross weight on the customs declaration is accurate. However, the glaze applied to the product represents over 35% of the total weight. The net seafood weight is significantly less than a buyer or consumer would expect. No glaze-percentage declaration is required at the border.</p>
-        <div class="lesson"><strong>Lesson</strong>Gross-weight declarations do not reveal the actual quantity of seafood in the consignment. Without net-weight and glaze-percentage requirements, quantity fraud enters the supply chain at the point of import.</div>
-        <div class="icadmus-tags">
-          <span class="icadmus-tag dilution">Dilution</span>
-          <span class="icadmus-tag misrepresentation">Misrepresentation / Mislabelling</span>
-        </div>
-      </div>
-
-      <div class="example-card">
-        <span class="example-num">Example 4</span>
-        <h4>Processed Identity Loss</h4>
-        <p class="scenario">A consignment of breaded fish portions is classified under a prepared-fish heading. The customs declaration states the product contains a named white-fish species. After processing — filleting, skinning, coating, and freezing — the species cannot be identified by visual inspection. Laboratory testing later reveals that a proportion of the portions contain a different, lower-value species. Undeclared additives have also been introduced.</p>
-        <div class="lesson"><strong>Lesson</strong>Processing severs the visual link between the finished product and the source species. Customs classification of the finished product form does not verify species composition. Traceability records and testing are required to maintain identity through processing.</div>
-        <div class="icadmus-tags">
-          <span class="icadmus-tag adulteration">Addition / Adulteration</span>
-          <span class="icadmus-tag misrepresentation">Misrepresentation / Mislabelling</span>
-          <span class="icadmus-tag substitution">Substitution</span>
-        </div>
-      </div>
-
-      <div class="example-card" style="grid-column: 1 / -1;">
-        <span class="example-num">Example 5</span>
-        <h4>Legitimate Documents, Implausible Trade</h4>
-        <p class="scenario">A consignment arrives with all required customs documentation: valid HS classification, commercial invoice, packing list, health certificate, and catch documentation from the flag state. Each document appears genuine. However, the declared catch volume is implausible for the vessel size and the declared fishing period. The trade route does not match established patterns for the declared species and origin. No individual document is fraudulent, but the consignment as a whole does not withstand scrutiny.</p>
-        <div class="lesson"><strong>Lesson</strong>Document-by-document compliance does not substitute for risk-based assessment of the consignment as a whole. Plausibility checks — comparing declared volumes, vessel capacity, fishing periods, and trade routes — are necessary to detect sophisticated fraud that uses legitimate paperwork to cover illegitimate product.</div>
-        <div class="icadmus-tags">
-          <span class="icadmus-tag illegal">Illegal</span>
-          <span class="icadmus-tag unreported">Unreported / Unregulated / Undisclosed</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============== MODERNISATION PRIORITIES ============== -->
-<section id="priorities" style="background: var(--bg-soft);" class="reveal">
-  <div class="container">
-    <div class="section-eyebrow">Section 6</div>
-    <h2 class="section-h">Modernisation <strong>priorities</strong></h2>
-    <p class="section-sub">A sequenced programme of reforms, from measures that can be implemented immediately within Australian systems to proposals requiring international coordination.</p>
-
-    <div class="priorities-stepper">
-      <div class="priority-step">
-        <div class="priority-step-num">1</div>
-        <h4>Immediate Australian Improvements</h4>
-        <ul>
-          <li>Require scientific species names in customs declarations for all seafood consignments</li>
-          <li>Require net-weight and glaze-percentage declarations for frozen seafood imports</li>
-          <li>Add a wild-caught or farmed production-method indicator to import and export declarations</li>
-          <li>Require FAO catch-area codes or aquaculture-region identifiers in seafood declarations</li>
-          <li>Align import and export statistical classifications so that equivalent detail is captured in both directions</li>
-          <li>Require species-composition declarations for prepared and mixed seafood products</li>
-          <li>Publish consolidated, machine-readable seafood trade data at the species level</li>
-        </ul>
-      </div>
-
-      <div class="priority-step">
-        <div class="priority-step-num">2</div>
-        <h4>Digital Interoperability</h4>
-        <ul>
-          <li>Develop a digital customs declaration format that links HS classification with species, origin, production method, and traceability data</li>
-          <li>Enable interoperability between customs systems, catch documentation schemes, and domestic food-safety databases</li>
-          <li>Establish a national seafood-trade data platform that integrates import, export, and domestic-production data</li>
-          <li>Pilot blockchain or distributed-ledger traceability for high-risk seafood supply chains</li>
-        </ul>
-      </div>
-
-      <div class="priority-step">
-        <div class="priority-step-num">3</div>
-        <h4>International HS Proposals</h4>
-        <ul>
-          <li>Propose new six-digit subheadings for commercially and ecologically significant species currently in residual categories</li>
-          <li>Propose production-method subdivisions for key species groups in the HS 2028 review cycle</li>
-          <li>Advocate for WCO guidance on supplementary species declarations for residual subheadings</li>
-          <li>Support international standards for net-weight and glaze-percentage declarations in customs data</li>
-        </ul>
-      </div>
-
-      <div class="priority-step">
-        <div class="priority-step-num">4</div>
-        <h4>Verification and Enforcement</h4>
-        <ul>
-          <li>Establish a risk-based inspection programme for seafood imports that integrates species testing, weight verification, and document audit</li>
-          <li>Build laboratory capacity for routine DNA species verification at the border</li>
-          <li>Develop plausibility-check protocols that assess consignment-level coherence (volume, vessel capacity, fishing period, trade route)</li>
-          <li>Create a shared intelligence platform for customs, fisheries, and food-safety agencies to coordinate enforcement</li>
-          <li>Introduce meaningful penalties for deliberate misclassification, mislabelling, and species substitution in seafood trade</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ============== AUSTRALIAN TRADE CLASSIFICATIONS ============== -->
 <section id="australian-trade" class="reveal">
   <div class="container">
-    <div class="section-eyebrow">Section 3</div>
+    <div class="section-eyebrow">Section 3 · <span style="color: var(--teal);">Current system</span></div>
     <h2 class="section-h">Australian trade <strong>classifications</strong></h2>
     <p class="section-sub">How the international Harmonized System is extended and applied within Australian import and export frameworks.</p>
 
@@ -1793,7 +1505,7 @@
         <ul>
           <li>The tariff classification determines the applicable duty rate and any conditions of import</li>
           <li>Statistical codes provide additional product detail for trade-data analysis</li>
-          <li>Import permits and biosecurity requirements are linked to the tariff classification</li>
+          <li>Import permits and biosecurity requirements depend on the commodity, country of origin, intended use and pathway, and may reference the tariff classification</li>
           <li>The Australian Border Force administers the tariff and processes import declarations</li>
         </ul>
       </div>
@@ -1806,7 +1518,7 @@
           <li>Export classifications may differ in granularity from import classifications for the same product</li>
           <li>The Australian Bureau of Statistics uses AHECC data for official trade statistics</li>
           <li>Export permits, quotas, and regulatory requirements reference the AHECC classification</li>
-          <li>The Department of Agriculture, Fisheries and Forestry administers export certification</li>
+          <li>The Department of Agriculture, Fisheries and Forestry administers export certification for prescribed goods and where certification is required</li>
         </ul>
       </div>
     </div>
@@ -1833,10 +1545,316 @@
   </div>
 </section>
 
+<!-- ============== CURRENT PROBLEMS & CONSUMER CONSEQUENCES ============== -->
+<section id="classification-gaps" class="reveal">
+  <div class="container">
+    <div class="section-eyebrow">Section 4 · <span style="color: var(--accent);">Identified gaps</span></div>
+    <h2 class="section-h">Priority <strong>classification gaps</strong></h2>
+    <p class="section-sub">Nine areas where current classification systems create blind spots that enable fraud, mislabelling, and integrity failures throughout the seafood supply chain.</p>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span class="accordion-num">1</span>
+        <h4>Residual "Other" Categories</h4>
+        <span class="accordion-toggle">+</span>
+      </div>
+      <div class="accordion-body">
+        <div class="accordion-body-inner">
+          <span class="gap-label problem">Problem</span>
+          <p>Large volumes of seafood are classified under residual "other" subheadings that do not identify the species or product form. These catch-all categories absorb commercially significant species and allow high-value or protected products to move without scrutiny.</p>
+          <span class="gap-label risk">Risk</span>
+          <p>Species substitution, IUU laundering, and trade-data gaps are concealed within undifferentiated residual categories. Consumers, regulators and legitimate traders cannot distinguish compliant products from fraudulent ones.</p>
+          <span class="gap-label response">I‑CADMUS Proposal</span>
+          <p>Create dedicated subheadings for commercially and ecologically significant species currently absorbed in residual categories. Require supplementary species declarations for any consignment classified under a residual subheading.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span class="accordion-num">2</span>
+        <h4>Scientific Species Identity</h4>
+        <span class="accordion-toggle">+</span>
+      </div>
+      <div class="accordion-body">
+        <div class="accordion-body-inner">
+          <span class="gap-label problem">Problem</span>
+          <p>The HS does not require scientific (Latin) species names. Common names vary between countries, languages and markets, making it possible to declare a product under a name that is technically correct in one jurisdiction but misleading in another.</p>
+          <span class="gap-label risk">Risk</span>
+          <p>Species substitution becomes difficult to detect at the border when the customs declaration uses only a common name. High-value species may be replaced with cheaper alternatives that share a similar common name.</p>
+          <span class="gap-label response">I‑CADMUS Proposal</span>
+          <p>Require the scientific name of the principal species in the customs declaration for all seafood consignments. Align declaration requirements with national fish-naming standards where they exist.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span class="accordion-num">3</span>
+        <h4>Wild and Farmed Production</h4>
+        <span class="accordion-toggle">+</span>
+      </div>
+      <div class="accordion-body">
+        <div class="accordion-body-inner">
+          <span class="gap-label problem">Problem</span>
+          <p>The HS does not systematically distinguish wild-caught and farmed (aquaculture) production across seafood classifications. These two production methods carry different risk profiles, environmental footprints, regulatory requirements, and market values.</p>
+          <span class="gap-label risk">Risk</span>
+          <p>Farmed product may be passed off as wild-caught to command a price premium, or wild product from unregulated fisheries may be declared as farmed to avoid IUU scrutiny. Trade statistics cannot differentiate production methods.</p>
+          <span class="gap-label response">I‑CADMUS Proposal</span>
+          <p>Introduce a production-method indicator in the customs declaration or statistical extension. At the HS level, prepare proposals for the next WCO review cycle leading to HS 2033, while pursuing Australian tariff and statistical extensions that may be achievable earlier.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span class="accordion-num">4</span>
+        <h4>Geographic Origin</h4>
+        <span class="accordion-toggle">+</span>
+      </div>
+      <div class="accordion-body">
+        <div class="accordion-body-inner">
+          <span class="gap-label problem">Problem</span>
+          <p>Country of origin is declared, but the specific catch area, fishery or farming region is not routinely captured in the customs classification or declaration. Country of origin depends upon applicable rules of origin and whether processing constitutes substantial transformation; it is not always simply the country of last processing or the country of harvest.</p>
+          <span class="gap-label risk">Risk</span>
+          <p>Product from depleted, sanctioned or IUU-affected fisheries can be routed through processing countries and declared with a misleading origin. Consumers and retailers cannot verify the true geographic source.</p>
+          <span class="gap-label response">I‑CADMUS Proposal</span>
+          <p>Require FAO catch-area codes or aquaculture-region identifiers in the customs declaration for seafood. Retain the legally required customs country-of-origin declaration and add separate structured fields for country of harvest and country of last processing. These fields should not be treated as interchangeable.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span class="accordion-num">5</span>
+        <h4>Vessel and Farm Identity</h4>
+        <span class="accordion-toggle">+</span>
+      </div>
+      <div class="accordion-body">
+        <div class="accordion-body-inner">
+          <span class="gap-label problem">Problem</span>
+          <p>The HS code itself does not capture vessel or farm identity, and general customs records may not do so unless required through an additional national or commodity-specific program. Without this link, the product cannot be traced back to the point of harvest.</p>
+          <span class="gap-label risk">Risk</span>
+          <p>Product from vessels engaged in IUU fishing, forced labour, or environmental violations can enter legitimate supply chains without a traceable connection to the source. Recalls and investigations are hampered.</p>
+          <span class="gap-label response">I‑CADMUS Proposal</span>
+          <p>Require vessel identification (IMO number or national registration) or farm registration in the customs declaration or linked traceability record for all seafood consignments.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span class="accordion-num">6</span>
+        <h4>Product Transformation</h4>
+        <span class="accordion-toggle">+</span>
+      </div>
+      <div class="accordion-body">
+        <div class="accordion-body-inner">
+          <span class="gap-label problem">Problem</span>
+          <p>Once seafood is processed — filleted, skinned, deboned, breaded, coated, or mixed — visual species identification becomes impossible. The HS classifies the finished product form but does not require that the source species be traceable through the transformation.</p>
+          <span class="gap-label risk">Risk</span>
+          <p>Processing creates an opportunity to substitute cheaper species, blend undeclared ingredients, or obscure origin. Consumers purchasing processed seafood have no reliable way to verify species identity without laboratory testing.</p>
+          <span class="gap-label response">I‑CADMUS Proposal</span>
+          <p>Require that customs declarations for processed seafood identify the source species and maintain a traceable link to the pre-processing identity. Strengthen product-description requirements for prepared and mixed products.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span class="accordion-num">7</span>
+        <h4>Net Weight, Glaze and Added Water</h4>
+        <span class="accordion-toggle">+</span>
+      </div>
+      <div class="accordion-body">
+        <div class="accordion-body-inner">
+          <span class="gap-label problem">Problem</span>
+          <p>Frozen seafood routinely carries a protective ice glaze, and some products have added water or phosphate solutions that increase pack weight. Customs declarations typically record gross weight, and the HS does not require net-weight or glaze-percentage declarations.</p>
+          <span class="gap-label risk">Identified Gap</span>
+          <p>Protective glaze is a legitimate treatment when properly controlled and declared. An integrity concern arises when glaze or added water is included improperly in the declared net seafood weight, exceeds the agreed specification, is not disclosed where required, or causes the quantity or composition of the seafood to be misrepresented.</p>
+          <span class="gap-label response">I‑CADMUS Proposal</span>
+          <p>Require accurate net seafood weight excluding glaze, together with a glaze-percentage or added-water declaration where relevant. Without net-weight declarations at the border, quantity concerns enter the supply chain before domestic regulators can intervene.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span class="accordion-num">8</span>
+        <h4>Prepared and Mixed Products</h4>
+        <span class="accordion-toggle">+</span>
+      </div>
+      <div class="accordion-body">
+        <div class="accordion-body-inner">
+          <span class="gap-label problem">Problem</span>
+          <p>Prepared and mixed seafood products — such as seafood sticks, fish cakes, mixed seafood packs, and ready meals — are classified under broad HS headings that do not require disclosure of the individual species or their proportions.</p>
+          <span class="gap-label risk">Risk</span>
+          <p>Undeclared species can be blended into mixed products without detection. Low-value species may replace declared premium ingredients. Allergen risks increase when species composition is unknown.</p>
+          <span class="gap-label response">I‑CADMUS Proposal</span>
+          <p>Require species-composition declarations for prepared and mixed seafood products, including the proportion of each species. Align customs requirements with domestic food-labelling regulations.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span class="accordion-num">9</span>
+        <h4>Marine Ingredients</h4>
+        <span class="accordion-toggle">+</span>
+      </div>
+      <div class="accordion-body">
+        <div class="accordion-body-inner">
+          <span class="gap-label problem">Problem</span>
+          <p>Marine-derived ingredients — fish oils, fishmeal, marine collagen, extracts, and bioproducts — are classified across multiple HS chapters according to their finished form, not their marine origin. The biological source is often invisible in the classification.</p>
+          <span class="gap-label risk">Risk</span>
+          <p>IUU-sourced material can enter feed, pharmaceutical, and cosmetic supply chains without scrutiny. Species claims in supplements and health products may not be verifiable through customs data. Environmental and sustainability concerns are disconnected from trade records.</p>
+          <span class="gap-label response">I‑CADMUS Proposal</span>
+          <p>Require marine-source species identification for marine-derived ingredients at the customs declaration level. Ensure that classification across multiple chapters does not sever the traceability link to the original biological material.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CORE REGISTER TABLE -->
+    <h3 style="font-family: var(--serif); font-size: 22px; font-weight: 600; color: var(--brand); margin: 48px 0 16px;">Classification Issues Register</h3>
+    <p style="font-size: 15px; color: var(--ink-2); line-height: 1.6; margin-bottom: 24px;">A structured register of identified classification limitations, integrity risks and proposed improvements. Status values: <strong>Concept</strong> — identified but not yet formally proposed; <strong>Under review</strong> — being assessed for feasibility; <strong>Submitted</strong> — formally proposed to the responsible organisation.</p>
+
+    <div style="overflow-x: auto;">
+      <table class="register-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Classification Area</th>
+            <th>Current Limitation</th>
+            <th>Integrity Risk</th>
+            <th>Proposed Improvement</th>
+            <th>Level of Action</th>
+            <th>Responsible</th>
+            <th>Status</th>
+            <th>Evidence / Source</th>
+            <th>Updated</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HS‑001</td>
+            <td>0303 — Frozen fish</td>
+            <td>Species frequently captured within residual categories</td>
+            <td>Substitution and concealed origin</td>
+            <td>Structured scientific-name declaration</td>
+            <td>Australian declaration / statistical extension</td>
+            <td>ABF, ABS</td>
+            <td>Concept</td>
+            <td><a href="https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-i/chapter-3" style="color: var(--teal);" target="_blank" rel="noopener">ABF Ch 3</a></td>
+            <td>Aug 2026</td>
+          </tr>
+          <tr>
+            <td>HS‑002</td>
+            <td>0304 — Fish fillets</td>
+            <td>Species identity lost after processing</td>
+            <td>Substitution in processed fillets</td>
+            <td>Require source-species declaration linked to pre-processing identity</td>
+            <td>Australian declaration</td>
+            <td>ABF, DAFF</td>
+            <td>Concept</td>
+            <td><a href="https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-i/chapter-3" style="color: var(--teal);" target="_blank" rel="noopener">ABF Ch 3</a></td>
+            <td>Aug 2026</td>
+          </tr>
+          <tr>
+            <td>HS‑003</td>
+            <td>0306 — Crustaceans</td>
+            <td>No systematic wild/farmed distinction</td>
+            <td>Farmed product declared as wild-caught or vice versa</td>
+            <td>Production-method indicator in declaration</td>
+            <td>Australian statistical extension or WCO (HS 2033)</td>
+            <td>ABF, ABS, WCO</td>
+            <td>Concept</td>
+            <td><a href="https://www.wcoomd.org/en/topics/nomenclature/activities-and-programmes/hs-review-cycle.aspx" style="color: var(--teal);" target="_blank" rel="noopener">WCO review cycle</a></td>
+            <td>Aug 2026</td>
+          </tr>
+          <tr>
+            <td>HS‑004</td>
+            <td>0303, 0306 — Frozen fish, crustaceans</td>
+            <td>No net-weight or glaze-percentage declaration required at border</td>
+            <td>Quantity misrepresentation through undisclosed glaze or added water</td>
+            <td>Require net seafood weight excluding glaze, with glaze-percentage declaration</td>
+            <td>Australian declaration</td>
+            <td>ABF, DAFF</td>
+            <td>Concept</td>
+            <td>See Section 4, Gap 7</td>
+            <td>Aug 2026</td>
+          </tr>
+          <tr>
+            <td>HS‑005</td>
+            <td>All seafood headings</td>
+            <td>Customs origin may not reveal harvest origin</td>
+            <td>Product from IUU-affected fisheries routed through processing countries</td>
+            <td>Separate structured fields for country of harvest and country of last processing</td>
+            <td>Australian declaration</td>
+            <td>ABF, DAFF</td>
+            <td>Concept</td>
+            <td><a href="https://www.fao.org/fishery/en/area/search" style="color: var(--teal);" target="_blank" rel="noopener">FAO fishing areas</a></td>
+            <td>Aug 2026</td>
+          </tr>
+          <tr>
+            <td>HS‑006</td>
+            <td>All seafood headings</td>
+            <td>Vessel or farm identity not captured in HS or standard customs records</td>
+            <td>Product from IUU vessels or non-compliant farms enters supply chain</td>
+            <td>Vessel ID (IMO) or farm registration in declaration or linked traceability record</td>
+            <td>Australian declaration / commodity-specific program</td>
+            <td>ABF, DAFF, AFMA</td>
+            <td>Concept</td>
+            <td>See Section 4, Gap 5</td>
+            <td>Aug 2026</td>
+          </tr>
+          <tr>
+            <td>HS‑007</td>
+            <td>1604, 1605 — Prepared seafood</td>
+            <td>Species composition not required for mixed products</td>
+            <td>Undeclared species blended into mixed products; allergen risks</td>
+            <td>Species-composition declarations for prepared and mixed seafood</td>
+            <td>Australian declaration</td>
+            <td>ABF, FSANZ</td>
+            <td>Concept</td>
+            <td><a href="https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-iv/chapter-16" style="color: var(--teal);" target="_blank" rel="noopener">ABF Ch 16</a></td>
+            <td>Aug 2026</td>
+          </tr>
+          <tr>
+            <td>HS‑008</td>
+            <td>Ch 15, 2301 — Marine ingredients</td>
+            <td>Biological source invisible after extraction or processing</td>
+            <td>IUU material enters feed, pharmaceutical and cosmetic chains</td>
+            <td>Marine-source species identification at customs declaration level</td>
+            <td>Australian declaration or WCO</td>
+            <td>ABF, ABS, WCO</td>
+            <td>Concept</td>
+            <td>See Section 4, Gap 9</td>
+            <td>Aug 2026</td>
+          </tr>
+          <tr>
+            <td>HS‑009</td>
+            <td>Import / export asymmetry</td>
+            <td>Import and export classifications may not provide equivalent species or product detail</td>
+            <td>Trade-flow analysis impaired; reconciliation between import and export data difficult</td>
+            <td>Align import and export statistical classifications for equivalent detail</td>
+            <td>Australian statistical extension</td>
+            <td>ABS, ABF</td>
+            <td>Concept</td>
+            <td><a href="https://www.abs.gov.au/statistics/classifications/australian-harmonized-export-commodity-classification-ahecc/latest-release" style="color: var(--teal);" target="_blank" rel="noopener">ABS AHECC</a></td>
+            <td>Aug 2026</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">All entries are I‑CADMUS/SCA proposals at concept stage. They are not current customs requirements. Responsible organisations are identified based on functional relevance, not endorsement.</p>
+
+  </div>
+</section>
+
 <!-- ============== PROPOSED CONNECTED SEAFOOD DATA RECORD ============== -->
 <section id="data-record" style="background: var(--bg-soft);" class="reveal">
   <div class="container">
-    <div class="section-eyebrow">Section 5</div>
+    <div class="section-eyebrow">Section 5 · <span style="color: var(--gold);">I‑CADMUS proposal</span></div>
     <h2 class="section-h">Proposed connected <strong>seafood data record</strong></h2>
     <p class="section-sub">Six data categories that, combined with the HS classification, would create a connected information system capable of supporting seafood integrity from the point of harvest to the point of sale.</p>
 
@@ -1852,7 +1870,7 @@
             <ul style="list-style: none; padding: 0;">
               <li style="padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-2);">HS classification code (six-digit minimum)</li>
               <li style="padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-2);">National tariff and statistical extensions</li>
-              <li style="padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-2);">Country of origin (harvest, not processing)</li>
+              <li style="padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-2);">Country of origin (customs declaration)</li>
               <li style="padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-2);">Country of last processing (if different from harvest)</li>
               <li style="padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-2);">Gross weight, net weight, and glaze percentage (frozen products)</li>
               <li style="padding: 8px 0; font-size: 14px; color: var(--ink-2);">Customs value and unit price</li>
@@ -1958,6 +1976,132 @@
   </div>
 </section>
 
+<!-- ============== MODERNISATION PRIORITIES ============== -->
+<section id="priorities" style="background: var(--bg-soft);" class="reveal">
+  <div class="container">
+    <div class="section-eyebrow">Section 6 · <span style="color: var(--gold);">I‑CADMUS proposal</span></div>
+    <h2 class="section-h">Modernisation <strong>priorities</strong></h2>
+    <p class="section-sub">A sequenced programme of reforms, from measures that can be implemented immediately within Australian systems to proposals requiring international coordination.</p>
+
+    <div class="priorities-stepper">
+      <div class="priority-step">
+        <div class="priority-step-num">1</div>
+        <h4>Immediate Australian Improvements</h4>
+        <ul>
+          <li><em>(I‑CADMUS proposal)</em> Require scientific species names in customs declarations for all seafood consignments</li>
+          <li>Require net-weight and glaze-percentage declarations for frozen seafood imports</li>
+          <li>Add a wild-caught or farmed production-method indicator to import and export declarations</li>
+          <li>Require FAO catch-area codes or aquaculture-region identifiers in seafood declarations</li>
+          <li>Align import and export statistical classifications so that equivalent detail is captured in both directions</li>
+          <li>Require species-composition declarations for prepared and mixed seafood products</li>
+          <li>Publish consolidated, machine-readable seafood trade data at the species level</li>
+        </ul>
+      </div>
+
+      <div class="priority-step">
+        <div class="priority-step-num">2</div>
+        <h4>Digital Interoperability</h4>
+        <ul>
+          <li>Develop a digital customs declaration format that links HS classification with species, origin, production method, and traceability data</li>
+          <li>Enable interoperability between customs systems, catch documentation schemes, and domestic food-safety databases</li>
+          <li>Establish a national seafood-trade data platform that integrates import, export, and domestic-production data</li>
+          <li>Pilot interoperable digital traceability for higher-risk seafood supply chains, selecting technology according to demonstrated functionality, cost, data governance and compatibility with recognised standards</li>
+        </ul>
+      </div>
+
+      <div class="priority-step">
+        <div class="priority-step-num">3</div>
+        <h4>International HS Proposals</h4>
+        <ul>
+          <li>Propose new six-digit subheadings for commercially and ecologically significant species currently in residual categories</li>
+          <li>Prepare proposals for the next WCO review cycle leading to HS 2033, while pursuing Australian tariff and statistical extensions that may be achievable earlier</li>
+          <li>Advocate for WCO guidance on supplementary species declarations for residual subheadings</li>
+          <li>Support international standards for net-weight and glaze-percentage declarations in customs data</li>
+        </ul>
+      </div>
+
+      <div class="priority-step">
+        <div class="priority-step-num">4</div>
+        <h4>Verification and Enforcement</h4>
+        <ul>
+          <li>Establish a risk-based inspection programme for seafood imports that integrates species testing, weight verification, and document audit</li>
+          <li>Build laboratory capacity for routine DNA species verification at the border</li>
+          <li>Develop plausibility-check protocols that assess consignment-level coherence (volume, vessel capacity, fishing period, trade route)</li>
+          <li>Create a shared intelligence platform for customs, fisheries, and food-safety agencies to coordinate enforcement</li>
+          <li>Introduce meaningful penalties for deliberate misclassification, mislabelling, and species substitution in seafood trade</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== WORKED INTEGRITY EXAMPLES ============== -->
+<section id="examples" class="reveal">
+  <div class="container">
+    <div class="section-eyebrow">Section 7 · <span style="color: var(--ink-3);">Illustrative examples</span></div>
+    <h2 class="section-h">Worked <strong>integrity examples</strong></h2>
+    <p class="section-sub">Five scenarios illustrating how classification gaps create real-world integrity failures, and the I-CADMUS fraud categories each engages.</p>
+
+    <div class="examples-grid">
+      <div class="example-card">
+        <span class="example-num">Example 1</span>
+        <h4>Correct Code, Wrong Species</h4>
+        <p class="scenario">A consignment is correctly classified under the appropriate HS heading for frozen fish fillets. The customs code is valid, the tariff rate is correct, and the paperwork passes automated checks. However, the species declared on the commercial documents does not match the species in the box. A lower-value species has been substituted for the declared premium species.</p>
+        <div class="lesson"><strong>Illustrative Example</strong>A correct HS code does not guarantee species authenticity. The classification confirms the product form, not the biological identity. Without species verification at the border or in the supply chain, substitution passes undetected.</div>
+        <div class="icadmus-tags">
+          <span class="icadmus-tag substitution">Substitution</span>
+          <span class="icadmus-tag misrepresentation">Misrepresentation / Mislabelling</span>
+        </div>
+      </div>
+
+      <div class="example-card">
+        <span class="example-num">Example 2</span>
+        <h4>Correct Species, Incomplete Origin</h4>
+        <p class="scenario">A consignment of prawns is correctly identified by species and classified under the correct HS heading. The country of origin on the customs declaration is the last country of processing. However, the raw material was harvested in a different country, from a fishery subject to IUU concerns. The true geographic origin is not visible in the customs record.</p>
+        <div class="lesson"><strong>Illustrative Example</strong>Customs country-of-origin may not reveal harvest origin. Traceability to the point of harvest is necessary to assess fishery-level risk. Separate structured fields for country of harvest and country of last processing would make the distinction visible.</div>
+        <div class="icadmus-tags">
+          <span class="icadmus-tag misrepresentation">Misrepresentation / Mislabelling</span>
+          <span class="icadmus-tag unreported">Unreported / Undisclosed</span>
+        </div>
+      </div>
+
+      <div class="example-card">
+        <span class="example-num">Example 3</span>
+        <h4>Correct Species, Incorrect Quantity</h4>
+        <p class="scenario">A consignment of frozen prawns is correctly identified by species and origin. The gross weight on the customs declaration is accurate. However, the glaze applied to the product represents a substantial proportion of the total weight. The net seafood weight is significantly less than a buyer or consumer would expect. No glaze-percentage declaration is required at the border. <em>(Hypothetical scenario for illustration.)</em></p>
+        <div class="lesson"><strong>Illustrative Example</strong>Gross-weight declarations do not reveal the actual quantity of seafood in the consignment. Without net-weight and glaze-percentage requirements, quantity concerns may enter the supply chain at the point of import.</div>
+        <div class="icadmus-tags">
+          <span class="icadmus-tag dilution">Dilution</span>
+          <span class="icadmus-tag misrepresentation">Misrepresentation / Mislabelling</span>
+        </div>
+      </div>
+
+      <div class="example-card">
+        <span class="example-num">Example 4</span>
+        <h4>Processed Identity Loss</h4>
+        <p class="scenario">A consignment of breaded fish portions is classified under a prepared-fish heading. The customs declaration states the product contains a named white-fish species. After processing — filleting, skinning, coating, and freezing — the species cannot be identified by visual inspection. Laboratory testing later reveals that a proportion of the portions contain a different, lower-value species. Undeclared additives have also been introduced.</p>
+        <div class="lesson"><strong>Illustrative Example</strong>Processing severs the visual link between the finished product and the source species. Customs classification of the finished product form does not verify species composition. Traceability records and testing are required to maintain identity through processing.</div>
+        <div class="icadmus-tags">
+          <span class="icadmus-tag adulteration">Addition / Adulteration</span>
+          <span class="icadmus-tag misrepresentation">Misrepresentation / Mislabelling</span>
+          <span class="icadmus-tag substitution">Substitution</span>
+        </div>
+      </div>
+
+      <div class="example-card" style="grid-column: 1 / -1;">
+        <span class="example-num">Example 5</span>
+        <h4>Legitimate Documents, Implausible Trade</h4>
+        <p class="scenario">A consignment arrives with all required customs documentation: valid HS classification, commercial invoice, packing list, health certificate, and catch documentation from the flag state. Each document appears genuine. However, the declared catch volume is implausible for the vessel size and the declared fishing period. The trade route does not match established patterns for the declared species and origin. No individual document is fraudulent, but the consignment as a whole does not withstand scrutiny.</p>
+        <div class="lesson"><strong>Illustrative Example</strong>Document-by-document compliance does not substitute for risk-based assessment of the consignment as a whole. Plausibility checks — comparing declared volumes, vessel capacity, fishing periods, and trade routes — are necessary to detect sophisticated fraud that uses legitimate paperwork to cover illegitimate product.</div>
+        <div class="icadmus-tags">
+          <span class="icadmus-tag illegal">Illegal</span>
+          <span class="icadmus-tag unreported">Unreported / Unregulated / Undisclosed</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ============== GOVERNANCE PATHWAY ============== -->
 <section id="governance" class="reveal">
   <div class="container">
@@ -1982,9 +2126,9 @@
         <h4>Australian Level</h4>
         <ul>
           <li>Australian Border Force — tariff classification, import processing, and border enforcement</li>
-          <li>Department of Agriculture, Fisheries and Forestry — export certification, biosecurity, and fisheries management</li>
+          <li>Department of Agriculture, Fisheries and Forestry — export certification for prescribed goods, biosecurity, and fisheries policy</li>
           <li>Australian Bureau of Statistics — trade-data collection and classification maintenance</li>
-          <li>Australian Fisheries Management Authority (AFMA) — domestic fisheries regulation and compliance</li>
+          <li>Australian Fisheries Management Authority (AFMA) — manages and enforces Commonwealth fisheries; state and territory authorities manage fisheries within their respective jurisdictions</li>
           <li>Food Standards Australia New Zealand (FSANZ) — food-labelling and composition standards</li>
           <li>State and territory fisheries and food-safety agencies — domestic enforcement and inspection</li>
         </ul>
@@ -2010,22 +2154,20 @@
   <div class="container">
     <div class="section-eyebrow">Downloads</div>
     <h2 class="section-h">Download the <strong>Register</strong></h2>
-    <p class="section-sub">The complete Seafood HS Code Modernisation Register is available for download in two formats. Files will be available once generated.</p>
+    <p class="section-sub">PDF and spreadsheet editions are being prepared and will become available following approval of Version 1.0.</p>
 
     <div class="downloads-grid">
       <div class="download-card">
         <div class="download-icon">PDF</div>
-        <h4>Download PDF</h4>
+        <h4>PDF Edition</h4>
         <p>The complete Register as a formatted PDF document, suitable for printing and circulation.</p>
-        <a href="#" class="btn btn-secondary" data-note="File will be generated from approved content">Download PDF <span class="arrow">&darr;</span></a>
-        <p class="download-pending">File will be available once generated from approved content</p>
+        <p class="download-pending">Forthcoming — pending Version 1.0 approval</p>
       </div>
       <div class="download-card">
         <div class="download-icon">XLS</div>
-        <h4>Download Spreadsheet</h4>
+        <h4>Spreadsheet Edition</h4>
         <p>The classifications register data in spreadsheet format, suitable for analysis and integration.</p>
-        <a href="#" class="btn btn-secondary" data-note="File will be generated from approved content">Download Excel <span class="arrow">&darr;</span></a>
-        <p class="download-pending">File will be available once generated from approved content</p>
+        <p class="download-pending">Forthcoming — pending Version 1.0 approval</p>
       </div>
     </div>
   </div>
@@ -2039,52 +2181,9 @@
     <p class="section-sub">Stakeholders are invited to submit proposed HS Code additions, corrections, or updates for consideration in future editions of the Register.</p>
 
     <div class="submission-form">
-      <h3>Register Submission</h3>
-      <p>All fields marked with * are required. Submissions will be reviewed by the SCA team.</p>
-
-      <form onsubmit="event.preventDefault(); alert('Thank you. Your submission has been received and will be reviewed by the SCA team.');">
-        <div class="form-row two-col">
-          <div>
-            <label for="sub-name">Full name <span class="required">*</span></label>
-            <input type="text" id="sub-name" name="name" placeholder="Jane Smith" required />
-          </div>
-          <div>
-            <label for="sub-email">Email address <span class="required">*</span></label>
-            <input type="email" id="sub-email" name="email" placeholder="you@example.com" required />
-          </div>
-        </div>
-
-        <div class="form-row">
-          <label for="sub-org">Organisation</label>
-          <input type="text" id="sub-org" name="organisation" placeholder="Company, university, or agency" />
-        </div>
-
-        <div class="form-row two-col">
-          <div>
-            <label for="sub-type">Submission type <span class="required">*</span></label>
-            <select id="sub-type" name="type" required>
-              <option value="">Select a type...</option>
-              <option value="addition">Proposed Addition</option>
-              <option value="correction">Correction</option>
-              <option value="update">Update</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <div>
-            <label for="sub-hs">HS Code (if applicable)</label>
-            <input type="text" id="sub-hs" name="hs_code" placeholder="e.g. 0303, 1604" />
-          </div>
-        </div>
-
-        <div class="form-row">
-          <label for="sub-details">Details <span class="required">*</span></label>
-          <textarea id="sub-details" name="details" placeholder="Describe the proposed addition, correction, or update in detail..." required></textarea>
-        </div>
-
-        <div class="form-row">
-          <button type="submit" class="btn btn-primary">Submit proposal <span class="arrow">&rarr;</span></button>
-        </div>
-      </form>
+      <h3>Register Submissions</h3>
+      <p>Register submissions are being prepared. Please email proposed additions or corrections to <a href="mailto:contact@seafoodconsumers.global" style="color: var(--teal); font-weight: 600;">contact@seafoodconsumers.global</a>.</p>
+      <p style="font-size: 14px; color: var(--ink-3); margin-top: 16px;">Please include the relevant HS code or classification area, a description of the proposed change, and any supporting evidence or source references. Submissions will be reviewed against the register's acceptance criteria and change-control process.</p>
     </div>
   </div>
 </section>
@@ -2114,10 +2213,46 @@
       </div>
     </div>
 
+    <!-- DOCUMENT CONTROL -->
+    <div class="disclaimer" style="margin-top: 32px;">
+      <h4>Document Control</h4>
+      <table style="width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 16px;">
+        <tr style="border-bottom: 1px solid var(--line);"><td style="padding: 8px 0; font-weight: 600; color: var(--ink); width: 220px;">Document owner</td><td style="padding: 8px 0; color: var(--ink-2);">Seafood Consumers Association Ltd (SCA)</td></tr>
+        <tr style="border-bottom: 1px solid var(--line);"><td style="padding: 8px 0; font-weight: 600; color: var(--ink);">Technical reviewer</td><td style="padding: 8px 0; color: var(--ink-2);">SCA Policy and Classification Team</td></tr>
+        <tr style="border-bottom: 1px solid var(--line);"><td style="padding: 8px 0; font-weight: 600; color: var(--ink);">Date last reviewed</td><td style="padding: 8px 0; color: var(--ink-2);">August 2026</td></tr>
+        <tr style="border-bottom: 1px solid var(--line);"><td style="padding: 8px 0; font-weight: 600; color: var(--ink);">Next scheduled review</td><td style="padding: 8px 0; color: var(--ink-2);">August 2027</td></tr>
+        <tr style="border-bottom: 1px solid var(--line);"><td style="padding: 8px 0; font-weight: 600; color: var(--ink);">Source-verification process</td><td style="padding: 8px 0; color: var(--ink-2);">All classification references verified against official sources; access dates recorded in the sources section</td></tr>
+        <tr style="border-bottom: 1px solid var(--line);"><td style="padding: 8px 0; font-weight: 600; color: var(--ink);">Acceptance criteria for amendments</td><td style="padding: 8px 0; color: var(--ink-2);">Proposed amendments must cite an authoritative source and be verified by the technical reviewer before inclusion</td></tr>
+        <tr style="border-bottom: 1px solid var(--line);"><td style="padding: 8px 0; font-weight: 600; color: var(--ink);">Permanent URL</td><td style="padding: 8px 0; color: var(--ink-2);"><a href="https://www.i-cadmus.org/hs-code-register.php" style="color: var(--teal);">https://www.i-cadmus.org/hs-code-register.php</a></td></tr>
+        <tr style="border-bottom: 1px solid var(--line);"><td style="padding: 8px 0; font-weight: 600; color: var(--ink);">Contact</td><td style="padding: 8px 0; color: var(--ink-2);"><a href="mailto:contact@seafoodconsumers.global" style="color: var(--teal);">contact@seafoodconsumers.global</a></td></tr>
+      </table>
+      <h4 style="margin-top: 20px;">Change History</h4>
+      <table style="width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 16px;">
+        <tr style="background: var(--bg-2);"><th style="padding: 8px 12px; text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em;">Version</th><th style="padding: 8px 12px; text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em;">Date</th><th style="padding: 8px 12px; text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em;">Description</th></tr>
+        <tr style="border-bottom: 1px solid var(--line);"><td style="padding: 8px 12px; color: var(--ink-2);">1.0</td><td style="padding: 8px 12px; color: var(--ink-2);">August 2026</td><td style="padding: 8px 12px; color: var(--ink-2);">Initial publication</td></tr>
+      </table>
+    </div>
+
+    <!-- AUTHORITATIVE SOURCES -->
+    <div class="disclaimer" style="margin-top: 24px;">
+      <h4>Authoritative Sources</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li style="font-size: 14px; color: var(--ink-2); padding: 8px 0; border-bottom: 1px solid var(--line); line-height: 1.5;"><strong style="color: var(--ink);">World Customs Organization</strong> — HS 2028 amendments and HS Nomenclature. <a href="https://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/hs-nomenclature-2028-edition.aspx" style="color: var(--teal);" target="_blank" rel="noopener">wcoomd.org — HS 2028</a>. Accessed August 2026.</li>
+        <li style="font-size: 14px; color: var(--ink-2); padding: 8px 0; border-bottom: 1px solid var(--line); line-height: 1.5;"><strong style="color: var(--ink);">Australian Border Force</strong> — Combined Australian Customs Tariff Nomenclature: Chapter 3 (Fish and crustaceans, molluscs and other aquatic invertebrates). <a href="https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-i/chapter-3" style="color: var(--teal);" target="_blank" rel="noopener">abf.gov.au — Chapter 3</a>. Accessed August 2026.</li>
+        <li style="font-size: 14px; color: var(--ink-2); padding: 8px 0; border-bottom: 1px solid var(--line); line-height: 1.5;"><strong style="color: var(--ink);">Australian Border Force</strong> — Combined Australian Customs Tariff Nomenclature: Chapter 16 (Preparations of meat, of fish, of crustaceans, molluscs or other aquatic invertebrates). <a href="https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-iv/chapter-16" style="color: var(--teal);" target="_blank" rel="noopener">abf.gov.au — Chapter 16</a>. Accessed August 2026.</li>
+        <li style="font-size: 14px; color: var(--ink-2); padding: 8px 0; border-bottom: 1px solid var(--line); line-height: 1.5;"><strong style="color: var(--ink);">Australian Bureau of Statistics</strong> — Australian Harmonized Export Commodity Classification (AHECC) 2022. <a href="https://www.abs.gov.au/statistics/classifications/australian-harmonized-export-commodity-classification-ahecc/latest-release" style="color: var(--teal);" target="_blank" rel="noopener">abs.gov.au — AHECC</a>. Accessed August 2026.</li>
+        <li style="font-size: 14px; color: var(--ink-2); padding: 8px 0; border-bottom: 1px solid var(--line); line-height: 1.5;"><strong style="color: var(--ink);">Department of Agriculture, Fisheries and Forestry</strong> — Import conditions and biosecurity requirements for seafood. <a href="https://www.agriculture.gov.au/biosecurity-trade/import" style="color: var(--teal);" target="_blank" rel="noopener">agriculture.gov.au — imports</a>. Accessed August 2026.</li>
+        <li style="font-size: 14px; color: var(--ink-2); padding: 8px 0; border-bottom: 1px solid var(--line); line-height: 1.5;"><strong style="color: var(--ink);">Department of Agriculture, Fisheries and Forestry</strong> — Export certification and regulatory requirements. <a href="https://www.agriculture.gov.au/biosecurity-trade/export" style="color: var(--teal);" target="_blank" rel="noopener">agriculture.gov.au — exports</a>. Accessed August 2026.</li>
+        <li style="font-size: 14px; color: var(--ink-2); padding: 8px 0; border-bottom: 1px solid var(--line); line-height: 1.5;"><strong style="color: var(--ink);">Food and Agriculture Organization of the United Nations</strong> — FAO Major Fishing Areas and catch-area codes. <a href="https://www.fao.org/fishery/en/area/search" style="color: var(--teal);" target="_blank" rel="noopener">fao.org — fishing areas</a>. Accessed August 2026.</li>
+        <li style="font-size: 14px; color: var(--ink-2); padding: 8px 0; line-height: 1.5;"><strong style="color: var(--ink);">WCO</strong> — HS review-cycle information and HS 2033 planning. <a href="https://www.wcoomd.org/en/topics/nomenclature/activities-and-programmes/hs-review-cycle.aspx" style="color: var(--teal);" target="_blank" rel="noopener">wcoomd.org — review cycle</a>. Accessed August 2026.</li>
+      </ul>
+    </div>
+
     <!-- DISCLAIMER -->
-    <div class="disclaimer">
+    <div class="disclaimer" style="margin-top: 24px;">
       <h4>Disclaimer</h4>
-      <p>This Register is an educational and policy-development resource. It does not constitute customs, tariff or legal advice. Classification depends on the precise product, composition, processing, presentation, intended use and applicable national law. Importers and exporters should consult the relevant customs authority or a qualified classification professional.</p>
+      <p>This Register is an educational and policy-development resource published by the Seafood Consumers Association Ltd. It does not constitute customs, tariff or legal advice. Classification depends on the precise product, composition, processing, presentation, intended use and applicable national law. Importers and exporters should consult the relevant customs authority or a qualified classification professional.</p>
+      <p>Inclusion of any reference, standard, organisation or methodology does not indicate government endorsement of the Register or its proposals.</p>
     </div>
   </div>
 </section>
@@ -2128,10 +2263,10 @@
     <div class="cta-band-grid">
       <div>
         <h2>Ready to <strong>apply the framework</strong>?</h2>
-        <p>Earn the I-CADMUS certification, download the audit checklists, or book a briefing for your team.</p>
+        <p>I‑CADMUS professional education and assessment are being developed. Register your interest or explore the current resources.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="certification.php" class="btn btn-primary">Get certified <span class="arrow">&rarr;</span></a>
+        <a href="contact.php" class="btn btn-primary">Register Your Interest <span class="arrow">&rarr;</span></a>
         <a href="resources.php" class="btn btn-outline">Browse resources</a>
       </div>
     </div>

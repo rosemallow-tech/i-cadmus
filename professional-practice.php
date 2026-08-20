@@ -1747,7 +1747,7 @@
           <tr><th>Next scheduled review</th><td>August 2027</td></tr>
           <tr><th>Document owner</th><td>Seafood Consumers Association Ltd (SCA)</td></tr>
           <tr><th>Contact</th><td><a href="contact.php" style="color: var(--teal); border-bottom: 1px solid transparent; transition: border-color 0.15s;">contact@seafoodconsumers.global</a></td></tr>
-          <tr><th>Canonical URL</th><td style="color:var(--gold);font-style:italic;">Permanent public URL to be confirmed by SCA</td></tr>
+          <tr><th>Canonical URL</th><td><a href="https://www.i-cadmus.org/professional-practice.php" style="color: var(--teal); border-bottom: 1px solid transparent; transition: border-color 0.15s;">https://www.i-cadmus.org/professional-practice.php</a></td></tr>
         </table>
 
         <h3 style="margin-top: 40px;">Change history</h3>
@@ -1762,7 +1762,7 @@
         <div class="doc-disclaimer">
           <p>This toolkit is published by the Seafood Consumers Association Ltd as a professional practice resource. It is intended to support seafood businesses in developing and maintaining integrity controls appropriate to their operations.</p>
           <p>It does not constitute legal advice. Businesses are responsible for ensuring compliance with applicable legislation, regulations and standards in their jurisdiction.</p>
-          <p>The information is provided in good faith and is believed to be accurate at the date of publication. To the maximum extent permitted by law, Seafood Consumers Association Ltd does not accept liability for loss arising from reliance on this general information. Nothing in this disclaimer excludes rights or obligations that cannot lawfully be excluded. This proposed wording is pending legal review.</p>
+          <p>The information is provided in good faith and is believed to be accurate at the date of publication. To the maximum extent permitted by law, Seafood Consumers Association Ltd does not accept liability for loss arising from reliance on this general information. Nothing in this disclaimer excludes rights or obligations that cannot lawfully be excluded.</p>
           <p>Important regulatory changes may trigger an earlier review before the next scheduled review date. Users should check the I-CADMUS website for the most current version.</p>
           <p>Inclusion of any reference, standard or methodology does not constitute endorsement of any particular product, service or organisation.</p>
         </div>

@@ -238,8 +238,12 @@
      PRINT STYLES
      ========================================================= */
   @media print {
-    .utility-bar,.header,.ca-hero,.pathway-strip,.kit-grid,.newsletter-section,.cta-band,footer,.back-to-top,.form-submit,.ca-hero-actions,.safeguards-box{display:none!important;}
+    /* Hide everything except the concern form and its privacy notice */
+    .utility-bar,.header,.ca-hero,.pathway-strip,.kit-grid,.newsletter-section,.cta-band,footer,.back-to-top,.ca-hero-actions,.safeguards-box{display:none!important;}
+    .step-section,.referral-section,section:not(.form-section){display:none!important;}
+    .form-submit{display:none!important;}
     .form-section{background:#fff!important;padding:20px 0!important;}
+    .form-section .section-eyebrow,.form-section .section-h,.form-section .section-sub{display:block!important;}
     .concern-form{border:2px solid #000!important;box-shadow:none!important;padding:24px!important;max-width:100%!important;}
     .concern-form h3{font-size:20px!important;}
     .form-group input,.form-group textarea{border:1px solid #999!important;min-height:auto!important;}
@@ -320,7 +324,7 @@
 <section id="kit">
   <div class="container">
     <div class="section-eyebrow">Consumer Action Kit</div>
-    <h2 class="section-h" style="max-width:none;">Your <strong>downloadable resources.</strong></h2>
+    <h2 class="section-h" style="max-width:none;">Planned <strong>printable resources.</strong></h2>
     <p class="section-sub">Five resources to help you document, report and follow up on a seafood concern.</p>
     <div class="kit-grid">
       <div class="kit-card">
@@ -902,7 +906,7 @@
       </form>
 
       <div class="form-privacy">
-        Your information is not transmitted to Seafood Consumers Association Ltd. The completed form remains on your device. You can print it or save it as a PDF for your own records or for submission to the appropriate authority.
+        The information entered is not transmitted to SCA or stored by this website. It remains within your current browser session unless you print or save the completed record. Closing or refreshing the page may erase the information entered.
       </div>
     </div>
 

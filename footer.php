@@ -8,12 +8,7 @@
    <img src="assets/img/logo-2.png" alt="I-CADMUS Logo" class="logo"  >
 </a>
         </div>
-        <p class="footer-desc">A practical framework for spotting, classifying, and acting on seafood fraud. Published by the Seafood Consumer Association.</p>
-        <form class="footer-newsletter" onsubmit="event.preventDefault();">
-          <label for="newsletter-email" style="display:block; font-size:13px; color:rgba(255,255,255,0.7); margin-bottom:8px;">Subscribe to our briefing</label>
-          <input type="email" id="newsletter-email" placeholder="your@email.com" />
-          <button type="submit">Subscribe</button>
-        </form>
+        <p class="footer-desc">A practical framework for spotting, classifying, and acting on seafood fraud. Published by the Seafood Consumers Association Ltd.</p>
         <div class="footer-social">
           <a href="https://www.linkedin.com/company/seafood-consumer-association" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
           <a href="https://twitter.com/i_cadmus" aria-label="X / Twitter" target="_blank" rel="noopener">𝕏</a>
@@ -55,7 +50,7 @@
       <div class="footer-col">
         <h5>About</h5>
         <ul>
-          <li><a href="about.php">Seafood Consumer Association</a></li>
+          <li><a href="about.php">Seafood Consumers Association Ltd</a></li>
           <li><a href="about.php#leadership">Leadership</a></li>
           <li><a href="news.php">Press &amp; media</a></li>
           <li><a href="careers.php">Careers</a></li>
@@ -64,13 +59,13 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <div>© 2026 I-CADMUS · Seafood Consumer Association · All rights reserved</div>
+      <div>© 2026 I-CADMUS · Seafood Consumers Association Ltd · All rights reserved</div>
       <div class="footer-bottom-links">
         <a href="privacy.php">Privacy</a>
         <a href="terms.php">Terms</a>
         <a href="privacy.php#cookies">Cookies</a>
-        <a href="contact.php">Accessibility</a>
-        <a href="index.php">Sitemap</a>
+        <a href="contact.php">Accessibility (contact)</a>
+        <a href="index.php">Sitemap (home)</a>
       </div>
     </div>
   </div>
