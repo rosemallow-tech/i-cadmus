@@ -1552,7 +1552,7 @@
         <div>
           <span class="whitepaper-tag">Briefing · 2026</span>
           <h3>Why Food Safety Has to Start with Truth in Labelling</h3>
-          <p>A short briefing for food-safety practitioners on why I-CADMUS sits in front of HACCP, not against it. Aimed at industry training officers and regulators.</p>
+          <p>A short briefing for food-safety practitioners on how I-CADMUS complements HACCP, TACCP and VACCP. Aimed at industry training officers and regulators.</p>
           <div class="meta">12 pages · 0.8 MB · By Hon Prof Roy D. Palmer</div>
         </div>
         <div class="whitepaper-actions">
@@ -1623,14 +1623,14 @@
     <div class="glossary-letter" id="g-h">
       <div class="glossary-letter-h">H</div>
       <dl>
-        <div class="glossary-term"><dt>HACCP</dt><dd>Hazard Analysis and Critical Control Points. The food-safety management system the seafood industry leans on. I-CADMUS sits in front of HACCP — answering "is this product what it claims to be?" before HACCP asks "is it safe?"</dd></div>
+        <div class="glossary-term"><dt>HACCP</dt><dd>Hazard Analysis and Critical Control Points. The food-safety management system the seafood industry leans on. I-CADMUS complements HACCP, TACCP and VACCP by helping identify authenticity, fraud, threat and vulnerability risks before HACCP asks "is it safe?"</dd></div>
       </dl>
     </div>
 
     <div class="glossary-letter" id="g-i">
       <div class="glossary-letter-h">I</div>
       <dl>
-        <div class="glossary-term"><dt>I-CADMUS</dt><dd>The seven-category seafood-fraud taxonomy: Illegal, Counterfeit, Adulteration, Dilution, Misrepresentation, Unreported, Substitution. Published by the Seafood Consumer Association.</dd></div>
+        <div class="glossary-term"><dt>I-CADMUS</dt><dd>The seven-category seafood-fraud taxonomy: Illegal, Counterfeit, Adulteration, Dilution, Misrepresentation, Unreported, Substitution. Published by the Seafood Consumers Association.</dd></div>
         <div class="glossary-term"><dt>Illegal (IUU)</dt><dd>The first I-CADMUS category. Catch from illegal, unreported, and unregulated fishing laundered into legitimate supply chains via paperwork manipulation and port-hopping.</dd></div>
       </dl>
     </div>
@@ -1653,7 +1653,7 @@
     <div class="glossary-letter" id="g-s">
       <div class="glossary-letter-h">S</div>
       <dl>
-        <div class="glossary-term"><dt>SCA</dt><dd>Seafood Consumer Association. The independent body that publishes I-CADMUS and operates the certification network.</dd></div>
+        <div class="glossary-term"><dt>SCA</dt><dd>Seafood Consumers Association. The independent body that publishes I-CADMUS and operates the certification network.</dd></div>
         <div class="glossary-term"><dt>Substitution</dt><dd>The seventh I-CADMUS category. Selling one species under another's name. The most familiar fraud and the costliest to consumer trust.</dd></div>
         <div class="glossary-term"><dt>Sulphites</dt><dd>Preservatives used to prevent black-spot in prawns and other crustaceans. A common allergen that must be disclosed; undisclosed use falls under <em>Adulteration</em>.</dd></div>
       </dl>
@@ -1692,7 +1692,7 @@
     <div class="faq-list">
       <div class="faq-item">
         <div class="faq-q"><span>Is I-CADMUS a regulator or a standards body?</span><span>+</span></div>
-        <div class="faq-a">Neither. I-CADMUS is a framework published by the Seafood Consumer Association — an independent advocacy body. We work alongside regulators (AS 5300, FRDC, Codex) but we don't have enforcement powers ourselves. Our role is to give the industry a shared classification language.</div>
+        <div class="faq-a">Neither. I-CADMUS is a framework published by the Seafood Consumers Association — an independent advocacy body. We work alongside regulators (AS 5300, FRDC, Codex) but we don't have enforcement powers ourselves. Our role is to give the industry a shared classification language.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>How do I report seafood fraud I've spotted?</span><span>+</span></div>

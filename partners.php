@@ -1448,7 +1448,7 @@
         <div class="partner-logo">SCA</div>
         <div>
           <span class="partner-tag">Founding Body</span>
-          <h3>Seafood Consumer Association</h3>
+          <h3>Seafood Consumers Association</h3>
           <p>The independent advocacy body that publishes I-CADMUS, operates the certification network, and runs the open-data publications register. Founded in 2018 to advocate for consumer transparency in seafood.</p>
           <a href="about.php" style="color: var(--brand); font-weight: 600;">About the SCA →</a>
         </div>

@@ -1675,7 +1675,7 @@
         <h1>Sea of Deception.</h1>
         <p class="lede">In a world where seafood nourishes billions yet hides billions in deception — this is the unvarnished truth, and the tools to fight back. The book that founded the I-CADMUS framework.</p>
         <div class="book-hero-author">
-          By <strong>Hon Prof Roy D. Palmer, MBA</strong> · CEO, Seafood Consumer Association
+          By <strong>Hon Prof Roy D. Palmer, MBA</strong> · CEO, Seafood Consumers Association
         </div>
         <div class="book-meta">
           <div class="book-meta-item"><small>Pages</small><span>320 approx.</span></div>

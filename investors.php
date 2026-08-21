@@ -5,8 +5,8 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Supporters | I-CADMUS — Seafood Consumer Association</title>
-<meta name="description" content="Supporter and partnership information for the Seafood Consumer Association — the organisation behind the I-CADMUS seafood integrity framework." />
+<title>Supporters | I-CADMUS — Seafood Consumers Association</title>
+<meta name="description" content="Supporter and partnership information for the Seafood Consumers Association — the organisation behind the I-CADMUS seafood integrity framework." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -697,7 +697,7 @@
       </div>
       <div class="page-hero-eyebrow">Supporters</div>
       <h1><strong>Supporters</strong></h1>
-      <p class="lede">The Seafood Consumer Association is a mission-driven organisation building the global standard for seafood integrity. We welcome supporters and partners who share our commitment to transparency in the seafood supply chain from harvest to belly.</p>
+      <p class="lede">The Seafood Consumers Association is a mission-driven organisation building the global standard for seafood integrity. We welcome supporters and partners who share our commitment to transparency in the seafood supply chain from harvest to belly.</p>
     </div>
   </div>
 </section>
@@ -738,7 +738,7 @@
         <div class="section-eyebrow">Our Structure</div>
         <h2 class="section-h">A not-for-profit built for <strong>long-term impact.</strong></h2>
         <div class="prose" style="max-width: none;">
-          <p>The Seafood Consumer Association operates as a not-for-profit organisation. Our mandate is the public interest: ensuring that consumers, regulators, and industry have access to a reliable, independent standard for seafood integrity.</p>
+          <p>The Seafood Consumers Association operates as a not-for-profit organisation. Our mandate is the public interest: ensuring that consumers, regulators, and industry have access to a reliable, independent standard for seafood integrity.</p>
           <p>We are governed by an independent board. Board members are subject to a formal conflict-of-interest policy and serve fixed, renewable terms. No single commercial interest holds a controlling position.</p>
           <p>The Advisory Council of the Seafood Consumers Association plays a critical role in steering the strategic vision and public advocacy of the organization on a voluntary basis. Composed of dedicated, forward-thinking industry strategists and professionals, the Council provides sharp, actionable insights to address systemic market challenges. Its members lend their time and expertise to elevate consumer-first strategies, helping to dismantle regulatory gaps, champion supply chain integrity, and build a clearer, more transparent path forward for everyday seafood consumers.</p>
           <p>This structure is deliberate. The credibility of the I-CADMUS framework — and the value of our certification — depends entirely on independence. Organisations and governments rely on us precisely because we are not funded by the industry sectors we assess.</p>
@@ -837,7 +837,7 @@
       </div>
       <div class="governance-card reveal">
         <h3>Financial Accountability</h3>
-        <p>The Seafood Consumer Association is subject to standard not-for-profit financial reporting obligations as regulated by the ACNC. We manage our resources with absolute integrity, maintaining transparent records and fulfilling annual reporting requirements through the Annual Information Statement (AIS) to ensure clear public visibility.</p>
+        <p>The Seafood Consumers Association is subject to standard not-for-profit financial reporting obligations as regulated by the ACNC. We manage our resources with absolute integrity, maintaining transparent records and fulfilling annual reporting requirements through the Annual Information Statement (AIS) to ensure clear public visibility.</p>
         <p>No surpluses are distributed to members or directors. All surpluses are retained for programme development and framework expansion.</p>
       </div>
     </div>
@@ -851,7 +851,7 @@
       <div class="contact-panel-inner">
         <span class="contact-panel-tag">Get in Touch</span>
         <h2>Supporter and partnership <strong>enquiries.</strong></h2>
-        <p>If you represent a foundation, government body, academic institution, or industry association interested in a strategic partnership with the Seafood Consumer Association, we welcome a conversation.</p>
+        <p>If you represent a foundation, government body, academic institution, or industry association interested in a strategic partnership with the Seafood Consumers Association, we welcome a conversation.</p>
         <p>All enquiries are treated in strict confidence.</p>
         <a href="mailto:invest@icadmus.org" class="email-link">invest@icadmus.org</a>
         <div>

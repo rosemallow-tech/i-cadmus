@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>About | I-CADMUS — Seafood Integrity Framework</title>
-<meta name="description" content="The story behind I-CADMUS, the Seafood Consumer Association, and Hon Prof Roy D. Palmer." />
+<meta name="description" content="The story behind I-CADMUS, the Seafood Consumers Association, and Hon Prof Roy D. Palmer." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1640,7 +1640,7 @@
       </div>
       <div class="page-hero-eyebrow">About the SCA</div>
       <h1>We exist to make seafood honesty a <strong>verifiable standard.</strong></h1>
-      <p class="lede">The Seafood Consumer Association (SCA) is an independent, consumer-first organisation built on one belief: that every person who buys seafood deserves to know exactly what they are buying — where it came from, what species it is, and how it was caught or farmed.</p>
+      <p class="lede">The Seafood Consumers Association (SCA) is an independent, consumer-first organisation built on one belief: that every person who buys seafood deserves to know exactly what they are buying — where it came from, what species it is, and how it was caught or farmed.</p>
     </div>
   </div>
 </section>
@@ -1651,13 +1651,13 @@
     <div class="section-eyebrow">Who We Are</div>
     <h2 class="section-h">An independent voice for the world's seafood consumers.</h2>
     <div class="prose">
-      <p>Seafood is the most fraud-prone food category on earth. One in five products globally doesn't match its label. Frozen prawns can be 40% water by weight. "Fish of the day" hides whatever is cheapest at the back of the freezer. And the food-safety systems the industry leans on — HACCP, audit checklists, country-of-origin declarations — answer the wrong question first. I-CADMUS asks it first: is this product even what it claims to be?</p>
+      <p>Seafood is the most fraud-prone food category on earth. Research has identified seafood mislabelling across international markets, while excessive or inadequately declared glaze and added water can also misrepresent the quantity of seafood being purchased. "Fish of the day" hides whatever is cheapest at the back of the freezer. And the food-safety systems the industry leans on — HACCP, audit checklists, country-of-origin declarations — answer the wrong question first. I-CADMUS asks it first: is this product even what it claims to be?</p>
 
       <p>The SCA was established to give consumers, industry operators, and regulators a single shared language for seafood fraud. Seven categories. One taxonomy. Built from decades of real supply-chain experience, not theoretical risk modelling.</p>
 
       <blockquote>Food safety has to start with truth in labelling. You cannot make safe what you cannot even identify.</blockquote>
 
-      <p>The framework is paired with the book <em>Sea of Deception</em>, an online certification programme, an open-data publications register, and a growing network of academic and industry partners — beginning with Bond University and expanding to one institutional partner per country.</p>
+      <p>The framework is paired with the book <em>Sea of Deception</em>, a developing professional education programme, an open-data publications register, and a growing network of academic and industry partners — beginning with Bond University and expanding to one institutional partner per country.</p>
 
       <h3>Why now</h3>
       <p>Three forces are converging: DNA verification has become affordable enough for routine use, traceability technology has matured, and consumer trust in food labelling has reached a generational low. The next decade will be shaped by whoever provides the framework — and the language — to act. I-CADMUS is that framework.</p>
@@ -1678,7 +1678,7 @@
         </div>
         <div class="founder-name-card">
           <strong>Hon Prof Roy Palmer, MBA (2026)</strong>
-          <span>Founder &amp; CEO, Seafood Consumer Association Ltd</span>
+          <span>Founder &amp; CEO, Seafood Consumers Association Ltd</span>
           <span>Author, <em>Sea of Deception</em> (July 2026)</span>
           <a href="https://au.linkedin.com/in/roypalmer" target="_blank" rel="noopener" style="font-size:13px;color:var(--brand);display:block;margin-top:4px;">LinkedIn Profile →</a>
         </div>
@@ -1690,17 +1690,17 @@
 
         <p>I-CADMUS is the distillation of that experience. After analysing the same seven categories of fraud appearing repeatedly across markets, supply chains, and decades — under different names, with different cover stories — Palmer set out to help educate consumers, provide industry with a single classifier, and offer a soft-governance alternative for regulators. The I-CADMUS framework is the result.</p>
 
-        <p>His book, <em>Sea of Deception</em> (Seafood Consumer Association, July 2026), documents those patterns in detail — with case studies, investigative findings, and a policy playbook for legislators who want to close the gap.</p>
+        <p>His book, <em>Sea of Deception</em> (Seafood Consumers Association, July 2026), documents those patterns in detail — with case studies, investigative findings, and a policy playbook for legislators who want to close the gap.</p>
 
         <h3>Selected appointments &amp; honours</h3>
         <ul>
-          <li>Founder &amp; Chief Executive Officer, Seafood Consumer Association Ltd, Australia</li>
+          <li>Founder &amp; Chief Executive Officer, Seafood Consumers Association Ltd, Australia</li>
           <li>Profesor Honorario — Universidad Tecnológica del Mar de Tamaulipas Bicentenario, Mexico</li>
           <li>Honorary Life Award — World Aquaculture Society (WAS)</li>
           <li>Medal of Honor — World Gastronomy Institute (WGI)</li>
           <li>Founder — Association of International Seafood Professionals</li>
           <li>Former Senior Consumer Behaviour Expert, UN FAO (seafood fraud prevention &amp; consumption strategies)</li>
-          <li>Author, <em>Sea of Deception</em> (Seafood Consumer Association, July 2026)</li>
+          <li>Author, <em>Sea of Deception</em> (Seafood Consumers Association, July 2026)</li>
         </ul>
 
         <p><a href="contact.php">Request a briefing or media interview →</a></p>
@@ -1776,7 +1776,7 @@
       <div class="timeline-row">
         <div class="timeline-year">2018</div>
         <div class="timeline-content">
-          <h3>Seafood Consumer Association Founded</h3>
+          <h3>Seafood Consumers Association Founded</h3>
           <p>An independent body established to advocate for transparency, accuracy, and integrity in seafood labelling — answerable to consumers, not to industry incumbents.</p>
         </div>
       </div>
@@ -1824,7 +1824,7 @@
         <div class="service-icon">C</div>
         <span class="code">Certification</span>
         <h3>I-CADMUS Certification</h3>
-        <p>An online certification programme for operators, auditors, and foodservice professionals who need a verifiable credential in seafood integrity. Delivered in partnership with Bond University.</p>
+        <p>A developing professional education programme for operators, auditors, and foodservice professionals who need a verifiable credential in seafood integrity. Delivered in partnership with Bond University.</p>
         <span class="btn-link">Get certified →</span>
       </a>
       <a href="resources.php" class="service-card">

@@ -349,7 +349,7 @@
         <div class="pathway-tag">Pathway 01 — Consumers</div>
         <div class="price-badge"><div class="price">$0</div><div class="cycle">Always free · no credit card required</div></div>
         <h3>The framework, the language, and the tools to <strong>refuse fraud at the counter.</strong></h3>
-        <p>Eight self-paced modules covering the complete I-CADMUS taxonomy, eight real-world case studies, and a final assessment leading to a verifiable digital credential recognised by the Seafood Consumer Association.</p>
+        <p>Eight self-paced modules covering the complete I-CADMUS taxonomy, eight real-world case studies, and a final assessment leading to a verifiable digital credential recognised by the Seafood Consumers Association.</p>
         <div style="display:flex;gap:12px;flex-wrap:wrap;">
           <a href="certification.php" class="btn btn-white">Enrol now — it's free <span class="arrow">→</span></a>
           <a href="resources.php" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.4);">Browse free resources</a>

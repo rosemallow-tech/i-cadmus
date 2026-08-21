@@ -1859,11 +1859,11 @@
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>Is the certification recognised industry-wide?</span><span>+</span></div>
-        <div class="faq-a">It is issued by the Seafood Consumer Association and aligned with industry standards including AS 5300 naming. Bond University is the inaugural academic partner, with one institutional partner per country planned as the framework expands internationally.</div>
+        <div class="faq-a">It is issued by the Seafood Consumers Association and aligned with industry standards including AS 5300 naming. Bond University is the inaugural academic partner, with one institutional partner per country planned as the framework expands internationally.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>How is this different from HACCP?</span><span>+</span></div>
-        <div class="faq-a">HACCP keeps food safe once you trust what you've got. I-CADMUS asks the prior question — is the product what it claims to be? Food safety has to start with truth. The two work together; I-CADMUS sits in front.</div>
+        <div class="faq-a">HACCP keeps food safe once you trust what you've got. I-CADMUS asks the prior question — is the product what it claims to be? I-CADMUS complements HACCP, TACCP and VACCP by helping identify authenticity, fraud, threat and vulnerability risks across the seafood supply chain.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>What happens if I fail the final assessment?</span><span>+</span></div>

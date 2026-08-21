@@ -1593,7 +1593,7 @@
         <div class="office-tag">Headquarters</div>
         <h3>Australia</h3>
         <address>
-          Seafood Consumer Association<br>
+          Seafood Consumers Association<br>
           Level 4, [Address Placeholder]<br>
           Brisbane QLD 4000<br>
           Australia

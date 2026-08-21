@@ -1363,7 +1363,7 @@
   <div class="container">
     <div class="hero-inner">
       <div>
-        <div class="hero-eyebrow">A Seafood Consumer Association initiative · Est. 2026</div>
+        <div class="hero-eyebrow">A Seafood Consumers Association initiative · Est. 2026</div>
         <h1>Restoring trust from <strong>ocean to plate</strong>, one classified fraud at a time.</h1>
         <p class="lede">I-CADMUS is the practical framework that exposes seafood fraud's seven core types — built on five decades of supply-chain experience. We help consumers, industry, and regulators spot risks, classify fraud, and act before HACCP ever begins.</p>
         <div class="hero-actions">
@@ -1371,27 +1371,26 @@
           <a href="#framework" class="btn btn-outline">Explore the framework</a>
         </div>
         <div class="hero-trustbar">
-          <span class="hero-trustbar-label">Aligned with</span>
+          <span class="hero-trustbar-label">Informed by</span>
           <div class="hero-trustbar-logos">
-            <span>AS&nbsp;5300</span>
-            <span>FRDC</span>
-            <span>Bond&nbsp;University</span>
-            <span>Codex&nbsp;Standards</span>
+            <span>Relevant&nbsp;standards</span>
+            <span>Research</span>
+            <span>Industry&nbsp;engagement</span>
           </div>
         </div>
       </div>
       <div class="hero-panel">
         <span class="hero-panel-tab">Featured Insight</span>
         <h3>Why food safety must start with truth in labelling</h3>
-        <p>One in five seafood products is mislabelled globally. Frozen prawns can be 40% water. We walk through what the next decade of seafood integrity looks like — and how I-CADMUS sits in front of HACCP.</p>
+        <p>Research has identified seafood mislabelling across international markets, while excessive or inadequately declared glaze and added water can also misrepresent the quantity of seafood being purchased. We walk through what the next decade of seafood integrity looks like — and how I-CADMUS complements HACCP, TACCP and VACCP.</p>
         <div class="hero-panel-stats">
           <div class="hero-panel-stat">
-            <div class="num">1/5</div>
-            <div class="label">Mislabelled</div>
+            <div class="num">7</div>
+            <div class="label">Fraud categories</div>
           </div>
           <div class="hero-panel-stat">
-            <div class="num">7</div>
-            <div class="label">Fraud types</div>
+            <div class="num">50<span style="font-size:0.6em">+</span></div>
+            <div class="label">Years of expertise</div>
           </div>
         </div>
         <a href="news.php" class="btn-link">Read the report <span class="arrow">→</span></a>
@@ -1435,8 +1434,8 @@
       <div class="overview-content">
         <div class="section-eyebrow">Who we are</div>
         <h2 class="section-h">A practical framework, born from <strong>five decades</strong> in the industry.</h2>
-        <p>I-CADMUS classifies seafood fraud into seven actionable categories. Structured like HACCP but designed to sit before it, the framework turns suspicion into capability — giving consumers, industry, and regulators a shared vocabulary for what's actually happening in the global seafood supply chain.</p>
-        <p>Published by the Seafood Consumer Association, the framework is paired with the forthcoming book <em>Sea of Deception</em>, an online certification programme, and a network of academic and industry partners.</p>
+        <p>I-CADMUS classifies seafood fraud into seven actionable categories. Designed to complement HACCP, TACCP and VACCP, the framework turns suspicion into capability — giving consumers, industry, and regulators a shared vocabulary for what's actually happening in the global seafood supply chain.</p>
+        <p>Published by the Seafood Consumers Association, the framework is paired with the forthcoming book <em>Sea of Deception</em>, a developing professional education programme, and a network of academic and industry partners.</p>
         <div class="overview-bullets">
           <div class="overview-bullet">
             <div class="overview-bullet-icon">✓</div>
@@ -1456,7 +1455,7 @@
             <div class="overview-bullet-icon">✓</div>
             <div>
               <h5>Independently certified</h5>
-              <p>Maintained by the Seafood Consumer Association with academic partners.</p>
+              <p>Maintained by the Seafood Consumers Association with academic partners.</p>
             </div>
           </div>
         </div>
@@ -1529,29 +1528,29 @@
       <div class="service-card">
         <div class="service-icon">I</div>
         <span class="code">Category 01 · Illegal</span>
-        <h3>IUU Laundering</h3>
+        <h3>Illegal (IUU)</h3>
         <p>Catch from illegal, unreported, and unregulated fishing washed into legitimate supply chains through paperwork laundering and port-hopping.</p>
         <a href="illegal.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card">
         <div class="service-icon">C</div>
         <span class="code">Category 02 · Counterfeit</span>
-        <h3>Fake Labels</h3>
-        <p>Forged certifications, fabricated origin claims, and entirely manufactured brand identities printed onto otherwise unknown product.</p>
+        <h3>Counterfeit</h3>
+        <p>Forged certifications, fabricated origin claims, and entirely manufactured brand identities — fake labels printed onto otherwise unknown product.</p>
         <a href="counterfeit.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card">
         <div class="service-icon">A</div>
         <span class="code">Category 03 · Adulteration</span>
-        <h3>Chemicals & Water</h3>
-        <p>Phosphates, sulphites, brines, and undisclosed additives bulking weight and masking age — with real consequences for vulnerable consumers.</p>
+        <h3>Adulteration</h3>
+        <p>Phosphates, sulphites, brines, and undisclosed additives — chemicals and water bulking weight and masking age, with real consequences for vulnerable consumers.</p>
         <a href="adulteration.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card">
         <div class="service-icon">D</div>
         <span class="code">Category 04 · Dilution</span>
-        <h3>Glazing & Mixing</h3>
-        <p>Ice glaze padding the scale. Cheaper species blended into a premium pack. You pay for fish; you receive water and filler.</p>
+        <h3>Dilution</h3>
+        <p>Ice glaze padding the scale and cheaper species blended into a premium pack — glazing and mixing that mean you pay for fish but receive water and filler.</p>
         <a href="dilution.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card">
@@ -1564,8 +1563,8 @@
       <div class="service-card">
         <div class="service-icon">U</div>
         <span class="code">Category 06 · Unreported</span>
-        <h3>Grey Channels</h3>
-        <p>Product that bypasses traceability — moved through unregulated routes, off the books, and into the menu without a trail.</p>
+        <h3>Unreported</h3>
+        <p>Product that bypasses traceability — moved through grey channels and unregulated routes, off the books, and into the menu without a trail.</p>
         <a href="unreported.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card service-card-featured">
@@ -1661,7 +1660,7 @@
         <span class="insight-feature-tag">Featured Book · 2026</span>
         <h3>Sea of Deception: Exposing seafood fraud and restoring trust from ocean to plate.</h3>
         <p>The book that started the framework. Five decades of industry experience distilled into a seven-category taxonomy, a five-pillar policy playbook, and eight live case studies — all paired with online certification.</p>
-        <div class="author">By Hon Prof Roy D. Palmer, MBA · CEO, Seafood Consumer Association</div>
+        <div class="author">By Hon Prof Roy D. Palmer, MBA · CEO, Seafood Consumers Association</div>
         <a href="book.php" class="btn btn-primary">Preorder the book <span class="arrow">→</span></a>
       </div>
 
@@ -1725,7 +1724,7 @@
         </blockquote>
         <div class="quote-attribution">
           <strong>Hon Prof Roy D. Palmer, MBA</strong>
-          <span>Chief Executive Officer · Seafood Consumer Association</span>
+          <span>Chief Executive Officer · Seafood Consumers Association</span>
           <span>Author · <em>Sea of Deception</em></span>
         </div>
       </div>

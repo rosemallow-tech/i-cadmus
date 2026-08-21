@@ -1975,8 +1975,8 @@
 <section id="methodology" style="background: var(--bg-soft);">
   <div class="container">
     <div class="section-eyebrow">Methodology</div>
-    <h2 class="section-h">How <strong>I-CADMUS sits in front of HACCP.</strong></h2>
-    <p class="section-sub">HACCP keeps food safe once you trust what you've got. I-CADMUS asks the prior question — is the product what it claims to be? Food safety has to start with truth. The two work together; I-CADMUS sits in front.</p>
+    <h2 class="section-h">How <strong>I-CADMUS complements HACCP, TACCP and VACCP.</strong></h2>
+    <p class="section-sub">HACCP keeps food safe once you trust what you've got. I-CADMUS asks the prior question — is the product what it claims to be? I-CADMUS complements HACCP, TACCP and VACCP by helping identify authenticity, fraud, threat and vulnerability risks across the seafood supply chain.</p>
   </div>
 </section>
 
@@ -2002,7 +2002,7 @@
       </div>
       <div class="std-card">
         <div class="name">HACCP</div>
-        <div class="desc">Sits before HACCP, not against it</div>
+        <div class="desc">Complements HACCP, TACCP and VACCP</div>
       </div>
     </div>
   </div>
