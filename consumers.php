@@ -283,28 +283,28 @@
       <div class="cat-quick"><a href="illegal.php">
         <div class="cat-q-letter">I</div>
         <div class="cat-q-num">Illegal · 01</div>
-        <h5>IUU Laundering</h5>
+        <h5>Illegal (IUU)</h5>
         <p>Ask if origin claims match the species' known fishing zone. Favour certified product with verifiable lot numbers.</p>
         <div class="cat-q-tip">Read more</div>
       </a></div>
       <div class="cat-quick"><a href="counterfeit.php">
         <div class="cat-q-letter">C</div>
         <div class="cat-q-num">Counterfeit · 02</div>
-        <h5>Fake Labels</h5>
+        <h5>Counterfeit</h5>
         <p>Scan QR codes on certified product. Search the certifier's database using the code on the label — do the lot numbers match?</p>
         <div class="cat-q-tip">Read more</div>
       </a></div>
       <div class="cat-quick"><a href="adulteration.php">
         <div class="cat-q-letter">A</div>
         <div class="cat-q-num">Adulteration · 03</div>
-        <h5>Chemicals & Water</h5>
+        <h5>Adulteration</h5>
         <p>Look for "moisture added" disclosures with a quantified percentage. Prefer product with cook-out weight declared.</p>
         <div class="cat-q-tip">Read more</div>
       </a></div>
       <div class="cat-quick"><a href="dilution.php">
         <div class="cat-q-letter">D</div>
         <div class="cat-q-num">Dilution · 04</div>
-        <h5>Glazing & Mixing</h5>
+        <h5>Dilution</h5>
         <p>Weigh frozen product before and after thawing. Significant loss indicates excess glaze. Look for net drained weight on the label.</p>
         <div class="cat-q-tip">Read more</div>
       </a></div>
@@ -318,7 +318,7 @@
       <div class="cat-quick"><a href="unreported.php">
         <div class="cat-q-letter">U</div>
         <div class="cat-q-num">Unreported · 06</div>
-        <h5>Grey Channels</h5>
+        <h5>Unreported</h5>
         <p>Be wary of "fresh off the boat" claims with no vessel ID, licence, or landing receipt. Ask the fishmonger to name their supplier.</p>
         <div class="cat-q-tip">Read more</div>
       </a></div>
@@ -349,7 +349,7 @@
         <div class="pathway-tag">Pathway 01 — Consumers</div>
         <div class="price-badge"><div class="price">$0</div><div class="cycle">Always free · no credit card required</div></div>
         <h3>The framework, the language, and the tools to <strong>refuse fraud at the counter.</strong></h3>
-        <p>Eight self-paced modules covering the complete I-CADMUS taxonomy, eight real-world case studies, and a final assessment leading to a verifiable digital credential recognised by the Seafood Consumers Association.</p>
+        <p>Eight self-paced modules covering the complete I-CADMUS taxonomy, eight real-world case studies, and a final assessment leading to a verifiable digital credential recognised by the Seafood Consumers Association Ltd.</p>
         <div style="display:flex;gap:12px;flex-wrap:wrap;">
           <a href="certification.php" class="btn btn-white">Enrol now — it's free <span class="arrow">→</span></a>
           <a href="resources.php" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.4);">Browse free resources</a>

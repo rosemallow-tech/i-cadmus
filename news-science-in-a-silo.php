@@ -217,7 +217,7 @@
       <h1>Science in a Silo: The Shiny Tech and <strong>Fractured Strategy</strong> of Australia's Seafood Traceability.</h1>
       <p class="lede">Australia possesses world-class forensic food science. Yet a landmark June 2026 workshop revealed the fatal paradox: elite provenance technology advances in isolated silos while baseline regulatory changes go uncommunicated — and criminals selling counterfeit fish keep winning.</p>
       <div class="article-byline">
-        <span><strong>Author:</strong> Seafood Consumers Association (SCA)</span>
+        <span><strong>Author:</strong> Seafood Consumers Association Ltd (SCA)</span>
         <span><strong>Published:</strong> 17 June 2026</span>
       </div>
     </div>
@@ -234,7 +234,7 @@
 
         <p>Since 2019, with funding backed heavily by the Department of Agriculture, Fisheries and Forestry (DAFF), ANSTO has been developing a novel provenance technology. By combining handheld X-ray fluorescence (XRF) analysis with an AI-powered algorithm, researchers have found a way to scan a piece of seafood and match its elemental profile to a specific geographic region. In simple terms, it maps a "geographic fingerprint" across top-order, mid-level, and benthic species. It is an extraordinary technological achievement.</p>
 
-        <p>But from the perspective of the Seafood Consumers Association (SCA), the workshop highlighted a glaring, frustrating paradox: Australia possesses world-class forensic food science, yet we are completely lacking the systemic, national regulatory framework required to put that science to work for everyday consumers.</p>
+        <p>But from the perspective of the Seafood Consumers Association Ltd (SCA), the workshop highlighted a glaring, frustrating paradox: Australia possesses world-class forensic food science, yet we are completely lacking the systemic, national regulatory framework required to put that science to work for everyday consumers.</p>
 
         <h2>The Massive Scale of Deception</h2>
 
@@ -287,7 +287,7 @@
 
         <h2>The SCA Verdict: Moving from Silos to the Shop Floor</h2>
 
-        <p>The Seafood Consumers Association applauds ANSTO, DAFF, and their collaborators for their undeniable scientific breakthroughs. Knowing that we can geolocate an octopus or an oyster using trace elements is fantastic. But shiny technology will not stop seafood fraud if it remains trapped in a scientific silo.</p>
+        <p>The Seafood Consumers Association Ltd applauds ANSTO, DAFF, and their collaborators for their undeniable scientific breakthroughs. Knowing that we can geolocate an octopus or an oyster using trace elements is fantastic. But shiny technology will not stop seafood fraud if it remains trapped in a scientific silo.</p>
 
         <p>We don't just need highly accurate lab tools. We need a unified, national capability framework that integrates this science directly into everyday consumer protection. If a council inspector doesn't have that handheld scanner, and if hospitality operators don't even know the labelling laws are changing, the criminals using fake names to sell counterfeit fish will keep winning.</p>
 
@@ -297,7 +297,7 @@
 
         <div class="article-cta">
           <h3>Join us in demanding systemic change.</h3>
-          <p>What do you think? Should the government prioritise funding local enforcement tools or high-end lab research? Join the Seafood Consumers Association and help us demand real, systemic change.</p>
+          <p>What do you think? Should the government prioritise funding local enforcement tools or high-end lab research? Join the Seafood Consumers Association Ltd and help us demand real, systemic change.</p>
           <p style="font-size:14px;color:rgba(255,255,255,0.7);margin-bottom:24px;font-style:italic;">"26 Million Voices. One Seafood Future." — www.seafoodconsumers.global</p>
           <a href="contact.php" class="btn btn-primary">Contact Us <span class="arrow">→</span></a>
         </div>
@@ -342,7 +342,7 @@
 
         <div class="sidebar-card">
           <h4>About the Author</h4>
-          <p style="font-size:14px;color:var(--ink-2);line-height:1.6;">The <strong style="color:var(--brand);">Seafood Consumers Association (SCA)</strong> is an independent, consumer-focused organisation dedicated to transparency and integrity across the Australian seafood supply chain.</p>
+          <p style="font-size:14px;color:var(--ink-2);line-height:1.6;">The <strong style="color:var(--brand);">Seafood Consumers Association Ltd (SCA)</strong> is an independent, consumer-focused organisation dedicated to transparency and integrity across the Australian seafood supply chain.</p>
         </div>
       </aside>
 

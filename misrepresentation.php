@@ -274,13 +274,13 @@
           <a href="counterfeit.php" class="related-card">
             <div class="r-letter">C</div>
             <div class="r-num">Category 02</div>
-            <h5>Counterfeit — Fake Labels</h5>
+            <h5>Counterfeit</h5>
             <p>False origin and method claims are the content of counterfeit labels — the two categories frequently co-occur.</p>
           </a>
           <a href="illegal.php" class="related-card">
             <div class="r-letter">I</div>
             <div class="r-num">Category 01</div>
-            <h5>Illegal — IUU Laundering</h5>
+            <h5>Illegal (IUU)</h5>
             <p>IUU product requires false origin claims to enter legitimate markets — misrepresentation is the laundering mechanism.</p>
           </a>
           <a href="substitution.php" class="related-card">
@@ -309,11 +309,11 @@
       <div class="cat-nav reveal">
         <a href="dilution.php" class="cat-nav-card">
           <div class="cat-nav-label">← Previous</div>
-          <div class="cat-nav-title">D — Dilution · Glazing & Mixing</div>
+          <div class="cat-nav-title">D — Dilution</div>
         </a>
         <a href="unreported.php" class="cat-nav-card next">
           <div class="cat-nav-label">Next →</div>
-          <div class="cat-nav-title">U — Unreported · Grey Channels</div>
+          <div class="cat-nav-title">U — Unreported</div>
         </a>
       </div>
     </main>

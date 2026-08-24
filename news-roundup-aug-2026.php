@@ -221,7 +221,7 @@
       <h1>Global Roundup: Illegal Fishing, Food Fraud &amp; <strong>Regulatory Failures</strong></h1>
       <p class="lede">From Canadian lobster crime rings to Australian reef poaching, UK import control failures to ABC's Duped investigation &mdash; a digest of the stories shaping seafood integrity worldwide.</p>
       <div class="article-byline">
-        <span><strong>Source:</strong> Seafood Consumers Association</span>
+        <span><strong>Source:</strong> Seafood Consumers Association Ltd</span>
         <span><strong>Author:</strong> SCA Newsroom</span>
         <span><strong>Published:</strong> 6 Aug 2026</span>
         <span><strong>Article:</strong> Roundup &middot; Global Intelligence</span>

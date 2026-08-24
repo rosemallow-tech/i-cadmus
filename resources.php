@@ -1542,7 +1542,7 @@
           <span class="whitepaper-tag">Case Study · 2025</span>
           <h3>How DNA Verification Exposed Retail-Scale Species Substitution</h3>
           <p>A 12-month research programme with a national retail chain. We tested 1,200 samples across 30 stores. Includes methodology, results, statistical analysis, and recommendations.</p>
-          <div class="meta">28 pages · 2.4 MB · With Bond University</div>
+          <div class="meta">28 pages · 2.4 MB · With academic research partners</div>
         </div>
         <div class="whitepaper-actions">
           <a href="#" class="btn btn-primary">Download PDF <span class="arrow">↓</span></a>
@@ -1630,7 +1630,7 @@
     <div class="glossary-letter" id="g-i">
       <div class="glossary-letter-h">I</div>
       <dl>
-        <div class="glossary-term"><dt>I-CADMUS</dt><dd>The seven-category seafood-fraud taxonomy: Illegal, Counterfeit, Adulteration, Dilution, Misrepresentation, Unreported, Substitution. Published by the Seafood Consumers Association.</dd></div>
+        <div class="glossary-term"><dt>I-CADMUS</dt><dd>The seven-category seafood-fraud taxonomy: Illegal, Counterfeit, Adulteration, Dilution, Misrepresentation, Unreported, Substitution. Published by the Seafood Consumers Association Ltd.</dd></div>
         <div class="glossary-term"><dt>Illegal (IUU)</dt><dd>The first I-CADMUS category. Catch from illegal, unreported, and unregulated fishing laundered into legitimate supply chains via paperwork manipulation and port-hopping.</dd></div>
       </dl>
     </div>
@@ -1653,7 +1653,7 @@
     <div class="glossary-letter" id="g-s">
       <div class="glossary-letter-h">S</div>
       <dl>
-        <div class="glossary-term"><dt>SCA</dt><dd>Seafood Consumers Association. The independent body that publishes I-CADMUS and operates the certification network.</dd></div>
+        <div class="glossary-term"><dt>SCA</dt><dd>Seafood Consumers Association Ltd. The independent body that publishes I-CADMUS and operates the certification network.</dd></div>
         <div class="glossary-term"><dt>Substitution</dt><dd>The seventh I-CADMUS category. Selling one species under another's name. The most familiar fraud and the costliest to consumer trust.</dd></div>
         <div class="glossary-term"><dt>Sulphites</dt><dd>Preservatives used to prevent black-spot in prawns and other crustaceans. A common allergen that must be disclosed; undisclosed use falls under <em>Adulteration</em>.</dd></div>
       </dl>
@@ -1692,7 +1692,7 @@
     <div class="faq-list">
       <div class="faq-item">
         <div class="faq-q"><span>Is I-CADMUS a regulator or a standards body?</span><span>+</span></div>
-        <div class="faq-a">Neither. I-CADMUS is a framework published by the Seafood Consumers Association — an independent advocacy body. We work alongside regulators (AS 5300, FRDC, Codex) but we don't have enforcement powers ourselves. Our role is to give the industry a shared classification language.</div>
+        <div class="faq-a">Neither. I-CADMUS is a framework published by the Seafood Consumers Association Ltd — an independent advocacy body. We work alongside relevant standards bodies (AS 5300, Codex) but we don't have enforcement powers ourselves. Our role is to give the industry a shared classification language.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>How do I report seafood fraud I've spotted?</span><span>+</span></div>

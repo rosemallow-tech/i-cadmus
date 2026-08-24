@@ -248,28 +248,28 @@
       <div class="cat-quick"><a href="illegal.php">
         <div class="cat-q-letter">I</div>
         <div class="cat-q-num">Illegal · 01</div>
-        <h5>IUU Laundering</h5>
+        <h5>Illegal (IUU)</h5>
         <p>Require vessel-level catch documentation. Include catch-documentation clauses in all procurement contracts.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
       <div class="cat-quick"><a href="counterfeit.php">
         <div class="cat-q-letter">C</div>
         <div class="cat-q-num">Counterfeit · 02</div>
-        <h5>Fake Labels</h5>
+        <h5>Counterfeit</h5>
         <p>Verify certification currency with the issuing body before listing. Require chain-of-custody certificates, not just product certificates.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
       <div class="cat-quick"><a href="adulteration.php">
         <div class="cat-q-letter">A</div>
         <div class="cat-q-num">Adulteration · 03</div>
-        <h5>Chemicals & Water</h5>
+        <h5>Adulteration</h5>
         <p>Require supplier disclosure of all additives and retention percentages. Request additive testing certificates for high-volume lines.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
       <div class="cat-quick"><a href="dilution.php">
         <div class="cat-q-letter">D</div>
         <div class="cat-q-num">Dilution · 04</div>
-        <h5>Glazing & Mixing</h5>
+        <h5>Dilution</h5>
         <p>Require glaze percentage declaration in procurement specifications. Commission periodic DNA testing on single-species premium lines.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
@@ -283,7 +283,7 @@
       <div class="cat-quick"><a href="unreported.php">
         <div class="cat-q-letter">U</div>
         <div class="cat-q-num">Unreported · 06</div>
-        <h5>Grey Channels</h5>
+        <h5>Unreported</h5>
         <p>Require documented supply for all seafood — no cash purchases without a commercial invoice. Implement supplier approval processes upfront.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>

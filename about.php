@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>About | I-CADMUS — Seafood Integrity Framework</title>
-<meta name="description" content="The story behind I-CADMUS, the Seafood Consumers Association, and Hon Prof Roy D. Palmer." />
+<meta name="description" content="The story behind I-CADMUS, the Seafood Consumers Association Ltd, and Hon Prof Roy D. Palmer." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1640,7 +1640,7 @@
       </div>
       <div class="page-hero-eyebrow">About the SCA</div>
       <h1>We exist to make seafood honesty a <strong>verifiable standard.</strong></h1>
-      <p class="lede">The Seafood Consumers Association (SCA) is an independent, consumer-first organisation built on one belief: that every person who buys seafood deserves to know exactly what they are buying — where it came from, what species it is, and how it was caught or farmed.</p>
+      <p class="lede">The Seafood Consumers Association Ltd (SCA) is an independent, consumer-first organisation built on one belief: that every person who buys seafood deserves to know exactly what they are buying — where it came from, what species it is, and how it was caught or farmed.</p>
     </div>
   </div>
 </section>
@@ -1657,7 +1657,7 @@
 
       <blockquote>Food safety has to start with truth in labelling. You cannot make safe what you cannot even identify.</blockquote>
 
-      <p>The framework is paired with the book <em>Sea of Deception</em>, a developing professional education programme, an open-data publications register, and a growing network of academic and industry partners — beginning with Bond University and expanding to one institutional partner per country.</p>
+      <p>The framework is paired with the book <em>Sea of Deception</em>, a developing professional education programme, an open-data publications register, and a growing network of academic and industry partners — with a target of one institutional partner per country.</p>
 
       <h3>Why now</h3>
       <p>Three forces are converging: DNA verification has become affordable enough for routine use, traceability technology has matured, and consumer trust in food labelling has reached a generational low. The next decade will be shaped by whoever provides the framework — and the language — to act. I-CADMUS is that framework.</p>
@@ -1684,13 +1684,13 @@
         </div>
       </div>
       <div class="prose" style="max-width: none;">
-        <p>Hon Prof Roy Palmer is Founder and CEO of the Seafood Consumers Association (SCA) and a former senior consumer behaviour expert for the UN FAO, specialising in seafood fraud prevention and consumption strategies. His career spans more than five decades across the global seafood supply chain — specifically in post-harvest seafood — including work as an Accredited Trainer and Diploma holder in Seafood Processing, and as the inaugural winner of the Australian Seafood Training Award.</p>
+        <p>Hon Prof Roy Palmer is Founder and CEO of the Seafood Consumers Association Ltd (SCA) and a former senior consumer behaviour expert for the UN FAO, specialising in seafood fraud prevention and consumption strategies. His career spans more than five decades across the global seafood supply chain — specifically in post-harvest seafood — including work as an Accredited Trainer and Diploma holder in Seafood Processing, and as the inaugural winner of the Australian Seafood Training Award.</p>
 
         <p>Palmer has worked for the Mexican Government on successfully boosting national seafood consumption and developed FAO strategies for the Kingdom of Saudi Arabia. He has engaged with numerous industry and government boards and committees across three continents, bringing a uniquely operational perspective to food-integrity policy.</p>
 
         <p>I-CADMUS is the distillation of that experience. After analysing the same seven categories of fraud appearing repeatedly across markets, supply chains, and decades — under different names, with different cover stories — Palmer set out to help educate consumers, provide industry with a single classifier, and offer a soft-governance alternative for regulators. The I-CADMUS framework is the result.</p>
 
-        <p>His book, <em>Sea of Deception</em> (Seafood Consumers Association, July 2026), documents those patterns in detail — with case studies, investigative findings, and a policy playbook for legislators who want to close the gap.</p>
+        <p>His book, <em>Sea of Deception</em> (Seafood Consumers Association Ltd, July 2026), documents those patterns in detail — with case studies, investigative findings, and a policy playbook for legislators who want to close the gap.</p>
 
         <h3>Selected appointments &amp; honours</h3>
         <ul>
@@ -1700,7 +1700,7 @@
           <li>Medal of Honor — World Gastronomy Institute (WGI)</li>
           <li>Founder — Association of International Seafood Professionals</li>
           <li>Former Senior Consumer Behaviour Expert, UN FAO (seafood fraud prevention &amp; consumption strategies)</li>
-          <li>Author, <em>Sea of Deception</em> (Seafood Consumers Association, July 2026)</li>
+          <li>Author, <em>Sea of Deception</em> (Seafood Consumers Association Ltd, July 2026)</li>
         </ul>
 
         <p><a href="contact.php">Request a briefing or media interview →</a></p>
@@ -1776,7 +1776,7 @@
       <div class="timeline-row">
         <div class="timeline-year">2018</div>
         <div class="timeline-content">
-          <h3>Seafood Consumers Association Founded</h3>
+          <h3>Seafood Consumers Association Ltd Founded</h3>
           <p>An independent body established to advocate for transparency, accuracy, and integrity in seafood labelling — answerable to consumers, not to industry incumbents.</p>
         </div>
       </div>
@@ -1790,8 +1790,8 @@
       <div class="timeline-row">
         <div class="timeline-year">2025</div>
         <div class="timeline-content">
-          <h3>Bond University Academic Partnership</h3>
-          <p>Bond University becomes the inaugural academic partner, leading research and certification delivery. The 'one institutional partner per country' expansion model is established.</p>
+          <h3>Academic Partnership Development</h3>
+          <p>Targeted engagement with leading universities begins, with the goal of securing one institutional partner per country to lead regional research and certification delivery.</p>
         </div>
       </div>
       <div class="timeline-row">
@@ -1824,7 +1824,7 @@
         <div class="service-icon">C</div>
         <span class="code">Certification</span>
         <h3>I-CADMUS Certification</h3>
-        <p>A developing professional education programme for operators, auditors, and foodservice professionals who need a verifiable credential in seafood integrity. Delivered in partnership with Bond University.</p>
+        <p>A developing professional education programme for operators, auditors, and foodservice professionals who need a verifiable credential in seafood integrity. Delivered through academic partnerships.</p>
         <span class="btn-link">Get certified →</span>
       </a>
       <a href="resources.php" class="service-card">

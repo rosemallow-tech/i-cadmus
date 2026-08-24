@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Careers | I-CADMUS — Join the team</title>
-<meta name="description" content="Join the I-CADMUS team and help build the global standard for seafood integrity. View current openings at the Seafood Consumers Association." />
+<meta name="description" content="Join the I-CADMUS team and help build the global standard for seafood integrity. View current openings at the Seafood Consumers Association Ltd." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -447,7 +447,7 @@
     <div class="cta-band-grid">
       <div>
         <h2>Want to understand <strong>what we do first</strong>?</h2>
-        <p>Read the framework, explore our certification programme, and learn about the Seafood Consumers Association before reaching out.</p>
+        <p>Read the framework, explore our certification programme, and learn about the Seafood Consumers Association Ltd before reaching out.</p>
       </div>
       <div class="cta-band-actions">
         <a href="about.php" class="btn btn-primary">About us <span class="arrow">→</span></a>

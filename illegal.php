@@ -5,8 +5,8 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Illegal — IUU Laundering | I-CADMUS Framework</title>
-<meta name="description" content="Category I of the I-CADMUS framework: Illegal IUU Laundering — catch from illegal, unreported, and unregulated fishing washed into legitimate supply chains." />
+<title>Illegal (IUU) | I-CADMUS Framework</title>
+<meta name="description" content="Category I of the I-CADMUS framework: Illegal (IUU) — catch from illegal, unreported, and unregulated fishing washed into legitimate supply chains." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
@@ -236,12 +236,12 @@
       <div class="breadcrumb">
         <a href="index.php">Home</a><span class="sep">/</span>
         <a href="framework.php">Framework</a><span class="sep">/</span>
-        <span style="color:#fff;">Illegal — IUU Laundering</span>
+        <span style="color:#fff;">Illegal (IUU)</span>
       </div>
       <div class="page-hero-grid">
         <div>
           <div class="cat-badge">Category 01 of 07 — I-CADMUS Framework</div>
-          <h1><strong>Illegal</strong> — IUU Laundering</h1>
+          <h1><strong>Illegal</strong> (IUU)</h1>
           <p class="lede">Catch from illegal, unreported, and unregulated fishing washed into legitimate supply chains.</p>
           <div style="display:flex;gap:12px;flex-wrap:wrap;">
             <a href="counterfeit.php" class="btn btn-primary">Next: Counterfeit <span class="arrow">→</span></a>
@@ -278,7 +278,7 @@
 
       <div class="cat-content-head reveal">
         <div class="cat-num">Category 01 · I-CADMUS Framework</div>
-        <h2 class="cat-title">Illegal — IUU Laundering</h2>
+        <h2 class="cat-title">Illegal (IUU)</h2>
         <p class="cat-tagline">Catch from illegal, unreported, and unregulated fishing washed into legitimate supply chains.</p>
       </div>
 
@@ -371,7 +371,7 @@
           <a href="unreported.php" class="related-card">
             <div class="r-letter">U</div>
             <div class="r-num">Category 06</div>
-            <h5>Unreported — Grey Channels</h5>
+            <h5>Unreported</h5>
             <p>Product that bypasses traceability entirely — closely linked to IUU laundering at the supply end.</p>
           </a>
           <a href="misrepresentation.php" class="related-card">
@@ -383,7 +383,7 @@
           <a href="counterfeit.php" class="related-card">
             <div class="r-letter">C</div>
             <div class="r-num">Category 02</div>
-            <h5>Counterfeit — Fake Labels</h5>
+            <h5>Counterfeit</h5>
             <p>Forged certifications are often the mechanism that launders IUU catch into certified supply chains.</p>
           </a>
         </div>
@@ -397,7 +397,7 @@
         </div>
         <a href="counterfeit.php" class="cat-nav-card next">
           <div class="cat-nav-label">Next →</div>
-          <div class="cat-nav-title">C — Counterfeit · Fake Labels</div>
+          <div class="cat-nav-title">C — Counterfeit</div>
         </a>
       </div>
 

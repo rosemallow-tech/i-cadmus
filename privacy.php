@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Privacy Policy | I-CADMUS</title>
-<meta name="description" content="Privacy Policy for I-CADMUS and the Seafood Consumers Association. How we collect, use, and protect your personal information." />
+<meta name="description" content="Privacy Policy for I-CADMUS and the Seafood Consumers Association Ltd. How we collect, use, and protect your personal information." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -311,7 +311,7 @@
       </div>
       <div class="page-hero-eyebrow">Legal</div>
       <h1>Privacy <strong>Policy</strong></h1>
-      <p class="lede">How the Seafood Consumers Association collects, uses, and protects the personal information you share with us.</p>
+      <p class="lede">How the Seafood Consumers Association Ltd collects, uses, and protects the personal information you share with us.</p>
     </div>
   </div>
 </section>
@@ -407,7 +407,7 @@
           <h2>Contact</h2>
           <p>If you have any questions about this Privacy Policy, want to understand how your data is being handled, or wish to exercise any of your rights, please contact us:</p>
           <div class="policy-contact-box">
-            <p><strong>Seafood Consumers Association</strong><br>
+            <p><strong>Seafood Consumers Association Ltd</strong><br>
             Privacy Officer<br>
             <a href="mailto:privacy@icadmus.org">privacy@icadmus.org</a></p>
             <p>For general enquiries unrelated to privacy, please use our <a href="contact.php">contact page</a>.</p>

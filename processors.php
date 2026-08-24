@@ -246,28 +246,28 @@
       <div class="cat-quick"><a href="illegal.php">
         <div class="cat-q-letter">I</div>
         <div class="cat-q-num">Illegal · 01</div>
-        <h5>IUU Laundering</h5>
+        <h5>Illegal (IUU)</h5>
         <p>Refuse product that cannot be traced to a named vessel and port of landing. Implement electronic lot-tracking from intake to dispatch.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
       <div class="cat-quick"><a href="counterfeit.php">
         <div class="cat-q-letter">C</div>
         <div class="cat-q-num">Counterfeit · 02</div>
-        <h5>Fake Labels</h5>
+        <h5>Counterfeit</h5>
         <p>Only accept certified product with matching chain-of-custody documentation. Implement lot-level traceability linking to the original certification.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
       <div class="cat-quick"><a href="adulteration.php">
         <div class="cat-q-letter">A</div>
         <div class="cat-q-num">Adulteration · 03</div>
-        <h5>Chemicals & Water</h5>
+        <h5>Adulteration</h5>
         <p>Declare all additives on commercial invoices and product specifications. Implement incoming product testing for phosphate retention and moisture content.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
       <div class="cat-quick"><a href="dilution.php">
         <div class="cat-q-letter">D</div>
         <div class="cat-q-num">Dilution · 04</div>
-        <h5>Glazing & Mixing</h5>
+        <h5>Dilution</h5>
         <p>Declare glaze percentage on all commercial documents. Maintain separate production lines for different species to prevent commingling.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
@@ -281,7 +281,7 @@
       <div class="cat-quick"><a href="unreported.php">
         <div class="cat-q-letter">U</div>
         <div class="cat-q-num">Unreported · 06</div>
-        <h5>Grey Channels</h5>
+        <h5>Unreported</h5>
         <p>Implement intake controls that reject product without complete upstream documentation. Conduct periodic reconciliation of intake volume against documented catch records.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>

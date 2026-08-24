@@ -326,13 +326,13 @@
           <a href="dilution.php" class="related-card">
             <div class="r-letter">D</div>
             <div class="r-num">Category 04</div>
-            <h5>Dilution — Glazing & Mixing</h5>
+            <h5>Dilution</h5>
             <p>Species mixing is the dilution variant of substitution — blending rather than wholesale species replacement.</p>
           </a>
           <a href="counterfeit.php" class="related-card">
             <div class="r-letter">C</div>
             <div class="r-num">Category 02</div>
-            <h5>Counterfeit — Fake Labels</h5>
+            <h5>Counterfeit</h5>
             <p>Counterfeit premium-brand labels are frequently used to disguise cheaper substitute species at the point of sale.</p>
           </a>
         </div>
@@ -355,7 +355,7 @@
       <div class="cat-nav reveal">
         <a href="unreported.php" class="cat-nav-card">
           <div class="cat-nav-label">← Previous</div>
-          <div class="cat-nav-title">U — Unreported · Grey Channels</div>
+          <div class="cat-nav-title">U — Unreported</div>
         </a>
         <a href="framework.php" class="cat-nav-card next">
           <div class="cat-nav-label">View all →</div>

@@ -5,8 +5,8 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Supporters | I-CADMUS — Seafood Consumers Association</title>
-<meta name="description" content="Supporter and partnership information for the Seafood Consumers Association — the organisation behind the I-CADMUS seafood integrity framework." />
+<title>Supporters | I-CADMUS — Seafood Consumers Association Ltd</title>
+<meta name="description" content="Supporter and partnership information for the Seafood Consumers Association Ltd — the organisation behind the I-CADMUS seafood integrity framework." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -697,7 +697,7 @@
       </div>
       <div class="page-hero-eyebrow">Supporters</div>
       <h1><strong>Supporters</strong></h1>
-      <p class="lede">The Seafood Consumers Association is a mission-driven organisation building the global standard for seafood integrity. We welcome supporters and partners who share our commitment to transparency in the seafood supply chain from harvest to belly.</p>
+      <p class="lede">The Seafood Consumers Association Ltd is a mission-driven organisation building the global standard for seafood integrity. We welcome supporters and partners who share our commitment to transparency in the seafood supply chain from harvest to belly.</p>
     </div>
   </div>
 </section>
@@ -719,7 +719,7 @@
       <div class="metric reveal">
         <div class="metric-num">5<span class="unit">+</span></div>
         <div class="metric-label">Global Academic Partners</div>
-        <div class="metric-desc">Bond University leads the inaugural cohort, with five additional regional anchor institutions targeted for 2026–27.</div>
+        <div class="metric-desc">Targeted academic partnerships underway, with regional anchor institutions planned for 2026–27.</div>
       </div>
       <div class="metric reveal">
         <div class="metric-num">2026</div>
@@ -738,9 +738,9 @@
         <div class="section-eyebrow">Our Structure</div>
         <h2 class="section-h">A not-for-profit built for <strong>long-term impact.</strong></h2>
         <div class="prose" style="max-width: none;">
-          <p>The Seafood Consumers Association operates as a not-for-profit organisation. Our mandate is the public interest: ensuring that consumers, regulators, and industry have access to a reliable, independent standard for seafood integrity.</p>
+          <p>The Seafood Consumers Association Ltd operates as a not-for-profit organisation. Our mandate is the public interest: ensuring that consumers, regulators, and industry have access to a reliable, independent standard for seafood integrity.</p>
           <p>We are governed by an independent board. Board members are subject to a formal conflict-of-interest policy and serve fixed, renewable terms. No single commercial interest holds a controlling position.</p>
-          <p>The Advisory Council of the Seafood Consumers Association plays a critical role in steering the strategic vision and public advocacy of the organization on a voluntary basis. Composed of dedicated, forward-thinking industry strategists and professionals, the Council provides sharp, actionable insights to address systemic market challenges. Its members lend their time and expertise to elevate consumer-first strategies, helping to dismantle regulatory gaps, champion supply chain integrity, and build a clearer, more transparent path forward for everyday seafood consumers.</p>
+          <p>The Advisory Council of the Seafood Consumers Association Ltd plays a critical role in steering the strategic vision and public advocacy of the organization on a voluntary basis. Composed of dedicated, forward-thinking industry strategists and professionals, the Council provides sharp, actionable insights to address systemic market challenges. Its members lend their time and expertise to elevate consumer-first strategies, helping to dismantle regulatory gaps, champion supply chain integrity, and build a clearer, more transparent path forward for everyday seafood consumers.</p>
           <p>This structure is deliberate. The credibility of the I-CADMUS framework — and the value of our certification — depends entirely on independence. Organisations and governments rely on us precisely because we are not funded by the industry sectors we assess.</p>
         </div>
       </div>
@@ -805,7 +805,7 @@
       </div>
       <div class="acnc-sub">
         <div class="acnc-sub-label">ACNC Charitable Status</div>
-        <p>As a registered charity with the Australian Charities and Not-for-profits Commission (ACNC), the Seafood Consumers Association (ABN 84 686 250 859) is fully committed to upholding the highest standards of transparency, governance, and public accountability. Meeting our ACNC obligations is not merely a legal requirement; it is a core promise to the millions of everyday seafood consumers we represent across Australia.</p>
+        <p>As a registered charity with the Australian Charities and Not-for-profits Commission (ACNC), the Seafood Consumers Association Ltd (ABN 84 686 250 859) is fully committed to upholding the highest standards of transparency, governance, and public accountability. Meeting our ACNC obligations is not merely a legal requirement; it is a core promise to the millions of everyday seafood consumers we represent across Australia.</p>
         <p>To fulfill our regulatory duties and maintain our charity status, SCA strictly adheres to the following frameworks:</p>
         <div class="acnc-pillars">
           <div class="acnc-pillar">
@@ -837,7 +837,7 @@
       </div>
       <div class="governance-card reveal">
         <h3>Financial Accountability</h3>
-        <p>The Seafood Consumers Association is subject to standard not-for-profit financial reporting obligations as regulated by the ACNC. We manage our resources with absolute integrity, maintaining transparent records and fulfilling annual reporting requirements through the Annual Information Statement (AIS) to ensure clear public visibility.</p>
+        <p>The Seafood Consumers Association Ltd is subject to standard not-for-profit financial reporting obligations as regulated by the ACNC. We manage our resources with absolute integrity, maintaining transparent records and fulfilling annual reporting requirements through the Annual Information Statement (AIS) to ensure clear public visibility.</p>
         <p>No surpluses are distributed to members or directors. All surpluses are retained for programme development and framework expansion.</p>
       </div>
     </div>
@@ -851,7 +851,7 @@
       <div class="contact-panel-inner">
         <span class="contact-panel-tag">Get in Touch</span>
         <h2>Supporter and partnership <strong>enquiries.</strong></h2>
-        <p>If you represent a foundation, government body, academic institution, or industry association interested in a strategic partnership with the Seafood Consumers Association, we welcome a conversation.</p>
+        <p>If you represent a foundation, government body, academic institution, or industry association interested in a strategic partnership with the Seafood Consumers Association Ltd, we welcome a conversation.</p>
         <p>All enquiries are treated in strict confidence.</p>
         <a href="mailto:invest@icadmus.org" class="email-link">invest@icadmus.org</a>
         <div>

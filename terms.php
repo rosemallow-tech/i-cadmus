@@ -105,17 +105,17 @@
 
         <section id="content">
           <h2>Use of content</h2>
-          <p>All content on this website — including the I-CADMUS taxonomy, framework documents, case studies, whitepapers, and associated visual design — is the intellectual property of the Seafood Consumers Association (SCA) and is protected by copyright.</p>
+          <p>All content on this website — including the I-CADMUS taxonomy, framework documents, case studies, whitepapers, and associated visual design — is the intellectual property of the Seafood Consumers Association Ltd (SCA) and is protected by copyright.</p>
           <ul>
             <li>You may quote or reference I-CADMUS content for educational, journalistic, or policy purposes, provided you attribute the SCA and link to the original source.</li>
             <li>You may not reproduce, republish, or incorporate I-CADMUS content into commercial products without a written licence from the SCA.</li>
-            <li>The I-CADMUS name, logo, and certification marks are registered trademarks of the Seafood Consumers Association. Unauthorised use is prohibited.</li>
+            <li>The I-CADMUS name, logo, and certification marks are registered trademarks of the Seafood Consumers Association Ltd. Unauthorised use is prohibited.</li>
           </ul>
         </section>
 
         <section id="certification">
           <h2>Certification</h2>
-          <p>The I-CADMUS credential is issued by the Seafood Consumers Association on completion of the relevant assessment. By enrolling, you agree to:</p>
+          <p>The I-CADMUS credential is issued by the Seafood Consumers Association Ltd on completion of the relevant assessment. By enrolling, you agree to:</p>
           <ul>
             <li>Complete all assessments honestly and without assistance from unauthorised sources.</li>
             <li>Not share assessment questions, scenarios, or answer keys with third parties.</li>
@@ -139,7 +139,7 @@
         <section id="contact-terms">
           <h2>Contact</h2>
           <p>For questions about these terms, or to request a content licence, contact:</p>
-          <p><strong>Seafood Consumers Association</strong><br>
+          <p><strong>Seafood Consumers Association Ltd</strong><br>
           <a href="mailto:contact@i-cadmus.org">contact@i-cadmus.org</a></p>
           <p>For our privacy practices, see our <a href="privacy.php">Privacy Policy</a>.</p>
         </section>

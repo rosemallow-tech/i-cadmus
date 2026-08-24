@@ -5,7 +5,7 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Adulteration — Chemicals & Water | I-CADMUS Framework</title>
+<title>Adulteration | I-CADMUS Framework</title>
 <meta name="description" content="Category A of the I-CADMUS framework: Adulteration — phosphates, sulphites, brines, and undisclosed additives bulking weight and masking age." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -154,12 +154,12 @@
       <div class="breadcrumb">
         <a href="index.php">Home</a><span class="sep">/</span>
         <a href="framework.php">Framework</a><span class="sep">/</span>
-        <span style="color:#fff;">Adulteration — Chemicals & Water</span>
+        <span style="color:#fff;">Adulteration</span>
       </div>
       <div class="page-hero-grid">
         <div>
           <div class="cat-badge">Category 03 of 07 — I-CADMUS Framework</div>
-          <h1><strong>Adulteration</strong> — Chemicals & Water</h1>
+          <h1><strong>Adulteration</strong></h1>
           <p class="lede">Phosphates, sulphites, brines, and undisclosed additives bulking weight and masking age.</p>
           <div style="display:flex;gap:12px;flex-wrap:wrap;">
             <a href="dilution.php" class="btn btn-primary">Next: Dilution <span class="arrow">→</span></a>
@@ -191,7 +191,7 @@
     <main class="cat-content">
       <div class="cat-content-head reveal">
         <div class="cat-num">Category 03 · I-CADMUS Framework</div>
-        <h2 class="cat-title">Adulteration — Chemicals & Water</h2>
+        <h2 class="cat-title">Adulteration</h2>
         <p class="cat-tagline">Phosphates, sulphites, brines, and undisclosed additives bulking weight and masking age.</p>
       </div>
 
@@ -282,7 +282,7 @@
           <a href="dilution.php" class="related-card">
             <div class="r-letter">D</div>
             <div class="r-num">Category 04</div>
-            <h5>Dilution — Glazing & Mixing</h5>
+            <h5>Dilution</h5>
             <p>Adulteration (added water/phosphate) and dilution (ice glaze, species mixing) are often used together to maximise yield fraud.</p>
           </a>
           <a href="misrepresentation.php" class="related-card">
@@ -303,11 +303,11 @@
       <div class="cat-nav reveal">
         <a href="counterfeit.php" class="cat-nav-card">
           <div class="cat-nav-label">← Previous</div>
-          <div class="cat-nav-title">C — Counterfeit · Fake Labels</div>
+          <div class="cat-nav-title">C — Counterfeit</div>
         </a>
         <a href="dilution.php" class="cat-nav-card next">
           <div class="cat-nav-label">Next →</div>
-          <div class="cat-nav-title">D — Dilution · Glazing & Mixing</div>
+          <div class="cat-nav-title">D — Dilution</div>
         </a>
       </div>
     </main>

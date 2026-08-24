@@ -1465,7 +1465,7 @@
             <span class="faq-toggle">+</span>
           </summary>
           <div class="faq-answer">
-            The I-CADMUS certification is issued by the Seafood Consumers Association and listed in the publicly searchable SCA certification registry. The credential is gaining recognition across Australia, New Zealand, the European Union, and key Asian markets, with new institutional partnerships being added on a one-partner-per-country basis. We are pursuing formal CPD accreditation with affiliated industry bodies in each jurisdiction.
+            The I-CADMUS certification is issued by the Seafood Consumers Association Ltd and listed in the publicly searchable SCA certification registry. The credential is gaining recognition across Australia, New Zealand, the European Union, and key Asian markets, with new institutional partnerships being added on a one-partner-per-country basis. We are pursuing formal CPD accreditation with affiliated industry bodies in each jurisdiction.
           </div>
         </details>
 

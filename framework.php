@@ -1696,7 +1696,7 @@
           <div class="cat-letter">I</div>
           <div>
             <div class="cat-meta">Category 01</div>
-            <h2 class="cat-h">Illegal — IUU Laundering</h2>
+            <h2 class="cat-h">Illegal (IUU)</h2>
             <p class="cat-tagline">Catch from illegal, unreported, and unregulated fishing washed into legitimate supply chains.</p>
           </div>
         </div>
@@ -1737,7 +1737,7 @@
           <div class="cat-letter">C</div>
           <div>
             <div class="cat-meta">Category 02</div>
-            <h2 class="cat-h">Counterfeit — Fake Labels</h2>
+            <h2 class="cat-h">Counterfeit</h2>
             <p class="cat-tagline">Forged certifications, fabricated origin claims, and entirely manufactured brand identities.</p>
           </div>
         </div>
@@ -1774,7 +1774,7 @@
           <div class="cat-letter">A</div>
           <div>
             <div class="cat-meta">Category 03</div>
-            <h2 class="cat-h">Adulteration — Chemicals & Water</h2>
+            <h2 class="cat-h">Adulteration</h2>
             <p class="cat-tagline">Phosphates, sulphites, brines, and undisclosed additives bulking weight and masking age.</p>
           </div>
         </div>
@@ -1815,7 +1815,7 @@
           <div class="cat-letter">D</div>
           <div>
             <div class="cat-meta">Category 04</div>
-            <h2 class="cat-h">Dilution — Glazing & Mixing</h2>
+            <h2 class="cat-h">Dilution</h2>
             <p class="cat-tagline">Ice glaze padding the scale and cheaper species blended into a premium pack.</p>
           </div>
         </div>
@@ -1893,7 +1893,7 @@
           <div class="cat-letter">U</div>
           <div>
             <div class="cat-meta">Category 06</div>
-            <h2 class="cat-h">Unreported — Grey Channels</h2>
+            <h2 class="cat-h">Unreported</h2>
             <p class="cat-tagline">Product that bypasses traceability — moved off the books, into the menu without a trail.</p>
           </div>
         </div>
@@ -1993,8 +1993,8 @@
         <div class="desc">Australian Standard for fish names</div>
       </div>
       <div class="std-card">
-        <div class="name">FRDC</div>
-        <div class="desc">Fisheries Research & Development Corp.</div>
+        <div class="name">GS1</div>
+        <div class="desc">Global traceability &amp; identification standards</div>
       </div>
       <div class="std-card">
         <div class="name">Codex</div>

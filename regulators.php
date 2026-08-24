@@ -246,28 +246,28 @@
       <div class="cat-quick"><a href="illegal.php">
         <div class="cat-q-letter">I</div>
         <div class="cat-q-num">Illegal · 01</div>
-        <h5>IUU Laundering</h5>
+        <h5>Illegal (IUU)</h5>
         <p>Mandate catch documentation at point of import. Coordinate with fisheries agencies and flag-state authorities to verify vessel compliance records.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
       <div class="cat-quick"><a href="counterfeit.php">
         <div class="cat-q-letter">C</div>
         <div class="cat-q-num">Counterfeit · 02</div>
-        <h5>Fake Labels</h5>
+        <h5>Counterfeit</h5>
         <p>Enforce certification body accreditation standards. Establish legal thresholds for forged origin documentation as a distinct offence category.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
       <div class="cat-quick"><a href="adulteration.php">
         <div class="cat-q-letter">A</div>
         <div class="cat-q-num">Adulteration · 03</div>
-        <h5>Chemicals & Water</h5>
+        <h5>Adulteration</h5>
         <p>Set and enforce maximum permitted levels for phosphates and retained water. Fund periodic surveillance sampling of imported and domestically processed seafood.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
       <div class="cat-quick"><a href="dilution.php">
         <div class="cat-q-letter">D</div>
         <div class="cat-q-num">Dilution · 04</div>
-        <h5>Glazing & Mixing</h5>
+        <h5>Dilution</h5>
         <p>Require glaze percentage declaration on all retail and import documentation. Implement species-commingling disclosure requirements for processed and frozen product.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>
@@ -281,7 +281,7 @@
       <div class="cat-quick"><a href="unreported.php">
         <div class="cat-q-letter">U</div>
         <div class="cat-q-num">Unreported · 06</div>
-        <h5>Grey Channels</h5>
+        <h5>Unreported</h5>
         <p>Close off-the-books supply pathways through mandatory electronic catch reporting. Require reconciliation of import volumes against declared catch records.</p>
         <div class="cat-q-tip">Full guidance</div>
       </a></div>

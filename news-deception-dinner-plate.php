@@ -219,7 +219,7 @@
       <h1>The Deception on the <strong>Dinner Plate</strong></h1>
       <p class="lede">Key Takeaways from the 2026 FAO GLOBEFISH Global Seafood Fraud Webinar — how market demand, steep price incentives, and fragmented supply chains actively create conditions for widespread consumer deception.</p>
       <div class="article-byline">
-        <span><strong>Source:</strong> Seafood Consumers Association</span>
+        <span><strong>Source:</strong> Seafood Consumers Association Ltd</span>
         <span><strong>Author:</strong> Roy Palmer, CEO</span>
         <span><strong>Published:</strong> 18 Jun 2026</span>
       </div>
@@ -240,7 +240,7 @@
 
         <p>On June 18, 2026, the Food and Agriculture Organization of the United Nations (FAO) hosted the first virtual session of its highly anticipated <strong>2026 GLOBEFISH Webinar Series: "Aquatic Food Fraud: Impacts on Markets and Consumers and Tools to Fight it."</strong> Bringing together an international panel of regulatory bodies, researchers, and trade leaders, the webinar examined how market demand, steep price incentives, and fragmented supply chains actively create conditions for widespread consumer deception.</p>
 
-        <p>For the Seafood Consumers Association (SCA), being invited to present on this prestigious panel alongside global fisheries experts represents a powerful confirmation that the consumer's voice is finally being recognized as central to the international food safety dialogue.</p>
+        <p>For the Seafood Consumers Association Ltd (SCA), being invited to present on this prestigious panel alongside global fisheries experts represents a powerful confirmation that the consumer's voice is finally being recognized as central to the international food safety dialogue.</p>
 
         <p>Here is an analytical report on the key insights, the scale of the crisis, and the tools discussed to safeguard the integrity of our shared public food bowls.</p>
 
@@ -319,7 +319,7 @@
 
         <div class="callout">
           <div class="callout-title">What are your thoughts?</div>
-          <p>Are you confident that the fish on your plate is exactly what is written on the menu? Engage with the Seafood Consumers Association today to help us fight for real, systemic transparency across our seafood markets.</p>
+          <p>Are you confident that the fish on your plate is exactly what is written on the menu? Engage with the Seafood Consumers Association Ltd today to help us fight for real, systemic transparency across our seafood markets.</p>
           <p><em>"26 million Voices. One Seafood Future."</em></p>
         </div>
 

@@ -5,7 +5,7 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Dilution — Glazing & Mixing | I-CADMUS Framework</title>
+<title>Dilution | I-CADMUS Framework</title>
 <meta name="description" content="Category D of the I-CADMUS framework: Dilution — ice glaze padding the scale and cheaper species blended into a premium pack." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -154,12 +154,12 @@
       <div class="breadcrumb">
         <a href="index.php">Home</a><span class="sep">/</span>
         <a href="framework.php">Framework</a><span class="sep">/</span>
-        <span style="color:#fff;">Dilution — Glazing & Mixing</span>
+        <span style="color:#fff;">Dilution</span>
       </div>
       <div class="page-hero-grid">
         <div>
           <div class="cat-badge">Category 04 of 07 — I-CADMUS Framework</div>
-          <h1><strong>Dilution</strong> — Glazing & Mixing</h1>
+          <h1><strong>Dilution</strong></h1>
           <p class="lede">Ice glaze padding the scale and cheaper species blended into a premium pack.</p>
           <div style="display:flex;gap:12px;flex-wrap:wrap;">
             <a href="misrepresentation.php" class="btn btn-primary">Next: Misrepresentation <span class="arrow">→</span></a>
@@ -191,7 +191,7 @@
     <main class="cat-content">
       <div class="cat-content-head reveal">
         <div class="cat-num">Category 04 · I-CADMUS Framework</div>
-        <h2 class="cat-title">Dilution — Glazing & Mixing</h2>
+        <h2 class="cat-title">Dilution</h2>
         <p class="cat-tagline">Ice glaze padding the scale and cheaper species blended into a premium pack.</p>
       </div>
 
@@ -282,7 +282,7 @@
           <a href="adulteration.php" class="related-card">
             <div class="r-letter">A</div>
             <div class="r-num">Category 03</div>
-            <h5>Adulteration — Chemicals & Water</h5>
+            <h5>Adulteration</h5>
             <p>Phosphate treatment and excess glazing are often used in combination to maximise yield fraud.</p>
           </a>
           <a href="substitution.php" class="related-card">
@@ -303,7 +303,7 @@
       <div class="cat-nav reveal">
         <a href="adulteration.php" class="cat-nav-card">
           <div class="cat-nav-label">← Previous</div>
-          <div class="cat-nav-title">A — Adulteration · Chemicals & Water</div>
+          <div class="cat-nav-title">A — Adulteration</div>
         </a>
         <a href="misrepresentation.php" class="cat-nav-card next">
           <div class="cat-nav-label">Next →</div>

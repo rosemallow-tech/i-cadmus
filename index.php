@@ -1363,7 +1363,7 @@
   <div class="container">
     <div class="hero-inner">
       <div>
-        <div class="hero-eyebrow">A Seafood Consumers Association initiative · Est. 2026</div>
+        <div class="hero-eyebrow">A Seafood Consumers Association Ltd initiative · Est. 2026</div>
         <h1>Restoring trust from <strong>ocean to plate</strong>, one classified fraud at a time.</h1>
         <p class="lede">I-CADMUS is the practical framework that exposes seafood fraud's seven core types — built on five decades of supply-chain experience. We help consumers, industry, and regulators spot risks, classify fraud, and act before HACCP ever begins.</p>
         <div class="hero-actions">
@@ -1435,7 +1435,7 @@
         <div class="section-eyebrow">Who we are</div>
         <h2 class="section-h">A practical framework, born from <strong>five decades</strong> in the industry.</h2>
         <p>I-CADMUS classifies seafood fraud into seven actionable categories. Designed to complement HACCP, TACCP and VACCP, the framework turns suspicion into capability — giving consumers, industry, and regulators a shared vocabulary for what's actually happening in the global seafood supply chain.</p>
-        <p>Published by the Seafood Consumers Association, the framework is paired with the forthcoming book <em>Sea of Deception</em>, a developing professional education programme, and a network of academic and industry partners.</p>
+        <p>Published by the Seafood Consumers Association Ltd, the framework is paired with the forthcoming book <em>Sea of Deception</em>, a developing professional education programme, and a network of academic and industry partners.</p>
         <div class="overview-bullets">
           <div class="overview-bullet">
             <div class="overview-bullet-icon">✓</div>
@@ -1455,7 +1455,7 @@
             <div class="overview-bullet-icon">✓</div>
             <div>
               <h5>Independently certified</h5>
-              <p>Maintained by the Seafood Consumers Association with academic partners.</p>
+              <p>Maintained by the Seafood Consumers Association Ltd with academic partners.</p>
             </div>
           </div>
         </div>
@@ -1660,7 +1660,7 @@
         <span class="insight-feature-tag">Featured Book · 2026</span>
         <h3>Sea of Deception: Exposing seafood fraud and restoring trust from ocean to plate.</h3>
         <p>The book that started the framework. Five decades of industry experience distilled into a seven-category taxonomy, a five-pillar policy playbook, and eight live case studies — all paired with online certification.</p>
-        <div class="author">By Hon Prof Roy D. Palmer, MBA · CEO, Seafood Consumers Association</div>
+        <div class="author">By Hon Prof Roy D. Palmer, MBA · CEO, Seafood Consumers Association Ltd</div>
         <a href="book.php" class="btn btn-primary">Preorder the book <span class="arrow">→</span></a>
       </div>
 
@@ -1724,7 +1724,7 @@
         </blockquote>
         <div class="quote-attribution">
           <strong>Hon Prof Roy D. Palmer, MBA</strong>
-          <span>Chief Executive Officer · Seafood Consumers Association</span>
+          <span>Chief Executive Officer · Seafood Consumers Association Ltd</span>
           <span>Author · <em>Sea of Deception</em></span>
         </div>
       </div>

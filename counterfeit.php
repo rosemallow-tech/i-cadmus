@@ -5,8 +5,8 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Counterfeit — Fake Labels | I-CADMUS Framework</title>
-<meta name="description" content="Category C of the I-CADMUS framework: Counterfeit Fake Labels — forged certifications, fabricated origin claims, and manufactured brand identities." />
+<title>Counterfeit | I-CADMUS Framework</title>
+<meta name="description" content="Category C of the I-CADMUS framework: Counterfeit — forged certifications, fabricated origin claims, and manufactured brand identities." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
@@ -190,12 +190,12 @@
       <div class="breadcrumb">
         <a href="index.php">Home</a><span class="sep">/</span>
         <a href="framework.php">Framework</a><span class="sep">/</span>
-        <span style="color:#fff;">Counterfeit — Fake Labels</span>
+        <span style="color:#fff;">Counterfeit</span>
       </div>
       <div class="page-hero-grid">
         <div>
           <div class="cat-badge">Category 02 of 07 — I-CADMUS Framework</div>
-          <h1><strong>Counterfeit</strong> — Fake Labels</h1>
+          <h1><strong>Counterfeit</strong></h1>
           <p class="lede">Forged certifications, fabricated origin claims, and entirely manufactured brand identities.</p>
           <div style="display:flex;gap:12px;flex-wrap:wrap;">
             <a href="adulteration.php" class="btn btn-primary">Next: Adulteration <span class="arrow">→</span></a>
@@ -227,7 +227,7 @@
     <main class="cat-content">
       <div class="cat-content-head reveal">
         <div class="cat-num">Category 02 · I-CADMUS Framework</div>
-        <h2 class="cat-title">Counterfeit — Fake Labels</h2>
+        <h2 class="cat-title">Counterfeit</h2>
         <p class="cat-tagline">Forged certifications, fabricated origin claims, and entirely manufactured brand identities.</p>
       </div>
 
@@ -313,7 +313,7 @@
           <a href="illegal.php" class="related-card">
             <div class="r-letter">I</div>
             <div class="r-num">Category 01</div>
-            <h5>Illegal — IUU Laundering</h5>
+            <h5>Illegal (IUU)</h5>
             <p>Forged certifications are often the mechanism used to launder IUU catch into certified supply chains.</p>
           </a>
           <a href="misrepresentation.php" class="related-card">
@@ -334,11 +334,11 @@
       <div class="cat-nav reveal">
         <a href="illegal.php" class="cat-nav-card">
           <div class="cat-nav-label">← Previous</div>
-          <div class="cat-nav-title">I — Illegal · IUU Laundering</div>
+          <div class="cat-nav-title">I — Illegal (IUU)</div>
         </a>
         <a href="adulteration.php" class="cat-nav-card next">
           <div class="cat-nav-label">Next →</div>
-          <div class="cat-nav-title">A — Adulteration · Chemicals & Water</div>
+          <div class="cat-nav-title">A — Adulteration</div>
         </a>
       </div>
     </main>

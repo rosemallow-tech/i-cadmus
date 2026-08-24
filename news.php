@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>News & Insights | I-CADMUS — Latest from the seafood integrity team</title>
-<meta name="description" content="Latest news, case studies, briefings, and press releases from the I-CADMUS framework and the Seafood Consumers Association." />
+<meta name="description" content="Latest news, case studies, briefings, and press releases from the I-CADMUS framework and the Seafood Consumers Association Ltd." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1422,7 +1422,7 @@
       </div>
       <div class="page-hero-eyebrow">News &amp; Insights</div>
       <h1>Briefings, case studies, and <strong>policy updates.</strong></h1>
-      <p class="lede">The latest from the I-CADMUS team and the Seafood Consumers Association — research, public notices, partnership announcements, and analysis from the field.</p>
+      <p class="lede">The latest from the I-CADMUS team and the Seafood Consumers Association Ltd — research, public notices, partnership announcements, and analysis from the field.</p>
     </div>
   </div>
 </section>

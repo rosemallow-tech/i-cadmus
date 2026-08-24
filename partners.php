@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Partners | I-CADMUS — Academic, industry, and regulatory partnerships</title>
-<meta name="description" content="The partner network behind I-CADMUS: Bond University, AS 5300 / FRDC, Codex Alimentarius, and a growing global network of academic and industry partners." />
+<meta name="description" content="The partner network behind I-CADMUS: aligned with AS 5300, Codex Alimentarius, and a growing global network of academic and industry partners." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1448,28 +1448,28 @@
         <div class="partner-logo">SCA</div>
         <div>
           <span class="partner-tag">Founding Body</span>
-          <h3>Seafood Consumers Association</h3>
+          <h3>Seafood Consumers Association Ltd</h3>
           <p>The independent advocacy body that publishes I-CADMUS, operates the certification network, and runs the open-data publications register. Founded in 2018 to advocate for consumer transparency in seafood.</p>
           <a href="about.php" style="color: var(--brand); font-weight: 600;">About the SCA →</a>
         </div>
       </div>
 
       <div class="partner-card">
-        <div class="partner-logo">Bond</div>
+        <div class="partner-logo">Uni</div>
         <div>
-          <span class="partner-tag">Inaugural Academic Partner · 2025</span>
-          <h3>Bond University</h3>
-          <p>The first academic partner under our "one institutional partner per country" model. Bond leads research collaboration on aquaculture sustainability and delivers the certification programme to the Australian academic and industry community.</p>
-          <a href="https://www.bond.edu.au" target="_blank" rel="noopener" style="color: var(--brand); font-weight: 600;">Visit Bond's I-CADMUS programme →</a>
+          <span class="partner-tag">Academic Partnerships · Planned</span>
+          <h3>Academic Institutional Partners</h3>
+          <p>I-CADMUS is actively engaging with leading universities under a "one institutional partner per country" model. Academic partners will lead regional research collaboration and deliver the certification programme locally.</p>
+          <a href="contact.php" style="color: var(--brand); font-weight: 600;">Express interest from your institution →</a>
         </div>
       </div>
 
       <div class="partner-card">
-        <div class="partner-logo">FRDC</div>
+        <div class="partner-logo">AS</div>
         <div>
           <span class="partner-tag">Standards Alignment · Australia</span>
-          <h3>FRDC & AS 5300</h3>
-          <p>The Fisheries Research and Development Corporation and the AS 5300 Australian Standard for fish names provide the regulatory and naming foundation that I-CADMUS aligns with in the Australian market.</p>
+          <h3>AS 5300 &amp; Relevant Standards Bodies</h3>
+          <p>The AS 5300 Australian Standard for fish names and other relevant standards bodies provide the regulatory and naming foundation that I-CADMUS aligns with in the Australian market.</p>
           <a href="resources.php" style="color: var(--brand); font-weight: 600;">Read alignment notes →</a>
         </div>
       </div>
@@ -1498,15 +1498,15 @@
         <h3>Why one per country</h3>
         <p>A single partner per market avoids the dilution that comes with sprawling international academic networks. The institutional anchor commits to local certification delivery, regional case-study research, and direct engagement with the country's regulator and industry bodies.</p>
         <p>In return, the partner receives co-branded certification authority, direct access to the framework's primary author team, and joint publication rights on regional research.</p>
-        <p>Bond University is the inaugural partner. We are actively in conversation with universities in five further markets across Asia-Pacific, Europe, and North America — with a target of seven anchored partners by end of 2027.</p>
+        <p>We are actively in conversation with universities in multiple markets across Asia-Pacific, Europe, and North America — with a target of seven anchored partners by end of 2027.</p>
         <a href="contact.php" class="btn btn-primary" style="background: #ffd25e; color: var(--brand-dark); border-color: #ffd25e;">Express interest from your institution <span class="arrow">→</span></a>
       </div>
 
       <div class="expansion-stats">
         <div class="expansion-stat">
-          <div class="expansion-stat-num">1</div>
-          <div class="expansion-stat-label">Anchored partner today</div>
-          <div class="expansion-stat-desc">Bond University · Australia</div>
+          <div class="expansion-stat-num">0</div>
+          <div class="expansion-stat-label">Confirmed partners</div>
+          <div class="expansion-stat-desc">Active discussions underway</div>
         </div>
         <div class="expansion-stat">
           <div class="expansion-stat-num">5</div>

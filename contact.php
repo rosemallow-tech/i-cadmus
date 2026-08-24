@@ -1593,7 +1593,7 @@
         <div class="office-tag">Headquarters</div>
         <h3>Australia</h3>
         <address>
-          Seafood Consumers Association<br>
+          Seafood Consumers Association Ltd<br>
           Level 4, [Address Placeholder]<br>
           Brisbane QLD 4000<br>
           Australia
@@ -1605,18 +1605,17 @@
         </div>
       </div>
       <div class="office">
-        <div class="office-tag">Academic Anchor · AU</div>
-        <h3>Bond University</h3>
+        <div class="office-tag">Academic Partnerships</div>
+        <h3>Institutional Partners</h3>
         <address>
-          I-CADMUS Programme<br>
-          Bond University<br>
-          Robina QLD 4226<br>
-          Australia
+          I-CADMUS Academic Programme<br>
+          Partner enquiries welcome<br>
+          Australia &amp; International
         </address>
         <div class="office-meta">
-          <strong>Programme:</strong> bond@i-cadmus.org<br>
+          <strong>Programme:</strong> partners@i-cadmus.org<br>
           <strong>Research:</strong> Co-publication enquiries welcome<br>
-          <strong>Certification:</strong> AU regional delivery
+          <strong>Certification:</strong> Regional delivery partnerships
         </div>
       </div>
       <div class="office" style="border-top-color: var(--gold); background: var(--bg-soft); border-style: dashed;">

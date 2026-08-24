@@ -1859,7 +1859,7 @@
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>Is the certification recognised industry-wide?</span><span>+</span></div>
-        <div class="faq-a">It is issued by the Seafood Consumers Association and aligned with industry standards including AS 5300 naming. Bond University is the inaugural academic partner, with one institutional partner per country planned as the framework expands internationally.</div>
+        <div class="faq-a">It is issued by the Seafood Consumers Association Ltd and aligned with industry standards including AS 5300 naming. Informed by relevant standards, research and industry engagement, the certification is designed for international expansion with one institutional partner per country planned as the framework grows.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>How is this different from HACCP?</span><span>+</span></div>
