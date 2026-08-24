@@ -5,8 +5,8 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Get Certified | I-CADMUS — Seafood Integrity Certification Programme</title>
-<meta name="description" content="Earn the I-CADMUS certification. A global credential for seafood integrity professionals. Self-paced, case-driven, and free to start at the Consumer tier." />
+<title>Professional Education | I-CADMUS — Seafood Integrity Programme (In Development)</title>
+<meta name="description" content="The I-CADMUS professional education programme for seafood integrity is in development. Register your interest to be notified when enrolment opens." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1197,14 +1197,14 @@
       <div class="breadcrumb">
         <a href="index.php">Home</a>
         <span class="sep">/</span>
-        <span class="current">Get Certified</span>
+        <span class="current">Professional Education</span>
       </div>
-      <div class="cert-hero-badge">I-CADMUS Certification Programme</div>
-      <h1>Earn the <strong>I-CADMUS Certification</strong></h1>
-      <p class="lede">Join a global network of certified seafood integrity professionals. Self-paced. Case-driven. Free to start.</p>
+      <div class="cert-hero-badge">I-CADMUS Professional Education Programme — In Development</div>
+      <h1>I-CADMUS <strong>Professional Education</strong></h1>
+      <p class="lede">A professional education programme for seafood integrity is in development. Register your interest to be notified when enrolment opens.</p>
       <div class="cert-hero-actions">
-        <a href="#tiers" class="btn btn-primary btn-lg">Start Free (Consumer) <span class="arrow">→</span></a>
-        <a href="#tiers" class="btn btn-ghost btn-lg">For Organisations</a>
+        <a href="contact.php" class="btn btn-primary btn-lg">Register Your Interest <span class="arrow">→</span></a>
+        <a href="#process" class="btn btn-ghost btn-lg">Learn more</a>
       </div>
     </div>
   </div>
@@ -1217,9 +1217,9 @@
 <section class="tiers" id="tiers">
   <div class="container">
     <div class="text-center">
-      <div class="section-eyebrow">Certification Tiers</div>
+      <div class="section-eyebrow">Planned Programme Tiers</div>
       <h2 class="section-h">The right level for <strong>your role</strong></h2>
-      <p class="section-sub">Three tiers — from a free consumer credential to full organisational deployment. Choose the path that matches your context.</p>
+      <p class="section-sub">Three tiers are planned — from a free consumer pathway to full organisational deployment. Details will be confirmed before launch.</p>
     </div>
 
     <div class="tiers-grid">
@@ -1237,7 +1237,7 @@
           <li>Online self-assessment</li>
           <li>Digital badge on completion</li>
         </ul>
-        <a href="contact.php" class="btn btn-outline tier-btn">Enrol now <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline tier-btn">Register your interest <span class="arrow">→</span></a>
       </div>
 
       <!-- PROFESSIONAL TIER (featured) -->
@@ -1256,7 +1256,7 @@
           <li>Printed certificate + SCA registry listing</li>
           <li>Priority CPD updates</li>
         </ul>
-        <a href="contact.php" class="btn btn-primary tier-btn">Enrol now <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-primary tier-btn">Register your interest <span class="arrow">→</span></a>
       </div>
 
       <!-- ORGANISATIONAL TIER -->
@@ -1336,8 +1336,8 @@
           <div class="enrol-trust-item reveal">
             <div class="enrol-trust-icon">🎓</div>
             <div>
-              <h5>Globally recognised</h5>
-              <p>Credentials listed in the publicly searchable SCA certification registry.</p>
+              <h5>Designed for global reach</h5>
+              <p>The programme is being designed with international recognition in mind.</p>
             </div>
           </div>
           <div class="enrol-trust-item reveal">
@@ -1357,8 +1357,8 @@
           <div class="enrol-trust-item reveal">
             <div class="enrol-trust-icon">📋</div>
             <div>
-              <h5>CPD-recognised</h5>
-              <p>Accepted as continuing professional development by affiliated industry bodies.</p>
+              <h5>CPD alignment planned</h5>
+              <p>CPD accreditation with affiliated industry bodies is being pursued.</p>
             </div>
           </div>
         </div>
@@ -1461,11 +1461,11 @@
 
         <details class="faq-item reveal">
           <summary>
-            Is it recognised internationally?
+            Will it be recognised internationally?
             <span class="faq-toggle">+</span>
           </summary>
           <div class="faq-answer">
-            The I-CADMUS certification is issued by the Seafood Consumers Association Ltd and listed in the publicly searchable SCA certification registry. The credential is gaining recognition across Australia, New Zealand, the European Union, and key Asian markets, with new institutional partnerships being added on a one-partner-per-country basis. We are pursuing formal CPD accreditation with affiliated industry bodies in each jurisdiction.
+            The I-CADMUS professional education programme is being developed by the Seafood Consumers Association Ltd. It is being designed for recognition across Australia, New Zealand, the European Union, and key Asian markets, with institutional partnerships planned on a one-partner-per-country basis. CPD accreditation with affiliated industry bodies is being pursued.
           </div>
         </details>
 
@@ -1502,11 +1502,11 @@
   <div class="container">
     <div class="cta-band-grid">
       <div>
-        <h2>Start your certification <strong>today</strong></h2>
-        <p>The Consumer tier is free and takes under five minutes to register. No credit card required.</p>
+        <h2>Professional Education — <strong>In Development</strong></h2>
+        <p>Register your interest to be notified when the programme launches.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="#enrol" class="btn btn-primary btn-lg">Enrol now <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-primary btn-lg">Register your interest <span class="arrow">→</span></a>
         <a href="contact.php" class="btn btn-ghost btn-lg">Talk to us</a>
       </div>
     </div>

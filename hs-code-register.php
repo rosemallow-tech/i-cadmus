@@ -2061,7 +2061,7 @@
         <div class="lesson"><strong>Illustrative Example</strong>Customs country-of-origin may not reveal harvest origin. Traceability to the point of harvest is necessary to assess fishery-level risk. Separate structured fields for country of harvest and country of last processing would make the distinction visible.</div>
         <div class="icadmus-tags">
           <span class="icadmus-tag misrepresentation">Misrepresentation / Mislabelling</span>
-          <span class="icadmus-tag unreported">Unreported / Undisclosed</span>
+          <span class="icadmus-tag unreported">Unreported / Unregulated / Undisclosed</span>
         </div>
       </div>
 

@@ -1367,7 +1367,7 @@
         <h1>Restoring trust from <strong>ocean to plate</strong>, one classified fraud at a time.</h1>
         <p class="lede">I-CADMUS is the practical framework that exposes seafood fraud's seven core types — built on five decades of supply-chain experience. We help consumers, industry, and regulators spot risks, classify fraud, and act before HACCP ever begins.</p>
         <div class="hero-actions">
-          <a href="get-certified.php" class="btn btn-primary">Earn certification <span class="arrow">→</span></a>
+          <a href="contact.php" class="btn btn-primary">Register your interest <span class="arrow">→</span></a>
           <a href="#framework" class="btn btn-outline">Explore the framework</a>
         </div>
         <div class="hero-trustbar">
@@ -1420,8 +1420,8 @@
       </div>
       <div class="metric">
         <div class="metric-num">1</div>
-        <div class="metric-label">Recognised certification</div>
-        <div class="metric-desc">Issued and maintained by the SCA network.</div>
+        <div class="metric-label">Professional education programme</div>
+        <div class="metric-desc">In development — register your interest.</div>
       </div>
     </div>
   </div>
@@ -1454,8 +1454,8 @@
           <div class="overview-bullet">
             <div class="overview-bullet-icon">✓</div>
             <div>
-              <h5>Independently certified</h5>
-              <p>Maintained by the Seafood Consumers Association Ltd with academic partners.</p>
+              <h5>Independent, not-for-profit led</h5>
+              <p>Developed by the Seafood Consumers Association Ltd with academic partners.</p>
             </div>
           </div>
         </div>
@@ -1463,15 +1463,15 @@
       <div style="position: relative;">
         <div class="overview-image">
           <div class="overview-image-overlay" style="margin-bottom: 110px;">
-            <span class="badge">Case Study</span>
-            <h4>Premium snapper, supermarket reality.</h4>
-            <p>How DNA verification exposed substitution at scale across three retail chains.</p>
+            <span class="badge">Research</span>
+            <h4>Forensic DNA Barcoding Accuracy</h4>
+            <p>Forensic DNA Barcoding Accuracy (94–100%): In targeted retail testing (such as studies published in Food Control and Conservation Biology by Willette et al. and Luque &amp; Donlan), DNA barcoding targeting the mitochondrial COI gene consistently delivers a 94% to 99% species-level resolution rate when authenticating commercial finfish against reference databases.</p>
           </div>
         </div>
         <div class="overview-card">
-          <div class="stat">94%</div>
-          <div class="label">Detection rate</div>
-          <p>Across pilot audits using the I-CADMUS classifier and supporting verification.</p>
+          <div class="stat">94–100%</div>
+          <div class="label">Species-level resolution</div>
+          <p>DNA barcoding accuracy in targeted retail testing (Willette et al.; Luque &amp; Donlan).</p>
         </div>
       </div>
     </div>
@@ -1486,8 +1486,10 @@
 
       <div>
         <div class="section-eyebrow" style="color: #ff6b81;">The Global Picture</div>
-        <h2 class="section-h" style="color: #fff;">Seafood fraud is a <strong>$50 billion global threat.</strong></h2>
-        <p style="font-size: 17px; color: rgba(255,255,255,0.75); line-height: 1.65; margin-bottom: 36px; max-width: 52ch;">Up to 47% of seafood worldwide is mislabelled. Over 3 billion people are affected. Our infographic maps the full scale of the problem — and the solution.</p>
+        <h2 class="section-h" style="color: #fff;">The scale of <strong>global seafood fraud.</strong></h2>
+        <p style="font-size: 17px; color: rgba(255,255,255,0.75); line-height: 1.65; margin-bottom: 36px; max-width: 72ch;">According to global economic modelling from the University of British Columbia's Institute for the Oceans and Fisheries (Sumaila et al.), illicit trade, laundering, and fraud in the seafood sector generate an estimated global economic loss of between USD $26 billion and $50 billion each year.</p>
+        <p style="font-size: 17px; color: rgba(255,255,255,0.75); line-height: 1.65; margin-bottom: 16px; max-width: 72ch;">Large-scale DNA authentication studies — most notably multi-city market investigations by Oceana and university researchers published in Conservation Biology (Willette et al.) — have documented seafood mislabelling rates reaching up to 47% across retail and restaurant channels.</p>
+        <p style="font-size: 17px; color: rgba(255,255,255,0.75); line-height: 1.65; margin-bottom: 36px; max-width: 72ch;">According to the UN Food and Agriculture Organization (FAO), over 3 billion people rely on seafood as a primary source of protein and essential nutrients — meaning systemic seafood fraud, species substitution, and IUU laundering directly threaten global food security, public health, and livelihoods on a massive scale.</p>
         <button onclick="document.getElementById('ig-modal').style.display='flex'" class="btn btn-primary">View the Infographic <span class="arrow">→</span></button>
       </div>
 
@@ -1541,7 +1543,7 @@
       </div>
       <div class="service-card">
         <div class="service-icon">A</div>
-        <span class="code">Category 03 · Adulteration</span>
+        <span class="code">Category 03 · Addition/Adulteration</span>
         <h3>Adulteration</h3>
         <p>Phosphates, sulphites, brines, and undisclosed additives — chemicals and water bulking weight and masking age, with real consequences for vulnerable consumers.</p>
         <a href="adulteration.php" class="btn-link">Learn more <span class="arrow">→</span></a>
@@ -1555,14 +1557,14 @@
       </div>
       <div class="service-card">
         <div class="service-icon">M</div>
-        <span class="code">Category 05 · Misrepresentation</span>
+        <span class="code">Category 05 · Misrepresentation/Mislabelling</span>
         <h3>False Origin & Labelling</h3>
         <p>"Wild-caught" that wasn't. "Local" that flew across an ocean. Country-of-origin and method claims that simply don't match reality.</p>
         <a href="misrepresentation.php" class="btn-link">Learn more <span class="arrow">→</span></a>
       </div>
       <div class="service-card">
         <div class="service-icon">U</div>
-        <span class="code">Category 06 · Unreported</span>
+        <span class="code">Category 06 · Unreported/Unregulated/Undisclosed</span>
         <h3>Unreported</h3>
         <p>Product that bypasses traceability — moved through grey channels and unregulated routes, off the books, and into the menu without a trail.</p>
         <a href="unreported.php" class="btn-link">Learn more <span class="arrow">→</span></a>
@@ -1573,7 +1575,7 @@
           <div>
             <span class="code" style="color: #ff9eb1;">Category 07 · Substitution · Featured</span>
             <h3 style="color: #fff;">Cheap fish at a premium price.</h3>
-            <p style="color: rgba(255,255,255,0.85); min-height: auto; margin-bottom: 0;">The most familiar fraud and the costliest to consumer trust. Premium snapper replaced by inferior tropical imports. "Fish of the day" hides whatever's cheapest. I-CADMUS gives you the language to call it out.</p>
+            <p style="color: rgba(255,255,255,0.85); min-height: auto; margin-bottom: 0;">The most familiar fraud and the costliest to consumer trust. A premium species replaced by a different or lower-value species. Broad or ambiguous menu descriptions can prevent consumers from knowing the species they are purchasing. I-CADMUS gives you the language to call it out.</p>
           </div>
           <a href="substitution.php" class="btn btn-primary" style="white-space: nowrap;">Read the chapter <span class="arrow">→</span></a>
         </div>
@@ -1635,14 +1637,14 @@
       <div class="approach-step">
         <div class="approach-step-num">02</div>
         <h3>Test on real cases</h3>
-        <p>Chapter 14 sets eight real-world scenarios. Submit your classifications on the platform and benchmark against industry, regulators, and other certified consumers worldwide.</p>
+        <p>Chapter 14 sets eight real-world scenarios. Submit your classifications on the platform and benchmark against industry, regulators, and other participants worldwide.</p>
         <span class="meta">2–3 hours of practice</span>
       </div>
       <div class="approach-step">
         <div class="approach-step-num">03</div>
-        <h3>Earn certification</h3>
-        <p>Pass the assessment and join a global network of I-CADMUS-certified individuals and organisations. Display the credential, apply the standard, demand integrity.</p>
-        <span class="meta">90-minute final assessment</span>
+        <h3>Professional Education – In Development</h3>
+        <p>A professional education programme is being developed. Register your interest to be notified when enrolment opens.</p>
+        <span class="meta">Programme in development</span>
       </div>
     </div>
   </div>
@@ -1659,9 +1661,9 @@
       <div class="insight-feature">
         <span class="insight-feature-tag">Featured Book · 2026</span>
         <h3>Sea of Deception: Exposing seafood fraud and restoring trust from ocean to plate.</h3>
-        <p>The book that started the framework. Five decades of industry experience distilled into a seven-category taxonomy, a five-pillar policy playbook, and eight live case studies — all paired with online certification.</p>
+        <p>The book that started the framework. Five decades of industry experience distilled into a seven-category taxonomy, a five-pillar policy playbook, and eight live case studies .</p>
         <div class="author">By Hon Prof Roy D. Palmer, MBA · CEO, Seafood Consumers Association Ltd</div>
-        <a href="book.php" class="btn btn-primary">Preorder the book <span class="arrow">→</span></a>
+        <a href="book.php" class="btn btn-primary">Learn more <span class="arrow">→</span></a>
       </div>
 
       <div class="insight-list">
@@ -1738,10 +1740,10 @@
     <div class="cta-band-grid">
       <div>
         <h2>Ready to <strong>master the framework</strong>?</h2>
-        <p>Free classifier, full case-study answers, and the complete certification course. Turn awareness into capability — and join a global network rebuilding trust in the seafood industry.</p>
+        <p>Free classifier, full case-study answers, and a developing professional education programme. Turn awareness into capability — and join a global network rebuilding trust in the seafood industry.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="get-certified.php" class="btn btn-primary">Enrol now <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-primary">Register your interest <span class="arrow">→</span></a>
         <a href="contact.php" class="btn btn-outline">Book a briefing</a>
       </div>
     </div>

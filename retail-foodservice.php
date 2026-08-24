@@ -177,7 +177,7 @@
           <h1>Compliance starts with <strong>what you buy.</strong></h1>
           <p class="lede">Your purchasing decisions shape the integrity of the seafood supply chain. I-CADMUS gives retail and foodservice operators the audit tools, supplier verification protocols, and staff training to buy right — and prove it.</p>
           <div class="hero-actions">
-            <a href="certification.php" class="btn btn-primary">Get business certified <span class="arrow">→</span></a>
+            <a href="contact.php" class="btn btn-primary">Register your interest <span class="arrow">→</span></a>
             <a href="resources.php" class="btn btn-outline">Download audit checklist</a>
           </div>
           <div class="hero-stats">
@@ -198,7 +198,7 @@
             <li>Quarterly fraud intelligence briefings</li>
             <li>Email compliance support</li>
           </ul>
-          <a href="certification.php" class="btn btn-primary" style="width:100%;justify-content:center;">Enrol your business <span class="arrow">→</span></a>
+          <a href="contact.php" class="btn btn-primary" style="width:100%;justify-content:center;">Register your interest <span class="arrow">→</span></a>
         </div>
       </div>
     </div>
@@ -315,7 +315,7 @@
         <h3>Audit checklists, supplier verification, and staff training <strong>in one platform.</strong></h3>
         <p>The Business tier integrates with your existing supply-chain reviews. Your procurement team and front-of-house staff learn together — and your compliance documentation is produced automatically.</p>
         <div style="display:flex;gap:12px;flex-wrap:wrap;">
-          <a href="certification.php" class="btn btn-white">Enrol your business <span class="arrow">→</span></a>
+          <a href="contact.php" class="btn btn-white">Register your interest <span class="arrow">→</span></a>
           <a href="contact.php" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.4);">Talk to us first</a>
         </div>
       </div>
@@ -369,11 +369,11 @@
   <div class="container">
     <div class="cta-band-grid">
       <div>
-        <h2>Ready to get your <strong>business certified</strong>?</h2>
-        <p>Enrol your team in the Business tier — audit checklist, supplier verification toolkit, and staff training included from day one.</p>
+        <h2>Professional Education — <strong>In Development</strong></h2>
+        <p>A business education pathway is being developed. Register your interest to be notified when enrolment opens.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="certification.php" class="btn btn-primary">Enrol your business <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-primary">Register your interest <span class="arrow">→</span></a>
         <a href="contact.php" class="btn btn-outline">Request a briefing</a>
       </div>
     </div>

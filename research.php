@@ -1152,7 +1152,7 @@
 <section class="back-strip">
   <div class="container">
     <h2>Return to <strong>Sea of Deception</strong></h2>
-    <p>Read the book synopsis, explore the case studies, or preorder your copy.</p>
+    <p>Read the book synopsis, explore the case studies, or register your interest.</p>
     <a href="book.php" class="btn btn-outline btn-lg">Back to the book <span class="arrow">→</span></a>
   </div>
 </section>

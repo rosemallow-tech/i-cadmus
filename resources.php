@@ -1462,7 +1462,7 @@
   <div class="container">
     <div class="section-eyebrow">Tools & Downloads</div>
     <h2 class="section-h">Free, practical, and <strong>ready to use today.</strong></h2>
-    <p class="section-sub">Everything in this section is free. Some tools require an email address so we can send you updated versions when the framework is revised.</p>
+    <p class="section-sub">Everything in this section is free and openly available.</p>
 
     <div class="tools-grid">
       <div class="tool-card">
@@ -1505,7 +1505,7 @@
         <span class="tool-tag" style="color: #ffd25e;">Featured · Course</span>
         <h3 style="color: #fff;">Certification Course</h3>
         <p style="color: rgba(255,255,255,0.85);">The full eight-module course leading to the I-CADMUS Certified credential. Free to start. Self-paced.</p>
-        <div class="tool-meta" style="border-color: rgba(255,255,255,0.18);"><small style="color: rgba(255,255,255,0.6);">12–15 hours</small><a href="certification.php" style="color: #ffd25e;">Enrol now <span>→</span></a></div>
+        <div class="tool-meta" style="border-color: rgba(255,255,255,0.18);"><small style="color: rgba(255,255,255,0.6);">12–15 hours</small><a href="contact.php" style="color: #ffd25e;">Register your interest <span>→</span></a></div>
       </div>
       <div class="tool-card">
         <div class="tool-icon">⌗</div>
@@ -1534,7 +1534,7 @@
           <div class="meta">42 pages · 3.1 MB · By the SCA Policy Team</div>
         </div>
         <div class="whitepaper-actions">
-          <a href="#" class="btn btn-primary">Download PDF <span class="arrow">↓</span></a>
+          <span class="btn btn-outline" style="pointer-events:none; opacity:0.7;">In Development</span>
         </div>
       </div>
       <div class="whitepaper">
@@ -1545,7 +1545,7 @@
           <div class="meta">28 pages · 2.4 MB · With academic research partners</div>
         </div>
         <div class="whitepaper-actions">
-          <a href="#" class="btn btn-primary">Download PDF <span class="arrow">↓</span></a>
+          <span class="btn btn-outline" style="pointer-events:none; opacity:0.7;">In Development</span>
         </div>
       </div>
       <div class="whitepaper">
@@ -1556,7 +1556,7 @@
           <div class="meta">12 pages · 0.8 MB · By Hon Prof Roy D. Palmer</div>
         </div>
         <div class="whitepaper-actions">
-          <a href="#" class="btn btn-primary">Download PDF <span class="arrow">↓</span></a>
+          <span class="btn btn-outline" style="pointer-events:none; opacity:0.7;">In Development</span>
         </div>
       </div>
       <div class="whitepaper">
@@ -1567,7 +1567,7 @@
           <div class="meta">68 pages · 4.7 MB · Working paper</div>
         </div>
         <div class="whitepaper-actions">
-          <a href="#" class="btn btn-primary">Download PDF <span class="arrow">↓</span></a>
+          <span class="btn btn-outline" style="pointer-events:none; opacity:0.7;">In Development</span>
         </div>
       </div>
     </div>
@@ -1630,7 +1630,7 @@
     <div class="glossary-letter" id="g-i">
       <div class="glossary-letter-h">I</div>
       <dl>
-        <div class="glossary-term"><dt>I-CADMUS</dt><dd>The seven-category seafood-fraud taxonomy: Illegal, Counterfeit, Adulteration, Dilution, Misrepresentation, Unreported, Substitution. Published by the Seafood Consumers Association Ltd.</dd></div>
+        <div class="glossary-term"><dt>I-CADMUS</dt><dd>The seven-category seafood-fraud taxonomy: Illegal, Counterfeit, Addition/Adulteration, Dilution, Misrepresentation/Mislabelling, Unreported/Unregulated/Undisclosed, Substitution. Published by the Seafood Consumers Association Ltd.</dd></div>
         <div class="glossary-term"><dt>Illegal (IUU)</dt><dd>The first I-CADMUS category. Catch from illegal, unreported, and unregulated fishing laundered into legitimate supply chains via paperwork manipulation and port-hopping.</dd></div>
       </dl>
     </div>
@@ -1724,7 +1724,7 @@
       </div>
       <div class="cta-band-actions">
         <a href="contact.php" class="btn btn-primary btn-lg">Request a tool <span class="arrow">→</span></a>
-        <a href="certification.php" class="btn btn-outline btn-lg">View certification</a>
+        <a href="certification.php" class="btn btn-outline btn-lg">Professional education</a>
       </div>
     </div>
   </div>

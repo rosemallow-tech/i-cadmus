@@ -386,7 +386,7 @@
             <li><a href="framework.php">The I-CADMUS Framework</a></li>
             <li><a href="misrepresentation.php">Origin Misrepresentation</a></li>
             <li><a href="counterfeit.php">Counterfeit Certification</a></li>
-            <li><a href="certification.php">Certification</a></li>
+            <li><a href="certification.php">Professional Education</a></li>
             <li><a href="news-ten-papers.php">Ten Papers Central to Seafood Fraud</a></li>
             <li><a href="news-scite-2025-6.php">SCITe Synthesis 2025/6</a></li>
           </ul>

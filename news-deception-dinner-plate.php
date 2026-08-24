@@ -347,7 +347,7 @@
           <h4>Related Pages</h4>
           <ul>
             <li><a href="framework.php">The I-CADMUS Framework</a></li>
-            <li><a href="certification.php">Certification</a></li>
+            <li><a href="certification.php">Professional Education</a></li>
             <li><a href="misrepresentation.php">Origin Misrepresentation</a></li>
             <li><a href="counterfeit.php">Counterfeit Certification</a></li>
             <li><a href="news-science-in-a-silo.php">Science in a Silo</a></li>

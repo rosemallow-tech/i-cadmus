@@ -200,10 +200,10 @@
       <ul>
         <li><a href="illegal.php"><span class="letter">I</span> Illegal</a></li>
         <li><a href="counterfeit.php"><span class="letter">C</span> Counterfeit</a></li>
-        <li><a href="adulteration.php"><span class="letter">A</span> Adulteration</a></li>
+        <li><a href="adulteration.php"><span class="letter">A</span> Addition/Adulteration</a></li>
         <li><a href="dilution.php"><span class="letter">D</span> Dilution</a></li>
-        <li><a href="misrepresentation.php"><span class="letter">M</span> Misrepresentation</a></li>
-        <li><a href="unreported.php"><span class="letter">U</span> Unreported</a></li>
+        <li><a href="misrepresentation.php"><span class="letter">M</span> Misrepresentation/Mislabelling</a></li>
+        <li><a href="unreported.php"><span class="letter">U</span> Unreported/Unregulated/Undisclosed</a></li>
         <li><a href="substitution.php" class="active"><span class="letter">S</span> Substitution</a></li>
         <li style="margin-top:16px;padding-top:16px;border-top:1px solid var(--line);"><a href="framework.php" style="color:var(--accent);font-weight:600;">View all →</a></li>
       </ul>
@@ -227,7 +227,7 @@
 
       <div class="cat-body reveal">
         <div>
-          <p>Substitution sells one species under another's name. Premium snapper replaced by inferior tropical imports. "Fish of the day" conceals whatever's cheapest that morning. Restaurant menus list species the kitchen has never purchased. Of all seven I-CADMUS fraud types, substitution is the most studied, the most measurable via DNA testing, and the most stubbornly persistent.</p>
+          <p>Substitution sells one species under another's name. A premium species replaced by a different or lower-value species. Broad or ambiguous menu descriptions can prevent consumers from knowing the species they are purchasing. Restaurant menus list species the kitchen has never purchased. Of all seven I-CADMUS fraud types, substitution is the most studied, the most measurable via DNA testing, and the most stubbornly persistent.</p>
           <p>Substitution erodes the entire premise of seafood labelling. <strong>If the species itself is a lie, every other claim on the package — origin, method, sustainability — is unverifiable theatre.</strong> Food safety has to start with truth about what the product actually is. I-CADMUS gives regulators, buyers, and consumers the language to call it out by name.</p>
 
           <div class="why-box">
@@ -372,10 +372,10 @@
     <div class="cta-band-grid">
       <div>
         <h2>Ready to <strong>apply the framework</strong>?</h2>
-        <p>Earn the I-CADMUS certification, download the audit checklists, or book a briefing for your procurement team.</p>
+        <p>Register your interest in the I-CADMUS professional education programme, download the audit checklists, or book a briefing for your procurement team.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="certification.php" class="btn btn-primary">Get certified <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-primary">Register your interest <span class="arrow">→</span></a>
         <a href="resources.php" class="btn btn-outline">Browse resources</a>
       </div>
     </div>

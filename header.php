@@ -106,7 +106,7 @@
 <div class="utility-bar">
   <div class="container">
     <div>
-      <a href="investors.php">Supporters</a>
+      <a href="supporters.php">Supporters</a>
       <a href="news.php">Newsroom</a>
       <a href="careers.php">Careers</a>
       <a href="partners.php">Partners</a>

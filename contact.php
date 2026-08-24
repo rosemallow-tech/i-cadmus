@@ -1643,11 +1643,11 @@
     <div class="cta-band-grid">
       <div>
         <h2>Prefer to <strong>start with the framework</strong>?</h2>
-        <p>If you'd rather read the framework first and reach out later, the resource library has whitepapers, the glossary, and the free certification course.</p>
+        <p>If you'd rather read the framework first and reach out later, the resource library has whitepapers, the glossary, and educational resources.</p>
       </div>
       <div class="cta-band-actions">
         <a href="resources.php" class="btn btn-primary btn-lg">Browse resources <span class="arrow">→</span></a>
-        <a href="certification.php" class="btn btn-outline btn-lg">View certification</a>
+        <a href="certification.php" class="btn btn-outline btn-lg">Professional education</a>
       </div>
     </div>
   </div>

@@ -1651,7 +1651,7 @@
     <div class="section-eyebrow">Who We Are</div>
     <h2 class="section-h">An independent voice for the world's seafood consumers.</h2>
     <div class="prose">
-      <p>Seafood is the most fraud-prone food category on earth. Research has identified seafood mislabelling across international markets, while excessive or inadequately declared glaze and added water can also misrepresent the quantity of seafood being purchased. "Fish of the day" hides whatever is cheapest at the back of the freezer. And the food-safety systems the industry leans on — HACCP, audit checklists, country-of-origin declarations — answer the wrong question first. I-CADMUS asks it first: is this product even what it claims to be?</p>
+      <p>Seafood is the most fraud-prone food category on earth. Research has identified seafood mislabelling across international markets, while excessive or inadequately declared glaze and added water can also misrepresent the quantity of seafood being purchased. Broad or ambiguous menu descriptions can prevent consumers from knowing the species they are purchasing. And the food-safety systems the industry leans on — HACCP, audit checklists, country-of-origin declarations — answer the wrong question first. I-CADMUS asks it first: is this product even what it claims to be?</p>
 
       <p>The SCA was established to give consumers, industry operators, and regulators a single shared language for seafood fraud. Seven categories. One taxonomy. Built from decades of real supply-chain experience, not theoretical risk modelling.</p>
 
@@ -1720,7 +1720,7 @@
       <div class="pillar">
         <div class="pillar-num">Pillar 01</div>
         <h3>Mandatory Naming</h3>
-        <p>End 'fish of the day,' ambiguous trade names, and generic species descriptors. Adopt AS 5300 or an equivalent naming standard at every point of sale — from restaurant menus to retail labels.</p>
+        <p>End ambiguous trade names and generic species descriptors. Adopt AS 5300 or an equivalent naming standard at every point of sale — from restaurant menus to retail labels.</p>
       </div>
       <div class="pillar">
         <div class="pillar-num">Pillar 02</div>
@@ -1798,7 +1798,7 @@
         <div class="timeline-year">2026</div>
         <div class="timeline-content">
           <h3>Sea of Deception Published · Framework Launches Publicly</h3>
-          <p>The framework, the book, the certification programme, and the open-data publications register go live together — the public culmination of more than a decade of preparation.</p>
+          <p>The framework, the book, the professional education programme, and the open-data publications register go live together — the public culmination of more than a decade of preparation.</p>
         </div>
       </div>
     </div>
@@ -1822,10 +1822,10 @@
       </a>
       <a href="certification.php" class="service-card">
         <div class="service-icon">C</div>
-        <span class="code">Certification</span>
-        <h3>I-CADMUS Certification</h3>
+        <span class="code">Professional Education</span>
+        <h3>I-CADMUS Professional Education</h3>
         <p>A developing professional education programme for operators, auditors, and foodservice professionals who need a verifiable credential in seafood integrity. Delivered through academic partnerships.</p>
-        <span class="btn-link">Get certified →</span>
+        <span class="btn-link">Register your interest →</span>
       </a>
       <a href="resources.php" class="service-card">
         <div class="service-icon">R</div>

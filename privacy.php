@@ -341,7 +341,7 @@
 
         <div class="policy-section" id="what-we-collect">
           <h2>What we collect</h2>
-          <p>We collect personal information only when you interact with us — for example, when you submit an enquiry through our contact form, enrol in a certification programme, sign up for our newsletter, or correspond with us by email.</p>
+          <p>We collect personal information only when you interact with us — for example, when you submit an enquiry through our contact form, register interest in a professional education programme, sign up for our newsletter, or correspond with us by email.</p>
           <p>The types of information we may collect include:</p>
           <ul>
             <li>Your name and email address</li>

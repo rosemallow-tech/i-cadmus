@@ -335,7 +335,7 @@
             <li><a href="counterfeit.php">Counterfeit &amp; Fake Labels</a></li>
             <li><a href="misrepresentation.php">Origin Misrepresentation</a></li>
             <li><a href="substitution.php">Species Substitution</a></li>
-            <li><a href="certification.php">I-CADMUS Certification</a></li>
+            <li><a href="certification.php">I-CADMUS Professional Education</a></li>
             <li><a href="news-scite-2025-6.php">SCITe Research Synthesis 2025/6</a></li>
           </ul>
         </div>

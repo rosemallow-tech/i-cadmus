@@ -211,26 +211,26 @@
           <p class="lede">Seafood is the most frequently mislabelled food in the world. I-CADMUS gives every consumer the language, tools, and confidence to spot fraud at the supermarket counter and the restaurant table.</p>
           <div class="hero-actions">
             <a href="resources.php" class="btn btn-primary">Get the free scorecard <span class="arrow">→</span></a>
-            <a href="certification.php" class="btn btn-outline">Enrol free</a>
+            <a href="contact.php" class="btn btn-outline">Register your interest</a>
           </div>
           <div class="hero-stats">
             <div class="hero-stat"><div class="num">1 in 5</div><div class="lbl">Seafood items globally mislabelled</div></div>
             <div class="hero-stat"><div class="num">7</div><div class="lbl">Fraud types covered by I-CADMUS</div></div>
-            <div class="hero-stat"><div class="num">Free</div><div class="lbl">Consumer certification tier</div></div>
+            <div class="hero-stat"><div class="num">Free</div><div class="lbl">Consumer education pathway (in development)</div></div>
           </div>
         </div>
         <div class="hero-panel">
           <div class="hero-panel-tag">Consumer Pathway</div>
           <h3>Start spotting fraud today — at no cost</h3>
-          <p>The I-CADMUS Consumer Certification is free, self-paced, and recognised. Complete it in a weekend.</p>
+          <p>The I-CADMUS Consumer Education Programme is in development. Register your interest to be notified when it launches.</p>
           <ul class="hero-panel-items">
             <li>Free fraud scorecard download</li>
-            <li>Self-paced 8-module certification course</li>
+            <li>Self-paced 8-module education course (in development)</li>
             <li>I-CADMUS Quiz — find your blind spots</li>
             <li>Verifiable digital credential on completion</li>
             <li>Public reporting channel access</li>
           </ul>
-          <a href="certification.php" class="btn btn-primary" style="width:100%;justify-content:center;">Enrol free now <span class="arrow">→</span></a>
+          <a href="contact.php" class="btn btn-primary" style="width:100%;justify-content:center;">Register your interest <span class="arrow">→</span></a>
         </div>
       </div>
     </div>
@@ -267,7 +267,7 @@
       <div class="benefit-card">
         <div class="benefit-num">03</div>
         <h4>Report with credibility</h4>
-        <p>A certified consumer who reports suspected fraud using I-CADMUS category language is taken seriously by enforcement bodies. Vague complaints go nowhere; precise, categorised reports prompt action.</p>
+        <p>A consumer trained in I-CADMUS category language who reports suspected fraud is taken seriously by enforcement bodies. Vague complaints go nowhere; precise, categorised reports prompt action.</p>
       </div>
     </div>
   </div>
@@ -343,15 +343,15 @@
   <div class="container">
     <div class="section-eyebrow">Certification pathway</div>
     <h2 class="section-h">Your pathway — <strong>free to start</strong>, forever.</h2>
-    <p class="section-sub">The Consumer certification is the only I-CADMUS tier that is permanently free. No credit card. No expiry.</p>
+    <p class="section-sub">The Consumer education pathway is being developed. Register your interest to be notified at launch.</p>
     <div class="pathway-box reveal">
       <div>
         <div class="pathway-tag">Pathway 01 — Consumers</div>
         <div class="price-badge"><div class="price">$0</div><div class="cycle">Always free · no credit card required</div></div>
         <h3>The framework, the language, and the tools to <strong>refuse fraud at the counter.</strong></h3>
-        <p>Eight self-paced modules covering the complete I-CADMUS taxonomy, eight real-world case studies, and a final assessment leading to a verifiable digital credential recognised by the Seafood Consumers Association Ltd.</p>
+        <p>Eight self-paced modules covering the complete I-CADMUS taxonomy and eight real-world case studies are being developed by the Seafood Consumers Association Ltd.</p>
         <div style="display:flex;gap:12px;flex-wrap:wrap;">
-          <a href="certification.php" class="btn btn-white">Enrol now — it's free <span class="arrow">→</span></a>
+          <a href="contact.php" class="btn btn-white">Register your interest <span class="arrow">→</span></a>
           <a href="resources.php" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.4);">Browse free resources</a>
         </div>
       </div>
@@ -364,7 +364,7 @@
           <li>Final assessment and grading</li>
           <li>Verifiable digital credential</li>
           <li>Public reporting channel access</li>
-          <li>Community of certified consumers</li>
+          <li>Community of I-CADMUS participants</li>
         </ul>
       </div>
     </div>
@@ -418,11 +418,11 @@
   <div class="container">
     <div class="cta-band-grid">
       <div>
-        <h2>Ready to become a <strong>certified consumer</strong>?</h2>
-        <p>Join thousands of certified consumers who can name, classify, and report seafood fraud. Free, recognised, and takes a weekend.</p>
+        <h2>Ready to <strong>learn more</strong>?</h2>
+        <p>The I-CADMUS consumer education programme is in development. Register your interest to be among the first to participate.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="certification.php" class="btn btn-primary">Enrol free <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-primary">Register your interest <span class="arrow">→</span></a>
         <a href="resources.php" class="btn btn-outline">Browse resources</a>
       </div>
     </div>

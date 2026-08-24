@@ -5,8 +5,8 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Certification | I-CADMUS — Earn the seafood integrity credential</title>
-<meta name="description" content="Earn the I-CADMUS certification. Self-paced, case-driven, free to start. For consumers, retail, processors, and regulators." />
+<title>Professional Education | I-CADMUS — Seafood Integrity Programme (In Development)</title>
+<meta name="description" content="The I-CADMUS professional education programme for seafood integrity is in development. For consumers, retail, processors, and regulators." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1603,9 +1603,9 @@
         <span class="sep">/</span>
         <span class="current">Certification</span>
       </div>
-      <div class="page-hero-eyebrow">Certification — Edition 2026</div>
-      <h1>Earn the credential. <strong>Apply the standard.</strong></h1>
-      <p class="lede">The I-CADMUS certification is for anyone who needs a verifiable, shared standard for spotting seafood fraud — consumers, retail, processors, and regulators. Self-paced, case-driven, and free to start.</p>
+      <div class="page-hero-eyebrow">Professional Education — In Development</div>
+      <h1>Professional Education — <strong>In Development.</strong></h1>
+      <p class="lede">The I-CADMUS professional education programme is being developed for anyone who needs a shared standard for spotting seafood fraud — consumers, retail, processors, and regulators. Programme in development.</p>
     </div>
   </div>
 </section>
@@ -1627,7 +1627,7 @@
       <div class="step">
         <div class="step-num">02</div>
         <h3>Test on real cases</h3>
-        <p>Submit your classifications for the eight Chapter 14 case studies. Compare your accuracy against the global certified network.</p>
+        <p>Submit your classifications for the eight Chapter 14 case studies. Compare your accuracy against other participants worldwide.</p>
         <div class="meta">2–3 hours of practice</div>
       </div>
       <div class="step">
@@ -1668,7 +1668,7 @@
       </div>
       <div class="curr-block">
         <div class="module-num">Module 04</div>
-        <h3>A — Adulteration · Chemicals & water</h3>
+        <h3>A — Addition/Adulteration · Chemicals & water</h3>
         <p>Phosphates, sulphites, undisclosed brines. The science of detection and the policy gaps that allow it.</p>
         <div class="meta">55 min · Lab walkthrough</div>
       </div>
@@ -1680,13 +1680,13 @@
       </div>
       <div class="curr-block">
         <div class="module-num">Module 06</div>
-        <h3>M — Misrepresentation · Origin</h3>
+        <h3>M — Misrepresentation/Mislabelling · Origin</h3>
         <p>The "processed in" loophole. Wild vs farmed claims. How origin labelling rules differ across jurisdictions.</p>
         <div class="meta">50 min · Origin audit</div>
       </div>
       <div class="curr-block">
         <div class="module-num">Module 07</div>
-        <h3>U — Unreported · Grey channels</h3>
+        <h3>U — Unreported/Unregulated/Undisclosed · Grey channels</h3>
         <p>Off-the-books supply chains. Why traceability breaks. Recognising and refusing grey-channel product.</p>
         <div class="meta">40 min · Supplier verification</div>
       </div>
@@ -1720,9 +1720,9 @@
         <p>The framework, the language, and the practical tools to spot and refuse fraud at the supermarket and restaurant. Free to start.</p>
         <ul>
           <li>Free quiz + fraud scorecard download</li>
-          <li>Self-paced certification course</li>
+          <li>Self-paced education course (in development)</li>
           <li>Public reporting channel access</li>
-          <li>Community of certified consumers</li>
+          <li>Community of I-CADMUS participants</li>
         </ul>
         <a href="#tiers" class="btn btn-outline">View consumer tier <span class="arrow">→</span></a>
       </div>
@@ -1771,7 +1771,7 @@
   <div class="container">
     <div class="section-eyebrow">Enrolment tiers</div>
     <h2 class="section-h">Free to start. <strong>Scale as you grow.</strong></h2>
-    <p class="section-sub">Every tier includes the same core curriculum and the same recognised certification. Higher tiers add audit tooling, industry support, and partner-network features.</p>
+    <p class="section-sub">Every tier is planned to include the same core curriculum. Higher tiers will add audit tooling, industry support, and partner-network features. Programme in development.</p>
 
     <div class="tiers-grid">
       <div class="tier">
@@ -1788,7 +1788,7 @@
           <li class="dim">No audit tooling</li>
           <li class="dim">No partner listing</li>
         </ul>
-        <a href="get-certified.php#enrol" class="btn btn-outline">Enrol free <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-outline">Register your interest <span class="arrow">→</span></a>
       </div>
       <div class="tier featured">
         <div class="tier-tag">Business</div>
@@ -1850,16 +1850,16 @@
 
     <div class="faq-list">
       <div class="faq-item">
-        <div class="faq-q"><span>Do I need a science background to get certified?</span><span>+</span></div>
-        <div class="faq-a">No. The course is built for consumers first — the same framework that works for regulators works for someone choosing dinner. If you can read a label and ask one good question, you can earn the certification.</div>
+        <div class="faq-q"><span>Do I need a science background to participate?</span><span>+</span></div>
+        <div class="faq-a">No. The programme is being designed for consumers first — the same framework that works for regulators works for someone choosing dinner. No science background will be required.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>How long does the certification take?</span><span>+</span></div>
         <div class="faq-a">Roughly 12–15 hours total at a comfortable pace: 6–8 hours of curriculum, 2–3 hours of case-study practice, and a 90-minute final assessment. You can spread it over weeks; nothing expires.</div>
       </div>
       <div class="faq-item">
-        <div class="faq-q"><span>Is the certification recognised industry-wide?</span><span>+</span></div>
-        <div class="faq-a">It is issued by the Seafood Consumers Association Ltd and aligned with industry standards including AS 5300 naming. Informed by relevant standards, research and industry engagement, the certification is designed for international expansion with one institutional partner per country planned as the framework grows.</div>
+        <div class="faq-q"><span>Will the programme be recognised industry-wide?</span><span>+</span></div>
+        <div class="faq-a">The programme is being developed by the Seafood Consumers Association Ltd and will be aligned with industry standards including AS 5300 naming. It is being designed for international expansion with one institutional partner per country planned as the framework grows.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>How is this different from HACCP?</span><span>+</span></div>
@@ -1882,7 +1882,7 @@
   <div class="container">
     <div class="cta-band-grid">
       <div>
-        <h2>Stop guessing. <strong>Get certified.</strong></h2>
+        <h2>Professional Education — <strong>In Development.</strong></h2>
         <p>Free to start. Self-paced. Built around the way real consumers and professionals actually learn. Join a global network committed to seafood integrity.</p>
       </div>
       <div class="cta-band-actions">

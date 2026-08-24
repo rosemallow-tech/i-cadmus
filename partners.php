@@ -1459,7 +1459,7 @@
         <div>
           <span class="partner-tag">Academic Partnerships · Planned</span>
           <h3>Academic Institutional Partners</h3>
-          <p>I-CADMUS is actively engaging with leading universities under a "one institutional partner per country" model. Academic partners will lead regional research collaboration and deliver the certification programme locally.</p>
+          <p>I-CADMUS is actively engaging with leading universities under a "one institutional partner per country" model. Academic partners will lead regional research collaboration and deliver the professional education programme locally.</p>
           <a href="contact.php" style="color: var(--brand); font-weight: 600;">Express interest from your institution →</a>
         </div>
       </div>

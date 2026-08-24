@@ -1671,20 +1671,19 @@
           <span class="sep">/</span>
           <span class="current">The Book</span>
         </div>
-        <div class="book-hero-eyebrow">Available 2026 · Now in preorder</div>
+        <div class="book-hero-eyebrow">Forthcoming 2026</div>
         <h1>Sea of Deception.</h1>
-        <p class="lede">In a world where seafood nourishes billions yet hides billions in deception — this is the unvarnished truth, and the tools to fight back. The book that founded the I-CADMUS framework.</p>
+        <p class="lede">Understanding Seafood Fraud and Rebuilding Consumer Trust.</p>
         <div class="book-hero-author">
-          By <strong>Hon Prof Roy D. Palmer, MBA</strong> · CEO, Seafood Consumers Association Ltd
+          By <strong>Roy D. Palmer, MBA</strong>
         </div>
         <div class="book-meta">
-          <div class="book-meta-item"><small>Pages</small><span>320 approx.</span></div>
-          <div class="book-meta-item"><small>Publisher</small><span>SCA Press</span></div>
-          <div class="book-meta-item"><small>Edition</small><span>First, 2026</span></div>
+          <div class="book-meta-item"><small>Imprint</small><span>FishProf, published in support of Seafood Consumers Association Ltd</span></div>
+          <div class="book-meta-item"><small>Status</small><span>Forthcoming 2026</span></div>
           <div class="book-meta-item"><small>ISBN</small><span>Forthcoming</span></div>
         </div>
         <div class="book-actions">
-          <a href="#preorder" class="btn btn-primary btn-lg">Preorder the book <span class="arrow">→</span></a>
+          <a href="contact.php" class="btn btn-primary btn-lg">Register your interest <span class="arrow">→</span></a>
           <a href="#parts" class="btn btn-outline btn-lg">Read the synopsis</a>
         </div>
       </div>
@@ -1742,12 +1741,12 @@
       <div class="book-part">
         <div class="roman">VI</div>
         <h3>Eight consumer steps + the movement</h3>
-        <p>What you do on Monday morning at the supermarket. What you ask the waiter. How you spot a label that lies. How you join the I-CADMUS-certified network.</p>
+        <p>What you do on Monday morning at the supermarket. What you ask the waiter. How you spot a label that lies. How you join the I-CADMUS network.</p>
       </div>
       <div class="book-part featured">
         <div class="roman">VII</div>
         <h3>Eight real case studies — test your skills</h3>
-        <p>Chapter 14 sets eight real-world scenarios. Read them, classify the fraud type using the I-CADMUS framework, then submit your answers on i-cadmus.org. Compare your accuracy against industry, regulators, and certified consumers worldwide. <strong>Answers and certification available at i-cadmus.org.</strong></p>
+        <p>Chapter 14 sets eight real-world scenarios. Read them, classify the fraud type using the I-CADMUS framework, then submit your answers on i-cadmus.org. Compare your accuracy against industry, regulators, and other participants worldwide.</p>
       </div>
     </div>
   </div>
@@ -1758,7 +1757,7 @@
   <div class="container">
     <div class="section-eyebrow">Chapter 14</div>
     <h2 class="section-h">Eight live case studies. <strong>Test your skills.</strong></h2>
-    <p class="section-sub">Each case is drawn from real investigations. After reading, classify which I-CADMUS category (or combination) is at play. Submit your answers at i-cadmus.org and benchmark against the global certified network.</p>
+    <p class="section-sub">Each case is drawn from real investigations. After reading, classify which I-CADMUS category (or combination) is at play. Submit your answers at i-cadmus.org and benchmark against other participants worldwide.</p>
 
     <div class="cases-grid">
       <div class="case-card">
@@ -1812,7 +1811,7 @@
     </div>
 
     <div style="text-align: center; margin-top: 48px;">
-      <a href="certification.php" class="btn btn-primary btn-lg" style="background: var(--gold); border-color: var(--gold); color: var(--brand-dark);">Submit your answers & get certified <span class="arrow">→</span></a>
+      <a href="contact.php" class="btn btn-primary btn-lg" style="background: var(--gold); border-color: var(--gold); color: var(--brand-dark);">Register your interest <span class="arrow">→</span></a>
     </div>
   </div>
 </section>
@@ -1852,29 +1851,17 @@
 <!-- ============== PREORDER ============== -->
 <section class="preorder" id="preorder">
   <div class="container">
-    <div class="section-eyebrow">Preorder</div>
-    <h2 class="section-h">Reserve your copy. <strong>Get certified.</strong></h2>
-    <p class="section-sub">Preorders ship at launch in 2026 and include access to the I-CADMUS certification course alongside the book.</p>
+    <div class="section-eyebrow">Coming Soon</div>
+    <h2 class="section-h">Sea of Deception — <strong>Forthcoming 2026.</strong></h2>
+    <p class="section-sub">Understanding Seafood Fraud and Rebuilding Consumer Trust. By Roy D. Palmer, MBA. Published by FishProf in support of Seafood Consumers Association Ltd.</p>
 
     <div class="preorder-card">
       <div>
         <h3>Sea of Deception — First Edition</h3>
-        <p>Hardcover, 320 pages. Includes complimentary access to the online I-CADMUS certification course (normally available separately) and downloadable copies of the framework whitepaper and policy playbook.</p>
-        <ul class="preorder-list">
-          <li>Hardcover, 320 pages, full colour case-study inserts</li>
-          <li>Complimentary I-CADMUS certification enrolment</li>
-          <li>Five-pillar policy playbook (PDF)</li>
-          <li>Audit checklist generator (12-month access)</li>
-          <li>First-edition signed bookplate (limited preorder run)</li>
-        </ul>
+        <p>Further details including format and availability will be announced. Register your interest to be notified.</p>
       </div>
       <div class="preorder-actions">
-        <div class="preorder-price">
-          <strong>$59 AUD</strong>
-          <small>Preorder price · ships 2026</small>
-        </div>
-        <a href="contact.php" class="btn btn-primary btn-lg">Preorder now <span class="arrow">→</span></a>
-        <a href="contact.php" class="btn btn-outline">Bulk orders (10+ copies)</a>
+        <a href="contact.php" class="btn btn-primary btn-lg">Register your interest <span class="arrow">→</span></a>
       </div>
     </div>
   </div>
@@ -1918,11 +1905,11 @@
   <div class="container">
     <div class="cta-band-grid">
       <div>
-        <h2>Read first. <strong>Then put it to work.</strong></h2>
-        <p>The book pairs with the certification course — read the framework, then test yourself on the case studies and join the certified network.</p>
+        <h2>Read first. <strong>Then register your interest.</strong></h2>
+        <p>The book pairs with a professional education programme currently in development. Register your interest to be notified at launch.</p>
       </div>
       <div class="cta-band-actions">
-        <a href="certification.php" class="btn btn-primary btn-lg">Get certified <span class="arrow">→</span></a>
+        <a href="contact.php" class="btn btn-primary btn-lg">Register your interest <span class="arrow">→</span></a>
         <a href="contact.php" class="btn btn-outline btn-lg">Contact the author</a>
       </div>
     </div>

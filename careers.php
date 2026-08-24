@@ -396,13 +396,13 @@
       <div class="job-card reveal">
         <div>
           <div class="job-tag"><span class="dot"></span>Open</div>
-          <h3>Certification Programme Coordinator</h3>
+          <h3>Professional Education Programme Coordinator</h3>
           <div class="job-meta">
             <span class="job-meta-item">Remote</span>
             <span class="job-meta-item">Full-time</span>
             <span class="job-meta-item">Education &amp; Partnerships</span>
           </div>
-          <p>You will manage the day-to-day delivery of the I-CADMUS certification programme — coordinating with partner universities, supporting enrolled learners, maintaining assessment records, and helping us build the systems and processes needed as enrolments grow. The ideal candidate brings experience in adult education, learning management systems, or academic programme administration, with a demonstrated ability to work independently across multiple stakeholder relationships.</p>
+          <p>You will manage the day-to-day delivery of the I-CADMUS professional education programme — coordinating with partner universities, supporting enrolled learners, maintaining assessment records, and helping us build the systems and processes needed as enrolments grow. The ideal candidate brings experience in adult education, learning management systems, or academic programme administration, with a demonstrated ability to work independently across multiple stakeholder relationships.</p>
         </div>
         <div class="job-cta">
           <a href="contact.php" class="btn btn-primary">Express Interest <span class="arrow">→</span></a>
@@ -447,7 +447,7 @@
     <div class="cta-band-grid">
       <div>
         <h2>Want to understand <strong>what we do first</strong>?</h2>
-        <p>Read the framework, explore our certification programme, and learn about the Seafood Consumers Association Ltd before reaching out.</p>
+        <p>Read the framework, explore our professional education programme, and learn about the Seafood Consumers Association Ltd before reaching out.</p>
       </div>
       <div class="cta-band-actions">
         <a href="about.php" class="btn btn-primary">About us <span class="arrow">→</span></a>
