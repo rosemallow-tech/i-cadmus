@@ -1366,8 +1366,8 @@
 
       <!-- Form card -->
       <div class="enrol-form-card reveal">
-        <h3>Enrolment Form</h3>
-        <p class="form-intro">Fields marked with an asterisk (*) are required. We will never share your details with third parties.</p>
+        <h3>Register Your Interest</h3>
+        <p class="form-intro">This programme is currently in development. Register your interest and we will notify you when enrolment opens. Fields marked with an asterisk (*) are required. We will never share your details with third parties.</p>
 
         <form id="enrolForm" novalidate>
           <div class="form-grid">
@@ -1388,12 +1388,12 @@
             </div>
 
             <div class="form-group full">
-              <label for="enrolAs">I am enrolling as *</label>
+              <label for="enrolAs">I am interested in *</label>
               <select id="enrolAs" name="enrolAs" required>
                 <option value="" disabled selected>Select a tier…</option>
-                <option value="consumer">Consumer (Free)</option>
-                <option value="professional">Professional ($295 AUD)</option>
-                <option value="organisation">Organisation (enquire)</option>
+                <option value="consumer">Consumer</option>
+                <option value="professional">Professional</option>
+                <option value="organisation">Organisation</option>
               </select>
             </div>
 
@@ -1405,15 +1405,15 @@
           </div><!-- /.form-grid -->
 
           <div class="form-submit-row">
-            <button type="submit" class="btn btn-primary">Submit Enrolment <span class="arrow">→</span></button>
-            <p class="form-note">We will respond within one business day. Consumer enrolments activate automatically.</p>
+            <button type="submit" class="btn btn-primary">Register Your Interest <span class="arrow">→</span></button>
+            <p class="form-note">We will notify you when the programme opens for enrolment.</p>
           </div>
 
           <div class="form-success" id="formSuccess" role="alert" aria-live="polite">
             <div class="form-success-icon">✅</div>
             <div>
-              <h4>Enrolment received — thank you!</h4>
-              <p>We have logged your details and will be in touch within one business day with your access instructions. Consumer tier enrolments receive their access link immediately by email.</p>
+              <h4>Interest registered — thank you!</h4>
+              <p>We have logged your details and will be in touch when enrolment opens.</p>
             </div>
           </div>
         </form>

@@ -1574,7 +1574,7 @@
           <div class="service-icon" style="background: rgba(255,255,255,0.12); color: #fff; margin-bottom: 0;">S</div>
           <div>
             <span class="code" style="color: #ff9eb1;">Category 07 · Substitution · Featured</span>
-            <h3 style="color: #fff;">Cheap fish at a premium price.</h3>
+            <h3 style="color: #fff;">A premium species replaced by a lower-value alternative.</h3>
             <p style="color: rgba(255,255,255,0.85); min-height: auto; margin-bottom: 0;">The most familiar fraud and the costliest to consumer trust. A premium species replaced by a different or lower-value species. Broad or ambiguous menu descriptions can prevent consumers from knowing the species they are purchasing. I-CADMUS gives you the language to call it out.</p>
           </div>
           <a href="substitution.php" class="btn btn-primary" style="white-space: nowrap;">Read the chapter <span class="arrow">→</span></a>

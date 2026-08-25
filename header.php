@@ -142,7 +142,7 @@
             <a href="dilution.php"><strong>Dilution</strong><span>Ice glaze and species mixing</span></a>
             <a href="misrepresentation.php"><strong>Misrepresentation/Mislabelling</strong><span>False country and method claims</span></a>
             <a href="unreported.php"><strong>Unreported/Unregulated/Undisclosed</strong><span>Off-the-books supply paths</span></a>
-            <a href="substitution.php"><strong>Substitution</strong><span>Cheap fish, premium price</span></a>
+            <a href="substitution.php"><strong>Substitution</strong><span>Species swap at a premium margin</span></a>
             <a href="framework.php"><strong>View all seven types →</strong><span>The complete I-CADMUS taxonomy</span></a>
           </div>
         </div>
@@ -189,7 +189,7 @@
           <a href="dilution.php"><strong>Dilution</strong><span>Ice glaze and species mixing</span></a>
           <a href="misrepresentation.php"><strong>Misrepresentation/Mislabelling</strong><span>False country and method claims</span></a>
           <a href="unreported.php"><strong>Unreported/Unregulated/Undisclosed</strong><span>Off-the-books supply paths</span></a>
-          <a href="substitution.php"><strong>Substitution</strong><span>Cheap fish, premium price</span></a>
+          <a href="substitution.php"><strong>Substitution</strong><span>Species swap at a premium margin</span></a>
           <a href="framework.php"><strong>View all seven types →</strong><span>The complete I-CADMUS taxonomy</span></a>
         </div>
       </details>

@@ -180,7 +180,7 @@
       <div class="page-hero-grid">
         <div>
           <div class="cat-badge">Category 07 of 07 · Featured — I-CADMUS Framework</div>
-          <h1><strong>Substitution</strong> — Cheap fish at a premium price</h1>
+          <h1><strong>Substitution</strong> — Species swap at a premium margin</h1>
           <p class="lede">The most familiar seafood fraud and the costliest to consumer trust. One species sold under another's name — at a premium margin.</p>
           <div style="display:flex;gap:12px;flex-wrap:wrap;">
             <a href="book.php" class="btn btn-primary">Read the full chapter <span class="arrow">→</span></a>

@@ -1693,7 +1693,7 @@
       <div class="curr-block">
         <div class="module-num">Module 08</div>
         <h3>S — Substitution · Species swap</h3>
-        <p>The most familiar fraud. Why DNA testing matters. The end of "fish of the day" as commercial language.</p>
+        <p>The most familiar fraud. Why DNA testing matters. Building accurate species-level language for menus and labels.</p>
         <div class="meta">55 min · Major case set</div>
       </div>
       <div class="curr-block" style="grid-column: span 2; background: var(--brand); color: #fff; border-left-color: var(--gold);">
@@ -1769,7 +1769,7 @@
 <!-- ============== PRICING TIERS ============== -->
 <section id="tiers">
   <div class="container">
-    <div class="section-eyebrow">Enrolment tiers</div>
+    <div class="section-eyebrow">Programme tiers — In Development</div>
     <h2 class="section-h">Free to start. <strong>Scale as you grow.</strong></h2>
     <p class="section-sub">Every tier is planned to include the same core curriculum. Higher tiers will add audit tooling, industry support, and partner-network features. Programme in development.</p>
 
@@ -1804,7 +1804,7 @@
           <li>Quarterly briefings</li>
           <li>Email support</li>
         </ul>
-        <a href="get-certified.php#enrol" class="btn btn-primary">Enrol business <span class="arrow">→</span></a>
+        <a href="get-certified.php#enrol" class="btn btn-primary">Register your interest <span class="arrow">→</span></a>
       </div>
       <div class="tier">
         <div class="tier-tag">Industry</div>
@@ -1846,7 +1846,7 @@
 <section style="background: var(--bg-soft);">
   <div class="container">
     <div class="section-eyebrow">Common questions</div>
-    <h2 class="section-h" style="text-align:center; margin: 0 auto 16px;">Things people ask <strong>before they enrol.</strong></h2>
+    <h2 class="section-h" style="text-align:center; margin: 0 auto 16px;">Things people ask <strong>about the programme.</strong></h2>
 
     <div class="faq-list">
       <div class="faq-item">
@@ -1867,10 +1867,10 @@
       </div>
       <div class="faq-item">
         <div class="faq-q"><span>What happens if I fail the final assessment?</span><span>+</span></div>
-        <div class="faq-a">Two attempts are included with every enrolment. Between attempts you can revisit any module. If a third attempt is needed, a small fee applies and we recommend a one-on-one tutorial first.</div>
+        <div class="faq-a">When the programme launches, two attempts will be included. Between attempts you will be able to revisit any module. If a third attempt is needed, a small fee will apply and we will recommend a one-on-one tutorial first.</div>
       </div>
       <div class="faq-item">
-        <div class="faq-q"><span>Can my whole team enrol together?</span><span>+</span></div>
+        <div class="faq-q"><span>Can my whole team register together?</span><span>+</span></div>
         <div class="faq-a">Yes. The Business tier includes 5 seats; the Industry tier is org-wide. Bulk discounts are available — <a href="contact.php" style="color: var(--brand); text-decoration: underline;">get in touch</a> for a custom quote.</div>
       </div>
     </div>

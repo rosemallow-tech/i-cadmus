@@ -1930,7 +1930,7 @@
           <div class="cat-letter">S</div>
           <div>
             <div class="cat-meta">Category 07 · Featured</div>
-            <h2 class="cat-h">Substitution — Cheap fish at a premium price</h2>
+            <h2 class="cat-h">Substitution — Species swap at a premium margin</h2>
             <p class="cat-tagline">The most familiar fraud and the costliest to consumer trust.</p>
           </div>
         </div>

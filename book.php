@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#003a5d">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Sea of Deception | I-CADMUS — The book by Roy D. Palmer</title>
-<meta name="description" content="Sea of Deception: Exposing seafood fraud and restoring trust from ocean to plate. The 2026 book by Hon Prof Roy D. Palmer that founded the I-CADMUS framework." />
+<meta name="description" content="Sea of Deception: Understanding Seafood Fraud and Rebuilding Consumer Trust. The forthcoming 2026 book by Roy D. Palmer, MBA that founded the I-CADMUS framework." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1663,7 +1663,7 @@
   <div class="container">
     <div class="book-hero-grid">
       <div class="book-cover">
-        <img src="assets/img/book-cover.webp" alt="Sea of Deception book cover by Hon Prof Roy D. Palmer" width="420" height="630">
+        <img src="assets/img/book-cover.webp" alt="Sea of Deception book cover by Roy D. Palmer, MBA" width="420" height="630">
       </div>
       <div class="book-hero-info">
         <div class="breadcrumb">
