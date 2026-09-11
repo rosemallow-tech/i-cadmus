@@ -1122,6 +1122,111 @@
   }
 
   /* =========================================================
+     BOOK PROMO BANNER
+     ========================================================= */
+  .book-promo {
+    background: var(--brand);
+    background-image: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 60%, var(--brand-light) 100%);
+    color: #fff;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .book-promo::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 60%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0,131,143,.2) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .book-promo-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  .book-promo-covers {
+    position: relative;
+    width: 260px;
+    height: 340px;
+    flex-shrink: 0;
+  }
+  .book-promo-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    border-radius: 4px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.3);
+    transform: rotate(-4deg);
+    z-index: 1;
+    transition: transform .4s;
+  }
+  .book-promo-front {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    width: 180px;
+    border-radius: 4px;
+    box-shadow: 0 16px 40px rgba(0,0,0,.35);
+    transform: rotate(3deg);
+    z-index: 2;
+    transition: transform .4s;
+  }
+  .book-promo-covers:hover .book-promo-back {
+    transform: rotate(-6deg) translateX(-8px);
+  }
+  .book-promo-covers:hover .book-promo-front {
+    transform: rotate(1deg) translateX(8px) scale(1.03);
+  }
+  .book-promo-tag {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 2px;
+    margin-bottom: 16px;
+  }
+  .book-promo h2 {
+    font-family: var(--serif);
+    font-size: clamp(26px, 3vw, 38px);
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 14px;
+    color: #fff;
+  }
+  .book-promo h2 strong { font-weight: 600; }
+  .book-promo p {
+    font-size: 16px;
+    color: rgba(255,255,255,.75);
+    max-width: 520px;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+  .book-promo-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .book-promo .btn-outline {
+    color: #fff;
+    border-color: rgba(255,255,255,.35);
+  }
+  .book-promo .btn-outline:hover {
+    background: #fff;
+    color: var(--brand);
+  }
+
+  /* =========================================================
      CTA BAND
      ========================================================= */
   .cta-band {
@@ -1335,6 +1440,12 @@
     .approach-grid::before { display: none; }
     .insights-grid { grid-template-columns: 1fr; }
     .quote-grid { grid-template-columns: 1fr; gap: 32px; }
+    .book-promo-grid { grid-template-columns: 1fr; text-align: center; }
+    .book-promo-covers { width: 220px; height: 280px; margin: 0 auto; }
+    .book-promo-back { width: 130px; }
+    .book-promo-front { width: 150px; left: 50px; }
+    .book-promo p { margin-left: auto; margin-right: auto; }
+    .book-promo-actions { justify-content: center; }
     .cta-band-grid { grid-template-columns: 1fr; }
     .footer-top { grid-template-columns: 1fr 1fr; }
     .utility-bar a { padding: 0 8px; font-size: 12px; }
@@ -1426,6 +1537,27 @@
     </div>
   </div>
 </div>
+
+<!-- ============== BOOK PROMO ============== -->
+<section class="book-promo">
+  <div class="container">
+    <div class="book-promo-grid">
+      <div class="book-promo-covers">
+        <img src="assets/img/book-back.webp" alt="Sea of Deception — back cover" class="book-promo-back">
+        <img src="assets/img/book-cover.webp" alt="Sea of Deception — front cover" class="book-promo-front">
+      </div>
+      <div>
+        <span class="book-promo-tag">Publishing Soon</span>
+        <h2>What if the seafood on your plate <strong>is not what it claims to be?</strong></h2>
+        <p>Five decades of industry experience. Seven categories of fraud. One framework to stop them. <em>Sea of Deception</em> by Roy D. Palmer, MBA is heading to publication — register your interest and be first to know.</p>
+        <div class="book-promo-actions">
+          <a href="sea-of-deception.php" class="btn btn-primary btn-lg">Register your interest <span class="arrow">→</span></a>
+          <a href="book.php" class="btn btn-outline btn-lg">Read the full synopsis</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ============== OVERVIEW ============== -->
 <section class="overview" id="overview">
@@ -1663,7 +1795,7 @@
         <h3>Sea of Deception: Exposing seafood fraud and restoring trust from ocean to plate.</h3>
         <p>The book that started the framework. Five decades of industry experience distilled into a seven-category taxonomy, a five-pillar policy playbook, and eight live case studies .</p>
         <div class="author">By Hon Prof Roy D. Palmer, MBA · CEO, Seafood Consumers Association Ltd</div>
-        <a href="book.php" class="btn btn-primary">Learn more <span class="arrow">→</span></a>
+        <a href="sea-of-deception.php" class="btn btn-primary">Register your interest <span class="arrow">→</span></a>
       </div>
 
       <div class="insight-list">
