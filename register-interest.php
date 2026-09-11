@@ -5,14 +5,17 @@ ob_start();
  * Saves name + email to the SCA database (sca_global.book_interest table).
  */
 
-$site_mode = "dev";
+$configs = require __DIR__ . '/config/db-config.php';
 
-if ($site_mode === "live") {
-    $config = require __DIR__ . '/../config/sca-live-db.php';
+$site_mode = "local"; // Change to 'live' for production
+
+if ($site_mode === 'live') {
+    $config = $configs['live'];
+} elseif ($site_mode === 'dev') {
+    $config = $configs['dev'];
 } else {
-    $config = require __DIR__ . '/../config/sca-dev-db.php';
+    $config = $configs['local'];
 }
-
 
 // Determine which page referred the user
 $source   = trim($_POST['source'] ?? 'landing');
