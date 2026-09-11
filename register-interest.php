@@ -5,6 +5,15 @@ ob_start();
  * Saves name + email to the SCA database (sca_global.book_interest table).
  */
 
+$site_mode = "dev";
+
+if ($site_mode === "live") {
+    $config = require __DIR__ . '/../config/sca-live-db.php';
+} else {
+    $config = require __DIR__ . '/../config/sca-dev-db.php';
+}
+
+
 // Determine which page referred the user
 $source   = trim($_POST['source'] ?? 'landing');
 $redirect = $source === 'landing' ? 'sea-of-deception.php' : 'book.php';
@@ -42,8 +51,9 @@ $email = strtolower(substr($email, 0, 255));
 
 // Connect to SCA database
 try {
-    $dsn = 'mysql:host=127.0.0.1;port=3307;dbname=sca_global;charset=utf8mb4';
-    $pdo = new PDO($dsn, 'root', '', [
+    $dsn = "mysql:host={$config['host']};dbname={$config['dbname']};charset=utf8mb4";
+
+    $pdo = new PDO($dsn, $config['username'], $config['password'], [
         PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
         PDO::ATTR_EMULATE_PREPARES   => false,
