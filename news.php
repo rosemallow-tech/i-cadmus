@@ -1432,12 +1432,25 @@
 
     <div class="filters" role="tablist">
       <div class="chip active" data-filter="all">All updates</div>
+      <div class="chip" data-filter="watch">I-CADMUS Watch</div>
       <div class="chip" data-filter="analysis">Analysis</div>
       <div class="chip" data-filter="research">Research</div>
       <div class="chip" data-filter="blog">Blog</div>
     </div>
 
     <div class="news-grid">
+      <a href="news-integrity-watch-sep-2026.php" class="news-card" data-cat="watch">
+        <div class="news-card-img" style="background: linear-gradient(135deg, #002940, #003a5d, #00838f);">
+          <img src="assets/img/newscard-08.webp" alt="I-CADMUS Global Seafood Integrity Watch — September 2026" />
+          <span class="news-card-img-tag" style="background:var(--accent);">I-CADMUS Watch</span>
+        </div>
+        <div class="news-card-body">
+          <span class="article-tag">I-CADMUS Watch &middot; September 2026 &middot; Issue No. 1</span>
+          <h3>Illegal Seafood: The Catch May Be Illegal &mdash; But the Market Makes It Profitable.</h3>
+          <div class="meta">September 2026</div>
+          <div style="margin-top:12px;"><span class="btn-link">Read more <span class="arrow">&rarr;</span></span></div>
+        </div>
+      </a>
       <a href="news-hiding-spoilage.php" class="news-card" data-cat="blog">
         <div class="news-card-img var-8">
           <img src="assets/img/newscard-07.webp" alt="Hiding Spoilage, Black-Market Oysters, and Paper Protections" />
