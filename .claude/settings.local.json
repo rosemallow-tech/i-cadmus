@@ -42,7 +42,17 @@
       "Bash(F:/xampp/php/php.exe -l F:/xampp/htdocs/i-cadmus/footer.php)",
       "Bash(F:/xampp/php/php.exe -l F:/xampp/htdocs/i-cadmus/misrepresentation.php)",
       "Bash(F:/xampp/php/php.exe -l F:/xampp/htdocs/i-cadmus/substitution.php)",
-      "Bash(F:/xampp/php/php.exe -l F:/xampp/htdocs/i-cadmus/index.php 2>&1)"
+      "Bash(F:/xampp/php/php.exe -l F:/xampp/htdocs/i-cadmus/index.php 2>&1)",
+      "Bash(F:/xampp/php/php.exe -l F:/xampp/htdocs/i-cadmus/consumer-action.php 2>&1)",
+      "Bash(F:/xampp/php/php.exe -l F:/xampp/htdocs/i-cadmus/professional-practice.php 2>&1)",
+      "Bash(find /f/xampp/htdocs/i-cadmus -name *.css -o -name *.js)",
+      "Bash(cd:*)",
+      "Bash(wc -l /f/xampp/htdocs/i-cadmus/*.php)",
+      "Bash(find F:xampphtdocsi-cadmus -type f -name *.php)",
+      "Bash(find /f/xampp/htdocs/sca-website -name register-interest.php -o -name *register*interest*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(xargs -I {} basename {})",
+      "Read(//e/Downloads/**)"
     ]
   }
 }
